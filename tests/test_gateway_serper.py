@@ -71,7 +71,7 @@ from pipeline.research.providers.types import SearchHit
 # ── Fixtures and helpers ──────────────────────────────────────────────────────
 
 _SERPER_MODULE_PATH = pathlib.Path(
-    "/Users/sxope/Documents/2026/Development/29.Engine/pipeline/research/gateways/serper.py"
+    pathlib.Path(__file__).resolve().parents[1] / "pipeline/research/gateways/serper.py"
 )
 
 

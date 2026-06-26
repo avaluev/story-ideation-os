@@ -3,7 +3,9 @@
 # (sk-or-v1-...). Until those keys are rotated and the doc is sanitized,
 # the entire Inputs/ tree is excluded from git EXCEPT the v3.1 framework files
 # which contain no secrets (machine-readable contracts and protocols only).
-Inputs/
+# NOTE: use `Inputs/*` (not `Inputs/`) so the negations below actually re-include
+# the whitelisted files — git cannot re-include children of a fully-excluded dir.
+Inputs/*
 !Inputs/MASTER_BRIEF.md
 !Inputs/CONCEPT_TEMPLATE.md
 !Inputs/RESEARCH_PROTOCOL.md

@@ -447,7 +447,7 @@ class TestAnomalyImportBan:
         """
 
         src = pathlib.Path(
-            "/Users/sxope/Documents/2026/Development/29.Engine/pipeline/research/gateways/exa.py"
+            pathlib.Path(__file__).resolve().parents[1] / "pipeline/research/gateways/exa.py"
         ).read_text()
         tree = ast.parse(src)
         for node in ast.walk(tree):
@@ -465,7 +465,7 @@ class TestAnomalyImportBan:
         """exa.py must not import anthropic (ANOMALY-001)."""
 
         src = pathlib.Path(
-            "/Users/sxope/Documents/2026/Development/29.Engine/pipeline/research/gateways/exa.py"
+            pathlib.Path(__file__).resolve().parents[1] / "pipeline/research/gateways/exa.py"
         ).read_text()
         tree = ast.parse(src)
         for node in ast.walk(tree):
