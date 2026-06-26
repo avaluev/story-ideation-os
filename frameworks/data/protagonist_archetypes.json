@@ -1,0 +1,254 @@
+[
+  {
+    "id": "PA_001",
+    "label": "The Innocent",
+    "core_gift": "Generates genuine hope and wonder in others through unguarded trust in what is good.",
+    "dramatic_function": "Opens the story's emotional space with authentic optimism. The audience believes in the world again because this character does.",
+    "growth_edge": "Must encounter full reality without losing the structural capacity for hope — or the story collapses into sentimentality.",
+    "worldview_logic": "The world is fundamentally good and can be made better. My optimism is not naivety — it is a choice I make every day in full knowledge of the alternative.",
+    "philosophical_anchor": "Is hope a rational response to evidence, or is its value independent of evidence?",
+    "boden_arc_type": "combinatorial",
+    "shadow_dark_archetype": "DA_006",
+    "audience_resonance_M": 850,
+    "organic_marketing_multiplier": 1.9,
+    "film_examples": [
+      "Forrest Gump — Forrest Gump ($678M on $55M)",
+      "Moana — Moana ($643M)",
+      "WALL-E — WALL-E ($521M)",
+      "Carl Fredricksen (early) — Up ($731M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jungian_archetypes",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_002",
+    "label": "The Everyman",
+    "core_gift": "Creates radical audience identification — the ordinary person who becomes extraordinary under pressure.",
+    "dramatic_function": "The audience's entry point into an extraordinary world. Their ordinariness is not a limitation — it is the engine of relatability that makes the story universal.",
+    "growth_edge": "Must stop hiding behind ordinariness and claim their specific, irreplaceable identity — or remain a vehicle for the plot rather than its subject.",
+    "worldview_logic": "I am not special. I never asked for this. But the situation requires someone and there is no one else — so I will do what has to be done.",
+    "philosophical_anchor": "Is heroism a latent trait that circumstances reveal, or something genuinely created by the act of choosing it?",
+    "boden_arc_type": "combinatorial",
+    "shadow_dark_archetype": "DA_007",
+    "audience_resonance_M": 920,
+    "organic_marketing_multiplier": 1.8,
+    "film_examples": [
+      "Frodo Baggins — The Lord of the Rings ($2.9B total)",
+      "Andy Dufresne — The Shawshank Redemption ($16M theatrical, $400M+ total)",
+      "John McClane — Die Hard ($140M on $28M)",
+      "Ray Kinsella — Field of Dreams ($84M on $15M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Everyman",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_003",
+    "label": "The Hero",
+    "core_gift": "Transforms not just circumstances but the protagonist's own character — the victory is always internal before it is external.",
+    "dramatic_function": "Drives the story's central transformation arc. Their courage is earned, not inherited. The audience measures their own capacity for change against this character.",
+    "growth_edge": "Must learn that courage requires accepting the cost — or the victory is hollow and the audience feels cheated.",
+    "worldview_logic": "I was afraid. I acted anyway. The act changed me more than the outcome — which is why I could not have understood what the mission required before beginning it.",
+    "philosophical_anchor": "Is courage the absence of fear or the decision to act despite it, and does the distinction matter?",
+    "boden_arc_type": "exploratory",
+    "shadow_dark_archetype": "DA_001",
+    "audience_resonance_M": 980,
+    "organic_marketing_multiplier": 2.0,
+    "film_examples": [
+      "Luke Skywalker — Star Wars ($775M original trilogy)",
+      "Katniss Everdeen — The Hunger Games ($2.9B franchise)",
+      "Rocky Balboa — Rocky ($225M on $1M)",
+      "Wonder Woman — Wonder Woman ($821M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hero%27s_journey",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_004",
+    "label": "The Caregiver",
+    "core_gift": "Holds the emotional center of the story; makes the stakes human by demonstrating what is worth protecting.",
+    "dramatic_function": "Grounds the story's abstract conflicts in specific human cost. The audience understands what the protagonist is fighting for because this character lives it.",
+    "growth_edge": "Must learn to receive care as well as give it — or burn out and model only self-erasure.",
+    "worldview_logic": "The world is held together by the invisible work of people who ask nothing in return. I do this work. I do not need recognition — but I need to not be invisible.",
+    "philosophical_anchor": "Does love become obligation when it is unconditional, and is that a corruption or the purest form of it?",
+    "boden_arc_type": "combinatorial",
+    "shadow_dark_archetype": "DA_011",
+    "audience_resonance_M": 760,
+    "organic_marketing_multiplier": 1.8,
+    "film_examples": [
+      "Marmee — Little Women ($218M on $40M)",
+      "M'Baku — Black Panther ($1.3B)",
+      "Bob Parr / Mr. Incredible — The Incredibles ($631M)",
+      "Mufasa — The Lion King ($968M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Caregiver_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_005",
+    "label": "The Explorer",
+    "core_gift": "Pushes the story beyond the known world — physical, emotional, or conceptual — and demonstrates that what lies there is survivable.",
+    "dramatic_function": "Expands the story's geography and stakes simultaneously. Their journey changes what is possible in the world of the story.",
+    "growth_edge": "Must eventually come home — or demonstrate that home can be rebuilt elsewhere — or the exploration becomes purposeless wandering.",
+    "worldview_logic": "There is always a next horizon. I do not stay because the next horizon will always be more honest about who I am than any place I have already been.",
+    "philosophical_anchor": "Is the desire to explore a form of courage or a failure to commit to anything?",
+    "boden_arc_type": "exploratory",
+    "shadow_dark_archetype": "DA_009",
+    "audience_resonance_M": 640,
+    "organic_marketing_multiplier": 1.9,
+    "film_examples": [
+      "Interstellar's Cooper — Interstellar ($677M on $165M)",
+      "Bilbo Baggins — The Hobbit ($2.9B trilogy)",
+      "Remy — Ratatouille ($620M)",
+      "Moana — Moana ($643M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Explorer_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_006",
+    "label": "The Rebel",
+    "core_gift": "Names the injustice that everyone else has accepted. Their refusal to adapt creates the space for change.",
+    "dramatic_function": "Identifies the specific fault in the system and refuses to absorb it silently. The story becomes possible because this character will not comply.",
+    "growth_edge": "Must channel rebellion into creation rather than pure destruction — or become the new tyranny they replaced.",
+    "worldview_logic": "The rules were written by people who benefited from them. I do not break rules for chaos — I break the specific rules that maintain an injustice everyone else has stopped seeing.",
+    "philosophical_anchor": "Is rebellion only legitimate when it builds something, or is the act of refusal itself a form of freedom?",
+    "boden_arc_type": "transformational",
+    "shadow_dark_archetype": "DA_005",
+    "audience_resonance_M": 620,
+    "organic_marketing_multiplier": 2.2,
+    "film_examples": [
+      "Neo — The Matrix ($463M on $63M)",
+      "Norma Rae — Norma Rae ($22M on $4.8M)",
+      "Katniss Everdeen — Mockingjay ($1.5B)",
+      "Imperator Furiosa — Mad Max: Fury Road ($375M on $150M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rebel_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_007",
+    "label": "The Lover",
+    "core_gift": "Makes the story's central relationship feel like the most important thing in the world — because it is.",
+    "dramatic_function": "Transforms the plot's external stakes into intimate human ones. The audience cares about the outcome because this character cares completely.",
+    "growth_edge": "Must learn that love requires allowing the beloved to exist fully — not as an extension of the lover's needs.",
+    "worldview_logic": "I love completely and that completeness is not a weakness. The risk of loving fully is the only risk worth taking — everything else is self-protection.",
+    "philosophical_anchor": "Is total commitment to another person the highest form of freedom or the surrender of it?",
+    "boden_arc_type": "combinatorial",
+    "shadow_dark_archetype": "DA_010",
+    "audience_resonance_M": 840,
+    "organic_marketing_multiplier": 1.9,
+    "film_examples": [
+      "Jack Dawson — Titanic ($2.2B on $200M)",
+      "Ellie & Carl — Up ($731M)",
+      "William Miller — Almost Famous ($32M on $60M)",
+      "Ennis Del Mar — Brokeback Mountain ($178M on $14M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lover_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_008",
+    "label": "The Creator",
+    "core_gift": "Demonstrates that imagination is not escape — it is the most precise instrument available for understanding reality.",
+    "dramatic_function": "Makes the story's central creative act feel necessary, not ornamental. The audience experiences the making of something as an act of survival.",
+    "growth_edge": "Must complete the work — or demonstrate what the incompletion costs — or the story has no resolution.",
+    "worldview_logic": "I make things because making is the only way I know how to be true. The act of creation is not self-expression — it is the closest I can get to honesty.",
+    "philosophical_anchor": "Is the compulsion to create a form of freedom or a form of possession by something larger than the self?",
+    "boden_arc_type": "transformational",
+    "shadow_dark_archetype": "DA_008",
+    "audience_resonance_M": 560,
+    "organic_marketing_multiplier": 2.0,
+    "film_examples": [
+      "Antonio Salieri (observer/anti-creator) — Amadeus ($90M on $18M)",
+      "Jackson Maine — A Star Is Born ($436M on $36M)",
+      "Lee Chandler — Manchester by the Sea ($79M on $8.5M)",
+      "Sebastian — La La Land ($446M on $30M)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Creator_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_009",
+    "label": "The Sage",
+    "core_gift": "Holds the story's deepest truth and embodies the cost of actually living by it.",
+    "dramatic_function": "Provides the conceptual framework that allows the story's events to mean something beyond their immediate surface. Their presence makes the story feel intelligent.",
+    "growth_edge": "Must accept that wisdom is only real when it changes behavior — including their own.",
+    "worldview_logic": "I have paid the price of actually thinking. The truth I hold is not comfortable and it is not mine to own — it passes through me on its way to someone who can use it.",
+    "philosophical_anchor": "Is wisdom the reward for suffering or the ability to suffer without being destroyed, and is there a difference?",
+    "boden_arc_type": "exploratory",
+    "shadow_dark_archetype": "DA_012",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 1.7,
+    "film_examples": [
+      "Gandalf — The Lord of the Rings ($2.9B total)",
+      "Albus Dumbledore — Harry Potter ($7.7B franchise)",
+      "Morpheus — The Matrix ($463M)",
+      "Atticus Finch — To Kill a Mockingbird ($13M adjusted)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sage_archetype",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_010",
+    "label": "The Magician",
+    "core_gift": "Transforms the impossible into actual — shows that the rules governing reality are less fixed than assumed.",
+    "dramatic_function": "Makes the story's central transformation feel earned rather than arbitrary. The audience believes in the change because this character paid for the knowledge required to make it possible.",
+    "growth_edge": "Must use the power to heal rather than control — or become the Corrupted Mentor.",
+    "worldview_logic": "I know that what is real is negotiable if you understand the rules well enough. The transformation I offer is not magic — it is the consequence of knowing what others refuse to learn.",
+    "philosophical_anchor": "Is transformation a form of power or a form of service, and does the magician choose?",
+    "boden_arc_type": "transformational",
+    "shadow_dark_archetype": "DA_002",
+    "audience_resonance_M": 620,
+    "organic_marketing_multiplier": 2.0,
+    "film_examples": [
+      "Prospero — The Tempest (foundational)",
+      "Tony Stark / Iron Man — Avengers: Endgame ($2.8B)",
+      "Dr. Strange — Doctor Strange ($677M)",
+      "Dumbledore (mentor arc) — Harry Potter ($7.7B franchise)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Magician_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_011",
+    "label": "The Ruler",
+    "core_gift": "Creates order and stability that makes everything else possible — then must learn that order is a means, not an end.",
+    "dramatic_function": "Establishes what is worth governing and what the cost of ungoverned power is. Their authority gives the story's conflicts institutional weight.",
+    "growth_edge": "Must accept that legitimate authority requires ongoing consent — or their arc becomes the Tyrant Ruler.",
+    "worldview_logic": "I carry the responsibility of consequence. Every decision I make propagates into other people's lives. I do not want the power — I want the world it is used to protect.",
+    "philosophical_anchor": "Is leadership fundamentally a form of service or a form of power, and what happens when the holder of power stops asking the question?",
+    "boden_arc_type": "exploratory",
+    "shadow_dark_archetype": "DA_004",
+    "audience_resonance_M": 540,
+    "organic_marketing_multiplier": 1.8,
+    "film_examples": [
+      "T'Challa / Black Panther — Black Panther ($1.3B)",
+      "Aragorn — The Lord of the Rings ($2.9B total)",
+      "Mufasa — The Lion King ($968M)",
+      "Tony Stark (late arc) — Avengers: Endgame ($2.8B)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ruler_(archetype)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "PA_012",
+    "label": "The Jester",
+    "core_gift": "Holds the story's emotional pressure valve — makes the unbearable bearable without diminishing it.",
+    "dramatic_function": "Provides relief that does not trivialise. Reveals truth through humor that a serious character could not speak without the audience deflecting. Makes the audience feel safe enough to feel.",
+    "growth_edge": "Must eventually stop performing and let the grief land — or the humor becomes avoidance and the character becomes a coping mechanism rather than a person.",
+    "worldview_logic": "I see the absurdity in everything — including the things that hurt. The joke is not an escape from the pain. The joke is what I do instead of screaming.",
+    "philosophical_anchor": "Is laughter in the face of suffering a form of courage or a failure of grief, and can it be both?",
+    "boden_arc_type": "combinatorial",
+    "shadow_dark_archetype": "DA_005",
+    "audience_resonance_M": 780,
+    "organic_marketing_multiplier": 2.1,
+    "film_examples": [
+      "Rocket Raccoon — Guardians of the Galaxy ($773M)",
+      "Phil Connors — Groundhog Day ($70M on $14M)",
+      "Donkey — Shrek ($484M on $60M)",
+      "Falstaff — Henry V (foundational)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jester_(archetype)",
+    "evidence_quality": "high"
+  }
+]

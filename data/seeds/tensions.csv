@@ -1,0 +1,101 @@
+id,pole_a,pole_b,gloss,source
+1,truth,belonging,Knowing the truth costs membership in the community that defines you,triz-tc01
+2,speed,care,The decision must be fast and the decision must be careful,triz-tc02
+3,loyalty,survival,Keeping the vow ends the protagonist; betraying it ends the bond,triz-tc03
+4,power,innocence,Wielding power requires a corruption innocence cannot survive,triz-tc04
+5,memory,identity,Remembering destroys the self; forgetting destroys the past,triz-tc05
+6,mercy,justice,Forgiving betrays the harmed; punishing betrays the loved,triz-tc06
+7,hope,evidence,Continuing to hope contradicts what the evidence shows,triz-tc07
+8,family,vocation,The calling demands abandoning the family; the family demands abandoning the calling,triz-tc08
+9,faith,reason,The leap of faith requires unreason; reason refuses the leap,triz-tc09
+10,self,service,Self-realization and service to others demand opposite acts,triz-tc10
+11,pleasure,meaning,The pleasure that satisfies has no meaning; the meaning has no pleasure,triz-tc11
+12,freedom,belonging,Freedom requires leaving; belonging requires staying,triz-tc12
+13,automation,human_purpose,The work that gave meaning is now done by machines,curated
+14,individuality,collectivity,The self that the group needs is the self that the protagonist refuses,curated
+15,mortality,transcendence,Accepting death and reaching beyond death are the same act,curated
+16,sovereignty,interdependence,Self-rule requires breaking the ties that made self-rule possible,curated
+17,witness,participant,Watching the harm and stopping it are exclusive acts,curated
+18,inheritance,self_authorship,The legacy chooses you before you choose yourself,curated
+19,authenticity,survival,To be the self the world will not feed; to eat the self that is not yours,curated
+20,forgiveness,memory,Forgiving requires forgetting; remembering forbids forgiveness,curated
+21,silence,solidarity,Speaking endangers the network; staying silent abandons the harmed,curated
+22,assimilation,sovereignty,To be safe the protagonist must disappear; to be free they must remain visible,curated
+23,childhood,obligation,The duties pulling the protagonist forward bury the child still inside,curated
+24,exile,return,The home that exiled them is the only home; staying away keeps it intact,curated
+25,vow,desire,The vow is a vow because it contradicts what the protagonist wants,curated
+26,protect,reveal,Protecting the loved one requires lying to them,curated
+27,kin_loyalty,civic_duty,Reporting the kinsman saves the city; staying silent saves the family,curated
+28,tradition,evolution,The tradition that holds the community together cannot survive the truth,curated
+29,inheritance_money,inherited_curse,Refusing the wealth means accepting poverty; taking it means continuing the harm,curated
+30,gender_role,personal_calling,The role written for the protagonist's body cannot contain their calling,curated
+31,citizenship,migrancy,Becoming a citizen requires erasing the migrant; remaining migrant ends the future,curated
+32,language_mother,language_world,Switching to the world's language is a small daily death of the mother's,curated
+33,health,care_giver,The care that sustains the loved one drains the caregiver to nothing,curated
+34,mercy_to_animals,human_meal,Eating means killing what could have lived; refusing the meal is also a politics,curated
+35,truth_telling,protective_lie,The truth wounds without healing; the lie eases without curing,curated
+36,parental_love,parental_freedom,Loving the child requires staying; the protagonist's growth requires going,curated
+37,obedience,conscience,Obeying betrays the self; refusing destroys the institution,curated
+38,public_image,private_grief,The role demands composure; the loss demands collapse,curated
+39,career,vocation,The job pays; the calling demands they leave the job,curated
+40,celebrity,anonymity,Being seen is the cost of the work; not being seen is the cost of the life,curated
+41,ambition,humility,Climbing requires elbows; arriving requires submission,curated
+42,art_purity,art_market,The work that no one buys is the work that matters; the work that sells is the work that lies,curated
+43,scientific_truth,public_safety,The result that destabilises is also the result that is true,curated
+44,biological_kin,chosen_family,Inheriting the family blood and choosing the people who actually love you,curated
+45,romantic_love,parental_obligation,Loving the partner means cutting the parent or vice versa,curated
+46,sexual_desire,sexual_ethic,The desire arrives without permission; the ethic refuses the desire,curated
+47,gender_truth,family_safety,Naming the gender ruptures the family; staying silent ruptures the self,curated
+48,whistleblower,colleague,Naming the rot saves the public; saving the friend ruins the public,curated
+49,citizen,refugee,Granting refuge breaks the law; refusing it breaks the conscience,curated
+50,money,principles,The money that allows the principle is the money that betrays it,curated
+51,consent,protection,Asking permission would alert the danger; protecting requires acting without consent,curated
+52,grief,celebration,The marriage and the funeral fall on the same day,curated
+53,mercy_to_self,duty_to_others,Resting now means failing the people who need you tomorrow,curated
+54,knowing,acting,Knowing the harm makes the silence complicity; acting destroys the structure that contains you,curated
+55,childhood_loyalty,adult_truth,Believing the parent that hurt you keeps the child intact; seeing them clearly ends the child,curated
+56,ancestor_curse,personal_freedom,The burden is not yours but it cannot be set down without breaking lineage,curated
+57,native_land,better_life,The home that birthed you cannot feed the child you want to raise,curated
+58,solidarity_class,solidarity_race,Two solidarities ask for opposite acts in the same crisis,curated
+59,church_doctrine,personal_spirit,The institution that teaches the spirit is the institution that betrays it,curated
+60,witness_to_violence,bystander_safety,Naming what you saw makes you a target; not naming makes you a collaborator,curated
+61,war_loyalty,human_kindness,The order is to kill the prisoner; the prisoner is a child,curated
+62,medical_truth,family_hope,The doctor knows; the family is not ready,curated
+63,confession,absolution,Confessing to the right person heals; confessing to the wrong destroys,curated
+64,journalist_access,journalist_independence,The access requires complicity; the independence ends the access,curated
+65,art_form,life_of_artist,The work consumes the life that produced it,curated
+66,wage,vocation,Selling the hours kills the calling; following the calling cannot pay the rent,curated
+67,migration_dream,migration_reality,The dream that pulled them and the country that received them are not the same,curated
+68,capital_punishment,mercy_for_perpetrator,The state needs the death; the priest needs the soul,curated
+69,refugee_self,host_society,Becoming a citizen requires the protagonist to die into the new self,curated
+70,honor,truth,The honour code demands silence; the truth demands speech,curated
+71,whistleblower_kin,whistleblower_state,Reporting the parent who is the criminal and the parent who is the parent,curated
+72,bodily_autonomy,kin_pressure,The body is the protagonist's; the kin act as if it is not,curated
+73,faith_in_god,faith_in_neighbour,Trust the Lord and trust the man and the same act becomes opposite,curated
+74,scientific_humility,public_demand,The honest "I don't know" cannot satisfy a panicked public,curated
+75,investigative_truth,subject_dignity,Telling the story preserves the public; telling the story destroys the source,curated
+76,apology,accountability,Saying I am sorry can substitute for changing; refusing the words refuses the change,curated
+77,inheritance_house,need_for_money,Selling the family home funds the future; keeping it preserves the past,curated
+78,contractual_promise,changed_circumstances,Keeping the promise was the right thing yesterday; today it ruins everyone,curated
+79,community_norm,personal_ethics,Acting on the personal ethic exposes the community to harm,curated
+80,care_for_old,care_for_young,Caring for the parent and caring for the child draw from the same finite cup,curated
+81,nostalgia,present_truth,The remembered past is more real than the present; living there means dying here,curated
+82,disability_self,nondisabled_world,Adapting is a small daily abdication; refusing means a different exclusion,curated
+83,survivor_guilt,living_well,Living well dishonours the dead; refusing to live well honours nothing,curated
+84,addiction_truth,addiction_relationship,Naming the addiction ends the relationship; not naming it sustains the addiction,curated
+85,artistic_silence,artistic_cry,Witnessing without expressing collapses; expressing reduces what cannot be reduced,curated
+86,national_loyalty,human_loyalty,The nation orders the act; humanity forbids it,curated
+87,faith_inherited,faith_chosen,Honouring the parent's faith and choosing your own,curated
+88,academic_truth,community_loyalty,The data falsifies the community's self-account; publishing breaks the trust,curated
+89,truth_to_power,personal_safety,Speaking truth costs body; staying silent costs soul,curated
+90,old_self,new_self,The transformation requires killing the self that wanted the transformation,curated
+91,language_proficiency,language_belonging,Speaking it well marks you as outsider; speaking it badly marks you as outsider,curated
+92,solidarity_feminism,solidarity_class,Two feminisms with opposite class instincts; one woman cannot hold both,curated
+93,romantic_partner_career,romantic_partner_love,Following the partner's career closes the protagonist's; staying loses the partner,curated
+94,modernity,traditional_role,The role offered to mothers / fathers / elders cannot survive the modern self,curated
+95,medical_care_self,medical_care_dependent,Choosing your own life vs the dependent's life when only one can be saved,curated
+96,inheritance_of_violence,refusal_of_violence,The lineage of harm continues unless the protagonist absorbs it without passing it on,curated
+97,national_history,personal_history,The personal story is also the national story; private grief is public memory,curated
+98,wealth_inherited,wealth_earned,The protagonist did not earn the wealth that made them; the wealth is them,curated
+99,scientific_progress,environmental_cost,The breakthrough heals millions; the cost compounds in invisible places,curated
+100,truth_about_dead,living_relationship,Saying the dead person was wrong damages the living relationships built on remembering them right,curated

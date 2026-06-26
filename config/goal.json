@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "goal_id": "investor_v2",
+  "created_at": "2026-05-30T17:19:42Z",
+  "definition": "big SAM x unique x revenue-feasible",
+  "revenue_floor_usd": 250000000.0,
+  "sam_ambition_usd": 2500000000.0,
+  "novelty_floor": 0.6,
+  "target_score": 0.75,
+  "facet_weights": {
+    "genius": 0.2,
+    "goldilocks": 0.1,
+    "cluster_coherence": 0.08,
+    "emotional_universality": 0.1,
+    "som_y1": 0.28,
+    "derivative_distance": 0.16,
+    "standalone_ip": 0.08
+  },
+  "gates": {
+    "som_y1_usd_min": 175000000,
+    "passes_genius_gate": true,
+    "max_corpus_axis_overlap": 2
+  },
+  "vetoed_attractors": [],
+  "notes": "Plan Section 1: operator is the only judge. Weights: SOM 0.09 -> 0.25 (operator's stated revenue priority), genius 0.30 -> 0.22 (tied with SOM). v5.1.0 de-franchise (LIVE per operator): the 0.20 originality budget splits into derivative_distance 0.12 (corpus-novelty) + standalone_ip 0.08 (franchise-independence) so concepts that lean on pre-existing IP rank lower. standalone_ip_flag flows from empirical_genius.detect_standalone_ip into the score vector; franchise concepts are also hard-filtered out of the investor slate."
+}

@@ -1,0 +1,2801 @@
+{
+  "version": "2.0",
+  "notes": "v2.0: added adventure/romance/family/wonder genre entries to structural_inversions (SI_16-23), sdt_wounds (SW_13-16), and world_textures (WT_16-21). v1.0 entries were exclusively institutional/thriller-biased.",
+  "sdt_wounds": [
+    {
+      "id": "SW_01",
+      "need": "autonomy",
+      "description": "denied the right to choose their own path by an institution they once believed in",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "institution",
+        "identity",
+        "authority"
+      ],
+      "audience_resonance_M": 400,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Erin Brockovich $258M, The Report $limited-but-critical, The Insider $60M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SW_02",
+      "need": "autonomy",
+      "description": "chose freedom; the act of choosing destroyed every relationship that made freedom worth having",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "identity",
+        "loss",
+        "sacrifice"
+      ],
+      "audience_resonance_M": 350,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "Marriage Story $limited, Blue Valentine, Frances Ha",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_03",
+      "need": "autonomy",
+      "description": "built a system to protect others; the system now runs without them and produces harm",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "institution",
+        "legacy",
+        "unintended_consequence"
+      ],
+      "audience_resonance_M": 200,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "The Quota concept, Ex Machina $36M on $15M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SW_04",
+      "need": "competence",
+      "description": "excellent at the work; the institution makes their excellence invisible and assigns credit elsewhere",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "workplace",
+        "recognition",
+        "gender",
+        "race"
+      ],
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "Hidden Figures $236M, The Favourite $96M, Whiplash $49M on $3.3M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SW_05",
+      "need": "competence",
+      "description": "mastered something the world no longer needs; the mastery is now the cage",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "obsolescence",
+        "identity",
+        "loss",
+        "technology"
+      ],
+      "audience_resonance_M": 600,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "Office Space cult, Up First 15 min resonance, The Full Monty $258M",
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "SW_06",
+      "need": "competence",
+      "description": "did everything right; one variable outside their control destroyed everything they built",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "fairness",
+        "chance",
+        "systemic_failure"
+      ],
+      "audience_resonance_M": 700,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Parasite $266M, Nomadland $38M, I, Daniel Blake BAFTA",
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "SW_07",
+      "need": "relatedness",
+      "description": "the more successful they become the fewer people in the world can actually reach them",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "achievement",
+        "isolation",
+        "intimacy"
+      ],
+      "audience_resonance_M": 450,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "The Social Network $225M, Whiplash, Steve Jobs $35M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_08",
+      "need": "relatedness",
+      "description": "knows something that if shared would end every relationship they have",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "secret",
+        "isolation",
+        "truth",
+        "family"
+      ],
+      "audience_resonance_M": 350,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "Ordinary People $54M, Secrets and Lies, Hereditary $80M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_09",
+      "need": "relatedness",
+      "description": "lost the one person who saw them completely; is now invisible to everyone else",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "grief",
+        "identity",
+        "loss",
+        "family"
+      ],
+      "audience_resonance_M": 800,
+      "divisiveness_contribution": 5,
+      "commercial_proof": "Manchester by the Sea $79M, A Ghost Story, Coda $limited",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_10",
+      "need": "autonomy+competence",
+      "description": "forced to be excellent at something they never chose; the excellence is the prison",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "identity",
+        "coercion",
+        "talent",
+        "family"
+      ],
+      "audience_resonance_M": 400,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Black Swan $329M, Whiplash $49M, Natalie Portman vehicle",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "SW_11",
+      "need": "competence+relatedness",
+      "description": "to help effectively they must maintain distance; the distance is what prevents them helping",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "profession",
+        "care",
+        "paradox",
+        "healthcare"
+      ],
+      "audience_resonance_M": 300,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "The Father $12M, Still Alice, Three Billboards $160M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_12",
+      "need": "all_three",
+      "description": "denied autonomy, proof of competence, and any relationship where they are fully known — simultaneously",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "systemic_failure",
+        "identity",
+        "isolation",
+        "institution"
+      ],
+      "audience_resonance_M": 250,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "12 Years a Slave $187M, Parasite $266M, Sorry to Bother You",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SW_13",
+      "need": "relatedness",
+      "description": "separated from the ones they love by a choice they cannot take back — the wound is not loss but the knowledge that they caused it",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "family",
+        "separation",
+        "guilt",
+        "love"
+      ],
+      "audience_resonance_M": 700,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "Coco $814M, Finding Nemo $941M, Interstellar $675M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_14",
+      "need": "autonomy",
+      "description": "born into a world that has already decided who they are — the wound is the gap between the life assigned and the life desired",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "identity",
+        "freedom",
+        "belonging",
+        "destiny"
+      ],
+      "audience_resonance_M": 800,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Black Panther $1.35B, Frozen $1.29B, Moana $645M, Mulan",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "SW_15",
+      "need": "relatedness",
+      "description": "loves someone they cannot keep without destroying what they have become — the wound is that both versions of themselves are real",
+      "deprivation_intensity": 1.5,
+      "domain_tags": [
+        "love",
+        "sacrifice",
+        "identity",
+        "choice"
+      ],
+      "audience_resonance_M": 600,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "Titanic $2.26B, The Notebook, La La Land $446M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SW_16",
+      "need": "competence",
+      "description": "carries a power they did not choose and cannot fully control — the wound is that mastery of the gift requires abandoning who they were",
+      "deprivation_intensity": 1.0,
+      "domain_tags": [
+        "power",
+        "identity",
+        "responsibility",
+        "gift"
+      ],
+      "audience_resonance_M": 700,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "Spider-Man $1.9B, Harry Potter $1.34B, Frozen $1.29B",
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "psychological_patterns": [
+    {
+      "id": "PP_01",
+      "description": "person who mistakes precision for care — believes a perfect system is better than a present person",
+      "domain_tags": [
+        "bureaucracy",
+        "precision",
+        "intimacy",
+        "displacement"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 300,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "The Quota concept, A Beautiful Mind $314M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_02",
+      "description": "person whose identity was built around a role that is about to become obsolete",
+      "domain_tags": [
+        "identity",
+        "obsolescence",
+        "technology",
+        "work"
+      ],
+      "surprise_weight": 0.6,
+      "audience_resonance_M": 600,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "Up first 15 min, The Full Monty $258M, Office Space",
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "PP_03",
+      "description": "person who protects everyone by keeping everyone at a distance",
+      "domain_tags": [
+        "protection",
+        "intimacy",
+        "fear",
+        "strength"
+      ],
+      "surprise_weight": 0.55,
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 5,
+      "commercial_proof": "Good Will Hunting $225M, Logan $619M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_04",
+      "description": "the only honest person in the room — knows what is actually happening while everyone else performs not-knowing",
+      "domain_tags": [
+        "truth",
+        "isolation",
+        "institution",
+        "complicity"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 250,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "Spotlight $98M, The Report, Vice $76M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_05",
+      "description": "person who participated in harm because they were told with complete sincerity that it was good",
+      "domain_tags": [
+        "complicity",
+        "good_faith",
+        "institution",
+        "moral_injury"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 200,
+      "divisiveness_contribution": 10,
+      "commercial_proof": "The Quota concept, Hannah Arendt film, Son of Saul $3M art",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_06",
+      "description": "still faithful to something that no longer deserves it — loyalty that outlived its object",
+      "domain_tags": [
+        "loyalty",
+        "loss",
+        "identity",
+        "time"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 400,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "The Remains of the Day $23M, Gosford Park $87M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_07",
+      "description": "the smarter they get the less anyone around them can follow — intelligence as a form of exile",
+      "domain_tags": [
+        "intelligence",
+        "isolation",
+        "class",
+        "communication"
+      ],
+      "surprise_weight": 0.6,
+      "audience_resonance_M": 350,
+      "divisiveness_contribution": 5,
+      "commercial_proof": "Good Will Hunting $225M, A Beautiful Mind $314M, Gifted",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_08",
+      "description": "care that became control — started as protection, ended as captivity",
+      "domain_tags": [
+        "family",
+        "control",
+        "love",
+        "harm"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "Hereditary $80M, Midsommar $29M, Sharp Objects HBO",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_09",
+      "description": "did everything right and nobody noticed — achievement without witness",
+      "domain_tags": [
+        "recognition",
+        "invisibility",
+        "work",
+        "gender"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 600,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Hidden Figures $236M, The Assistant, Never Rarely Sometimes Always",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_10",
+      "description": "won't release the injury because releasing it erases the person it defined them as",
+      "domain_tags": [
+        "grief",
+        "identity",
+        "forgiveness",
+        "time"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "Manchester by the Sea $79M, Oldboy $15M, Prisoners $122M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_11",
+      "description": "has been right all along — the proof would destroy everyone they love",
+      "domain_tags": [
+        "truth",
+        "family",
+        "sacrifice",
+        "secret"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 300,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "Knives Out $312M, Gone Girl $369M, The Remains of the Day",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_12",
+      "description": "brilliant at executing decisions they were never allowed to make",
+      "domain_tags": [
+        "competence",
+        "authority",
+        "gender",
+        "class",
+        "race"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "Hidden Figures $236M, The Favourite $96M, Promising Young Woman $13M",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_13",
+      "description": "the loss happened years ago — they are only now beginning to feel it",
+      "domain_tags": [
+        "grief",
+        "time",
+        "denial",
+        "delayed_feeling"
+      ],
+      "surprise_weight": 0.6,
+      "audience_resonance_M": 700,
+      "divisiveness_contribution": 5,
+      "commercial_proof": "Aftersun, The Rider, Past Lives $22M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_14",
+      "description": "not the injury done to them but the one they did — carrying their own betrayal",
+      "domain_tags": [
+        "guilt",
+        "moral_injury",
+        "past",
+        "identity"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 300,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "Atonement $129M, The Reader $108M, We Need to Talk About Kevin",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_15",
+      "description": "carrying damage that belonged to the generation before — inherited wound",
+      "domain_tags": [
+        "family",
+        "history",
+        "generational_trauma",
+        "inheritance"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 600,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "Moonlight $65M, Minari $16M, The Kite Runner",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_16",
+      "description": "the true believer who discovers the foundational premise was false — built their life on a lie",
+      "domain_tags": [
+        "belief",
+        "betrayal",
+        "institution",
+        "identity"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 400,
+      "divisiveness_contribution": 9,
+      "commercial_proof": "The Truman Show $264M, They Live, Inception $836M",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "PP_17",
+      "description": "the more you master one domain the less you can perceive outside it — expertise as blindness",
+      "domain_tags": [
+        "expertise",
+        "perception",
+        "institution",
+        "science"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 250,
+      "divisiveness_contribution": 7,
+      "commercial_proof": "The Big Short $133M, Contagion $136M, Don't Look Up $limited",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "PP_18",
+      "description": "accumulated small decisions — the catastrophe didn't happen in one moment",
+      "domain_tags": [
+        "choice",
+        "time",
+        "systemic",
+        "ordinary"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 500,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "The Zone of Interest, Ordinary People, Chernobyl HBO",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_19",
+      "description": "their goodness is what makes the harm possible — good faith as mechanism of complicity",
+      "domain_tags": [
+        "morality",
+        "complicity",
+        "institution",
+        "systemic_failure"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 200,
+      "divisiveness_contribution": 10,
+      "commercial_proof": "Hannah Arendt, The Quota concept, Zone of Interest",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_20",
+      "description": "the category that has no language yet — the event happened but the institution has no word for it",
+      "domain_tags": [
+        "language",
+        "institution",
+        "innovation",
+        "gap"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 150,
+      "divisiveness_contribution": 8,
+      "commercial_proof": "The Quota concept, First Reformed, 45 Years",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "PP_21",
+      "description": "person who encounters something that expands their understanding of what is possible — wonder that rewires their sense of reality",
+      "domain_tags": [
+        "wonder",
+        "discovery",
+        "awe",
+        "transformation"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 800,
+      "divisiveness_contribution": 3,
+      "commercial_proof": "Jurassic Park $1.1B, Finding Nemo $941M, Avatar $2.92B",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_22",
+      "description": "person who discovers they have the capacity for heroism they never knew existed — courage emerging from ordinary circumstance",
+      "domain_tags": [
+        "heroism",
+        "courage",
+        "capacity",
+        "self-discovery"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 950,
+      "divisiveness_contribution": 2,
+      "commercial_proof": "Star Wars $1.98B, Harry Potter $1.34B, The Avengers $1.52B",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_23",
+      "description": "person willing to give up everything they wanted because they love someone more — sacrifice as the truest measure of love",
+      "domain_tags": [
+        "love",
+        "sacrifice",
+        "choice",
+        "devotion"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 900,
+      "divisiveness_contribution": 4,
+      "commercial_proof": "Titanic $2.26B, Interstellar $675M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_24",
+      "description": "person separated from their family who will cross impossible boundaries to reunite — love as the force that defies obstacles",
+      "domain_tags": [
+        "family",
+        "belonging",
+        "reunion",
+        "devotion"
+      ],
+      "surprise_weight": 0.6,
+      "audience_resonance_M": 850,
+      "divisiveness_contribution": 2,
+      "commercial_proof": "Coco $814M, Finding Nemo $941M, Moana $645M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_25",
+      "description": "person born small who discovers they contain multitudes — transformation from self-doubt to self-knowledge",
+      "domain_tags": [
+        "transformation",
+        "self-doubt",
+        "potential",
+        "coming-of-age"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 750,
+      "divisiveness_contribution": 3,
+      "commercial_proof": "Frozen $1.29B, Black Panther $1.35B",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_26",
+      "description": "person carrying a curse who learns to see it as a gift — redemption through perspective shift rather than escape",
+      "domain_tags": [
+        "redemption",
+        "curse",
+        "gift",
+        "perspective"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 700,
+      "divisiveness_contribution": 5,
+      "commercial_proof": "Beauty and the Beast $1.26B, Shrek $488M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_27",
+      "description": "person who thought they were the villain in someone else's story — discovering they are the hero in their own",
+      "domain_tags": [
+        "heroism",
+        "perspective",
+        "identity",
+        "redemption"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 650,
+      "divisiveness_contribution": 6,
+      "commercial_proof": "The Dark Knight Rises $1.08B, Maleficent $758M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_28",
+      "description": "person who learns that home is not a place but a person — belonging discovered through loss and recovery",
+      "domain_tags": [
+        "belonging",
+        "home",
+        "family",
+        "connection"
+      ],
+      "surprise_weight": 0.65,
+      "audience_resonance_M": 800,
+      "divisiveness_contribution": 3,
+      "commercial_proof": "The Lion King $1.94B, Tangled $740M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "PP_29",
+      "description": "person on a quest who discovers the real treasure was the companionship along the way — belonging earned through shared struggle",
+      "domain_tags": [
+        "journey",
+        "companionship",
+        "adventure",
+        "belonging"
+      ],
+      "surprise_weight": 0.6,
+      "audience_resonance_M": 780,
+      "divisiveness_contribution": 2,
+      "commercial_proof": "Lord of the Rings $3.15B, Pirates of the Caribbean $1.15B",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "PP_30",
+      "description": "person transformed by confronting what they feared most — courage emerging through facing the darkness directly",
+      "domain_tags": [
+        "transformation",
+        "courage",
+        "fear",
+        "confrontation"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 750,
+      "divisiveness_contribution": 4,
+      "commercial_proof": "Inside Out $858M, Coco $814M",
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "structural_inversions": [
+    {
+      "id": "SI_01",
+      "description": "the protagonist is the institution — not fighting the system but its most precise instrument",
+      "domain_tags": [
+        "institution",
+        "complicity",
+        "identity"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept, Hannah Arendt",
+      "divisiveness_contribution": 10,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SI_02",
+      "description": "no villain — the harm comes from a policy assumption, not a malicious person",
+      "domain_tags": [
+        "systemic",
+        "responsibility",
+        "diffusion"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Spotlight $98M, The Report, The Big Short $133M",
+      "divisiveness_contribution": 9,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_03",
+      "description": "the protagonist caused the harm before the story begins and is now discovering the extent of it",
+      "domain_tags": [
+        "guilt",
+        "investigation",
+        "past"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Atonement $129M, The Remains of the Day",
+      "divisiveness_contribution": 8,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SI_04",
+      "description": "antagonist and protagonist share the identical goal — they disagree only on what achieving it costs",
+      "domain_tags": [
+        "conflict",
+        "mirror",
+        "ethics"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "The Dark Knight $1B, Michael Clayton $92M",
+      "divisiveness_contribution": 9,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_05",
+      "description": "the investigation turns into a confession — started looking outward, ended looking inward",
+      "domain_tags": [
+        "investigation",
+        "self-discovery",
+        "reversal"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Zodiac $84M, The Conversation, Chinatown $30M",
+      "divisiveness_contribution": 7,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SI_06",
+      "description": "competence is the problem — the more effectively they do their job the worse the outcome",
+      "domain_tags": [
+        "competence",
+        "paradox",
+        "institution",
+        "systemic_failure"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept, Brazil, Dr. Strangelove",
+      "divisiveness_contribution": 8,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SI_07",
+      "description": "the ending is neither victory nor defeat — the institution encounters something it has no procedure for",
+      "domain_tags": [
+        "institution",
+        "gap",
+        "resolution"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "The Quota concept, First Reformed, Certified Copy",
+      "divisiveness_contribution": 9,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SI_08",
+      "description": "the protagonist changes the world entirely by refusing to change themselves",
+      "domain_tags": [
+        "resistance",
+        "integrity",
+        "change"
+      ],
+      "surprise_weight": 0.75,
+      "commercial_proof": "Gandhi $52M adjusted, Selma $66M, The Two Popes",
+      "divisiveness_contribution": 6,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "SI_09",
+      "description": "success reveals failure — achieving the goal proves the goal was wrong",
+      "domain_tags": [
+        "success",
+        "failure",
+        "values",
+        "cost"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Whiplash $49M, Black Swan $329M, Perfect Blue",
+      "divisiveness_contribution": 8,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_10",
+      "description": "the document or artifact is the real protagonist — the human created it and is now secondary to it",
+      "domain_tags": [
+        "object",
+        "legacy",
+        "institution",
+        "language"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept, Ex Machina $36M, Her $48M",
+      "divisiveness_contribution": 7,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "SI_11",
+      "description": "two stories that appear separate are the same story seen from opposite ends",
+      "domain_tags": [
+        "structure",
+        "time",
+        "perspective"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "Arrival $203M, Memento $39M, Amores Perros",
+      "divisiveness_contribution": 7,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_12",
+      "description": "the most dangerous person in the story is the one trying hardest to do good",
+      "domain_tags": [
+        "morality",
+        "good_faith",
+        "danger",
+        "institution"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "Hannah Arendt, The Quota concept, Three Billboards $160M",
+      "divisiveness_contribution": 10,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_13",
+      "description": "the hero answered the call and the call was wrong — but they cannot un-answer it",
+      "domain_tags": [
+        "journey",
+        "mistake",
+        "commitment",
+        "cost"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "Apocalypse Now $150M, Full Metal Jacket, Deer Hunter $49M",
+      "divisiveness_contribution": 8,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_14",
+      "description": "the world has no villain and no solution — only people doing their best inside a bad structure",
+      "domain_tags": [
+        "systemic",
+        "hopelessness",
+        "humanity",
+        "complexity"
+      ],
+      "surprise_weight": 0.75,
+      "commercial_proof": "The Wire (series), Nomadland $38M, I Daniel Blake",
+      "divisiveness_contribution": 9,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_15",
+      "description": "the small act — not the dramatic one — is what changes everything",
+      "domain_tags": [
+        "scale",
+        "understatement",
+        "ordinary"
+      ],
+      "surprise_weight": 0.7,
+      "commercial_proof": "Parasite $266M Joon-ho's detail focus, Shoplifters $11M",
+      "divisiveness_contribution": 6,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_16",
+      "description": "the monster was protecting them all along — the source of greatest fear is the source of greatest love",
+      "domain_tags": [
+        "fear",
+        "protection",
+        "love",
+        "misunderstanding"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Beauty and the Beast $1.26B, Maleficent $758M, Monsters Inc $577M",
+      "divisiveness_contribution": 6,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SI_17",
+      "description": "the hero's power comes from letting go — force creates failure; surrender creates victory",
+      "domain_tags": [
+        "power",
+        "surrender",
+        "identity",
+        "nature"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "Frozen $1.29B (Let It Go), Avatar $2.92B, Moana $645M",
+      "divisiveness_contribution": 5,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_18",
+      "description": "the journey to save the world is actually a journey to find family — the external mission and the internal wound are the same thing",
+      "domain_tags": [
+        "family",
+        "belonging",
+        "journey",
+        "love"
+      ],
+      "surprise_weight": 0.75,
+      "commercial_proof": "Finding Nemo $941M, Coco $814M, Guardians of the Galaxy $863M",
+      "divisiveness_contribution": 4,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SI_19",
+      "description": "they chose each other over survival — love is the irrational variable that defeats the rational catastrophe",
+      "domain_tags": [
+        "love",
+        "sacrifice",
+        "survival",
+        "choice"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Titanic $2.26B, Armageddon $553M, Interstellar $675M",
+      "divisiveness_contribution": 7,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SI_20",
+      "description": "the child teaches the adult what the adult forgot — wisdom flows backward through generations",
+      "domain_tags": [
+        "family",
+        "wisdom",
+        "innocence",
+        "rediscovery"
+      ],
+      "surprise_weight": 0.7,
+      "commercial_proof": "Up $731M, Inside Out $858M, The Lion King $968M",
+      "divisiveness_contribution": 3,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "SI_21",
+      "description": "the unknown world is not dangerous because it is alien — it is dangerous because it is a mirror of what they left behind",
+      "domain_tags": [
+        "exploration",
+        "identity",
+        "nature",
+        "mirror"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Avatar $2.92B, Arrival $203M, Annihilation $43M",
+      "divisiveness_contribution": 7,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "SI_22",
+      "description": "the villain's cause is righteous — the only difference between hero and villain is which generation they were born into",
+      "domain_tags": [
+        "justice",
+        "time",
+        "generation",
+        "morality"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "Black Panther $1.35B, Killmonger. Avengers Civil War $1.15B, Thanos $2.05B",
+      "divisiveness_contribution": 9,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "SI_23",
+      "description": "the ordinary person in the extraordinary world is the extraordinary thing — awe is not in the spectacle but in the witness",
+      "domain_tags": [
+        "wonder",
+        "ordinary",
+        "discovery",
+        "scale"
+      ],
+      "surprise_weight": 0.75,
+      "commercial_proof": "Jurassic Park $1.06B, ET $792M, The Hobbit $1.01B",
+      "divisiveness_contribution": 4,
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "compression_keys": [
+    {
+      "id": "CK_01",
+      "description": "one rule explains everything that seemed random — retroactive coherence",
+      "domain_tags": [
+        "revelation",
+        "structure",
+        "retroactive"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Sixth Sense $672M, The Usual Suspects $23M, Knives Out $312M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_02",
+      "description": "the method was causing the problem it was designed to solve",
+      "domain_tags": [
+        "paradox",
+        "institution",
+        "feedback_loop"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept, Brazil, Ex Machina",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_03",
+      "description": "the protagonist was the antagonist all along — same person, different time",
+      "domain_tags": [
+        "identity",
+        "time",
+        "unreliable_narrator"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Fight Club $100M, Gone Girl $369M, Primal Fear $56M",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "CK_04",
+      "description": "the cost was always known — the audience must now decide if they would have done the same",
+      "domain_tags": [
+        "morality",
+        "judgment",
+        "complicity"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Breaking Bad, The Americans, The Quota concept",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_05",
+      "description": "the absence was always the presence — the gap in the record is the most important data point",
+      "domain_tags": [
+        "absence",
+        "record",
+        "evidence",
+        "gap"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "The Quota concept, Zodiac, L'Avventura",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_06",
+      "description": "the moment of maximum competence is the moment of maximum failure",
+      "domain_tags": [
+        "competence",
+        "paradox",
+        "climax"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Whiplash $49M, Black Swan $329M, The Talented Mr. Ripley",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "CK_07",
+      "description": "what seemed like two separate stories is one story seen from two irreconcilable positions",
+      "domain_tags": [
+        "perspective",
+        "structure",
+        "duality"
+      ],
+      "surprise_weight": 0.8,
+      "commercial_proof": "Rashomon, Arrival $203M, Enemy",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_08",
+      "description": "the precision of measurement contains the exact thing it cannot measure",
+      "domain_tags": [
+        "measurement",
+        "science",
+        "limits",
+        "paradox"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept, Oppenheimer $952M moral weight, Contact",
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "CK_09",
+      "description": "the truth changes nothing — the revelation is complete and the world stays the same",
+      "domain_tags": [
+        "futility",
+        "revelation",
+        "systemic"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Chinatown $30M cult, The Zone of Interest, Hannah Arendt",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CK_10",
+      "description": "the document that cannot be classified — the institution has no response category for what it received",
+      "domain_tags": [
+        "institution",
+        "language",
+        "gap",
+        "new_category"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept — genuinely novel narrative resolution",
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "divisiveness_engines": [
+    {
+      "id": "DE_01",
+      "score": 10,
+      "description": "the protagonist's central action was simultaneously right and wrong — the film refuses to adjudicate",
+      "domain_tags": [
+        "morality",
+        "ambiguity",
+        "judgment"
+      ],
+      "organic_marketing_multiplier": 2.5,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "DE_02",
+      "score": 9,
+      "description": "the film forces the audience to answer a question about their own behavior before judging the protagonist",
+      "domain_tags": [
+        "complicity",
+        "mirror",
+        "ethics"
+      ],
+      "organic_marketing_multiplier": 2.3,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "DE_03",
+      "score": 9,
+      "description": "half the audience experiences the ending as victory; half as defeat — same events, opposite readings",
+      "domain_tags": [
+        "ambiguity",
+        "ending",
+        "interpretation"
+      ],
+      "organic_marketing_multiplier": 2.2,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "DE_04",
+      "score": 10,
+      "description": "the film takes a position in a cultural debate that has not been settled and both sides can claim it",
+      "domain_tags": [
+        "cultural_debate",
+        "politics",
+        "values"
+      ],
+      "organic_marketing_multiplier": 3.0,
+      "commercial_proof": "Barbie $1.44B, Get Out $255M, Parasite $266M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "DE_05",
+      "score": 8,
+      "description": "the most sympathetic character causes the most harm — no clean emotional exit",
+      "domain_tags": [
+        "sympathy",
+        "harm",
+        "complexity"
+      ],
+      "organic_marketing_multiplier": 2.0,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "DE_06",
+      "score": 8,
+      "description": "silence as complicity — the film makes not-acting indistinguishable from acting",
+      "domain_tags": [
+        "silence",
+        "complicity",
+        "responsibility"
+      ],
+      "organic_marketing_multiplier": 2.0,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "DE_07",
+      "score": 9,
+      "description": "different audiences identify with different characters based on their own systemic position",
+      "domain_tags": [
+        "class",
+        "race",
+        "gender",
+        "systemic_position"
+      ],
+      "organic_marketing_multiplier": 2.5,
+      "commercial_proof": "Parasite $266M, Get Out $255M, Sorry to Bother You",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "DE_08",
+      "score": 7,
+      "description": "younger and older audiences reach opposite verdicts about the same ending",
+      "domain_tags": [
+        "generation",
+        "values",
+        "time"
+      ],
+      "organic_marketing_multiplier": 1.8,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "DE_09",
+      "score": 9,
+      "description": "good faith is the mechanism — the more sincerely they believed, the worse the outcome",
+      "domain_tags": [
+        "good_faith",
+        "institution",
+        "belief"
+      ],
+      "organic_marketing_multiplier": 2.2,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "DE_10",
+      "score": 8,
+      "description": "the systemic vs individual question — is this one person's failure or a structure's?",
+      "domain_tags": [
+        "systemic",
+        "individual",
+        "responsibility"
+      ],
+      "organic_marketing_multiplier": 2.0,
+      "thematic_cluster": "institutional"
+    }
+  ],
+  "era_collisions": [
+    {
+      "id": "EC_T01",
+      "collision_type": "time",
+      "pole_a": "human-scale decision speed (days, months, deliberation)",
+      "pole_b": "machine-scale consequence speed (milliseconds, cascades)",
+      "bridge": "a person trained to make careful slow decisions inside a system that now executes consequences faster than human perception",
+      "domain_tags": [
+        "time",
+        "technology",
+        "decision",
+        "scale"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "EC_T02",
+      "collision_type": "time",
+      "pole_a": "analog era — one document, one copy, one place",
+      "pole_b": "digital era — infinite copies, no original, no location",
+      "bridge": "a methodology built around the scarcity of copies confronting a world where every document is simultaneously everywhere and nowhere",
+      "domain_tags": [
+        "analog",
+        "digital",
+        "authenticity",
+        "scarcity"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "EC_T03",
+      "collision_type": "time",
+      "pole_a": "generational knowledge transfer (decades, apprenticeship, lived experience)",
+      "pole_b": "instantaneous knowledge access (search, retrieval, no context)",
+      "bridge": "someone who spent a lifetime accumulating context in a world where context has been replaced by retrieval",
+      "domain_tags": [
+        "knowledge",
+        "expertise",
+        "generation",
+        "technology"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "EC_T04",
+      "collision_type": "time",
+      "pole_a": "linear historical narrative — things happened, then other things happened",
+      "pole_b": "simultaneous searchable past — all of history equally present and equally flat",
+      "bridge": "a historian or archivist whose work depended on sequence now navigating a world without sequence",
+      "domain_tags": [
+        "history",
+        "narrative",
+        "time",
+        "digital"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 300,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "EC_T05",
+      "collision_type": "time",
+      "pole_a": "biological lifespan as the unit of commitment (a career, a marriage, a promise)",
+      "pole_b": "institutional lifespan measured in funding cycles, quarterly results, five-year plans",
+      "bridge": "a person whose work requires decades to evaluate working inside a system that measures performance annually",
+      "domain_tags": [
+        "time",
+        "institution",
+        "commitment",
+        "biology"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "EC_M01",
+      "collision_type": "material",
+      "pole_a": "extractive linear economy — material enters, gets used, becomes waste",
+      "pole_b": "regenerative circular system — nothing is waste; everything is input",
+      "bridge": "an engineer trained in one paradigm redesigning infrastructure for the other — discovering the assumptions are architectural, not technical",
+      "domain_tags": [
+        "ecology",
+        "economics",
+        "design",
+        "material"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_M02",
+      "collision_type": "material",
+      "pole_a": "physical presence as requirement — the work must be done here, by this body",
+      "pole_b": "remote execution as default — the work can be done anywhere, by any body",
+      "bridge": "a craft or profession whose meaning was inseparable from physical presence now required to perform remotely",
+      "domain_tags": [
+        "labor",
+        "presence",
+        "body",
+        "technology"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "EC_M03",
+      "collision_type": "material",
+      "pole_a": "scarcity as the organizing constraint — decisions made under assumption of not enough",
+      "pole_b": "abundance as the organizing constraint — decisions made under assumption of too much",
+      "bridge": "an institution designed for scarcity management now operating in a world of overproduction and disposal",
+      "domain_tags": [
+        "scarcity",
+        "abundance",
+        "economics",
+        "institution"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "EC_M04",
+      "collision_type": "material",
+      "pole_a": "local food, water, and energy — what you needed came from where you were",
+      "pole_b": "global supply chain — what you need came from somewhere you will never see",
+      "bridge": "a community that understood its dependencies and a supply chain that made those dependencies invisible until they broke",
+      "domain_tags": [
+        "supply_chain",
+        "community",
+        "dependency",
+        "crisis"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 800,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "EC_M05",
+      "collision_type": "material",
+      "pole_a": "permanent material record — what was made, persisted",
+      "pole_b": "ephemeral digital record — what was made can be erased, altered, or simply stopped being maintained",
+      "bridge": "an archivist or restorer trained in permanence confronting the fundamental impermanence of born-digital artifacts",
+      "domain_tags": [
+        "archive",
+        "permanence",
+        "digital",
+        "memory"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 300,
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "EC_S01",
+      "collision_type": "scientific",
+      "pole_a": "Newtonian causality — every effect has an identifiable cause that preceded it",
+      "pole_b": "complex systems — effects emerge from interactions; no single cause can be isolated",
+      "bridge": "a practitioner trained to find and assign cause confronting a system where causality is genuinely distributed and emergent",
+      "domain_tags": [
+        "science",
+        "causality",
+        "complexity",
+        "institution"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_S02",
+      "collision_type": "scientific",
+      "pole_a": "genetic determinism — your biology determines your outcomes",
+      "pole_b": "epigenetics and plasticity — your environment rewrites your biology in real time",
+      "bridge": "a scientist or clinician whose career was built on fixed biological categories now navigating the dissolution of those categories",
+      "domain_tags": [
+        "biology",
+        "genetics",
+        "identity",
+        "science"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_S03",
+      "collision_type": "scientific",
+      "pole_a": "reductionist medicine — find the broken part and fix it",
+      "pole_b": "systems biology — the organ is not the unit of failure; the network is",
+      "bridge": "a physician trained in organ-system specialization now treating a patient whose condition crosses every specialist's boundary",
+      "domain_tags": [
+        "medicine",
+        "science",
+        "systems",
+        "institution"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_S04",
+      "collision_type": "scientific",
+      "pole_a": "classical rational economics — agents maximize utility with available information",
+      "pole_b": "behavioral economics — agents are systematically predictably irrational",
+      "bridge": "a policy designer whose work was built on rational-agent assumptions now designing for an electorate whose behavior matches none of the predictions",
+      "domain_tags": [
+        "economics",
+        "behavior",
+        "policy",
+        "assumption"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "EC_S05",
+      "collision_type": "scientific",
+      "pole_a": "linear progress model — knowledge accumulates; problems get solved; things improve",
+      "pole_b": "collapse and emergence model — complex systems fail catastrophically and reorganize at lower complexity",
+      "bridge": "an engineer or planner trained in incremental optimization now managing a system that cannot be incrementally optimized — it can only be rebuilt",
+      "domain_tags": [
+        "progress",
+        "collapse",
+        "systems",
+        "planning"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "EC_E01",
+      "collision_type": "epistemic",
+      "pole_a": "authority-based truth — the expert says; the institution certifies; the public accepts",
+      "pole_b": "distributed verification — truth is what the network agrees on after checking",
+      "bridge": "an expert whose authority rested on institutional certification now operating in a world where the institution cannot certify faster than the network can dispute",
+      "domain_tags": [
+        "truth",
+        "authority",
+        "institution",
+        "network"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "EC_E02",
+      "collision_type": "epistemic",
+      "pole_a": "slow deliberative truth — evidence, peer review, consensus over years",
+      "pole_b": "fast-propagating narrative — a compelling story reaches millions before the evidence is collected",
+      "bridge": "a scientist or journalist whose methodology was designed for slow truth now competing with misinformation that moves at the speed of emotion",
+      "domain_tags": [
+        "truth",
+        "speed",
+        "media",
+        "science"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 800,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "EC_E03",
+      "collision_type": "epistemic",
+      "pole_a": "quantifiable evidence — if it cannot be measured, it cannot be known",
+      "pole_b": "qualitative lived experience — the most important things resist measurement",
+      "bridge": "a researcher whose methodology requires quantification now trying to understand a phenomenon that only exists in the qualitative",
+      "domain_tags": [
+        "science",
+        "measurement",
+        "experience",
+        "knowledge"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_E04",
+      "collision_type": "epistemic",
+      "pole_a": "reproducible experiment as the test of reality — if it cannot be replicated, it is not real",
+      "pole_b": "singular unrepeatable events as the substance of history — the most important things happen once",
+      "bridge": "a scientist confronting a one-time catastrophic event that their methodology is structurally designed to ignore",
+      "domain_tags": [
+        "science",
+        "history",
+        "singularity",
+        "method"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 350,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "EC_E05",
+      "collision_type": "epistemic",
+      "pole_a": "individual personal knowledge — I know because I was there, I experienced it",
+      "pole_b": "institutional aggregate knowledge — the data says otherwise; the individual experience is noise",
+      "bridge": "a person whose testimony contradicts the data — and the data is technically correct and completely wrong",
+      "domain_tags": [
+        "institution",
+        "individual",
+        "data",
+        "experience"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "EC_SC01",
+      "collision_type": "scale",
+      "pole_a": "individual moral choice — I decide; I am responsible for what I decided",
+      "pole_b": "statistical aggregate outcome — no individual decided; the outcome emerged from millions of small decisions that felt individually inconsequential",
+      "bridge": "a person who made every correct individual choice and participated in a catastrophic collective outcome",
+      "domain_tags": [
+        "morality",
+        "scale",
+        "systemic",
+        "responsibility"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "EC_SC02",
+      "collision_type": "scale",
+      "pole_a": "local consequence — what you do affects the people you can see",
+      "pole_b": "global cause — what you do is determined by forces you cannot see and cannot locate",
+      "bridge": "a community experiencing a local crisis caused by a global supply chain decision made by someone who has never heard of their community",
+      "domain_tags": [
+        "global",
+        "local",
+        "supply_chain",
+        "community"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "EC_SC03",
+      "collision_type": "scale",
+      "pole_a": "human lifespan as the unit of consequence — I will see the results of what I am doing",
+      "pole_b": "geological or civilizational timescale — the consequences will arrive after everyone currently alive is dead",
+      "bridge": "a person making a decision whose consequences they will never witness but whose children's children will not be able to reverse",
+      "domain_tags": [
+        "time",
+        "climate",
+        "responsibility",
+        "future"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "temporal"
+    }
+  ],
+  "audience_domains": [
+    {
+      "id": "AD_01",
+      "name": "adults with a chronic condition or dependent with one",
+      "size_M": 600,
+      "platform_affinity": [
+        "Netflix",
+        "Apple TV+",
+        "HBO"
+      ],
+      "entry_condition": "the condition is named or recognizable in the story",
+      "affinity_with": [
+        "AD_03",
+        "AD_08",
+        "AD_12"
+      ],
+      "domain_tags": [
+        "health",
+        "care",
+        "vulnerability",
+        "intimacy"
+      ],
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "AD_02",
+      "name": "institutional accountability drama subscribers (Spotlight, The Report, Erin Brockovich audience)",
+      "size_M": 200,
+      "platform_affinity": [
+        "Netflix",
+        "A24",
+        "Focus Features"
+      ],
+      "entry_condition": "a system produces harm and someone tries to document it",
+      "affinity_with": [
+        "AD_04",
+        "AD_06",
+        "AD_09"
+      ],
+      "domain_tags": [
+        "institution",
+        "authority",
+        "accountability",
+        "investigation"
+      ],
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "AD_03",
+      "name": "women 25-54 who follow workplace inequality narratives",
+      "size_M": 300,
+      "platform_affinity": [
+        "Netflix",
+        "Apple TV+",
+        "Hulu"
+      ],
+      "entry_condition": "female protagonist navigating a system not built for her",
+      "affinity_with": [
+        "AD_01",
+        "AD_09",
+        "AD_02"
+      ],
+      "domain_tags": [
+        "workplace",
+        "gender",
+        "recognition",
+        "institution"
+      ],
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "AD_04",
+      "name": "adults who follow government and corporate accountability news",
+      "size_M": 200,
+      "platform_affinity": [
+        "HBO",
+        "Netflix",
+        "Apple TV+"
+      ],
+      "entry_condition": "a public institution or corporation is under scrutiny",
+      "affinity_with": [
+        "AD_02",
+        "AD_06",
+        "AD_07"
+      ],
+      "domain_tags": [
+        "government",
+        "authority",
+        "truth",
+        "accountability"
+      ],
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "AD_05",
+      "name": "generational trauma community — people processing inherited family wounds",
+      "size_M": 500,
+      "platform_affinity": [
+        "Netflix",
+        "A24",
+        "MUBI"
+      ],
+      "entry_condition": "family wound is structural and crosses generations",
+      "affinity_with": [
+        "AD_10",
+        "AD_13",
+        "AD_01"
+      ],
+      "domain_tags": [
+        "family",
+        "grief",
+        "history",
+        "trauma"
+      ],
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "AD_06",
+      "name": "working adults who experience systemic unfairness in their professional life",
+      "size_M": 800,
+      "platform_affinity": [
+        "Netflix",
+        "Amazon",
+        "Hulu"
+      ],
+      "entry_condition": "protagonist is competent and unjustly constrained",
+      "affinity_with": [
+        "AD_03",
+        "AD_09",
+        "AD_04"
+      ],
+      "domain_tags": [
+        "institution",
+        "class",
+        "labor",
+        "fairness"
+      ],
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "AD_07",
+      "name": "climate anxiety audience — adults whose daily life is shaped by ecological concern",
+      "size_M": 600,
+      "platform_affinity": [
+        "Netflix",
+        "Amazon",
+        "Apple TV+"
+      ],
+      "entry_condition": "environmental consequence is present even if not the main subject",
+      "affinity_with": [
+        "AD_04",
+        "AD_12",
+        "AD_14"
+      ],
+      "domain_tags": [
+        "climate",
+        "ecology",
+        "nature",
+        "health"
+      ],
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "AD_08",
+      "name": "mental health treatment community — adults with diagnosed conditions or in therapy",
+      "size_M": 500,
+      "platform_affinity": [
+        "Netflix",
+        "HBO",
+        "Apple TV+"
+      ],
+      "entry_condition": "protagonist's internal experience is rendered with clinical accuracy",
+      "affinity_with": [
+        "AD_01",
+        "AD_05",
+        "AD_10"
+      ],
+      "domain_tags": [
+        "health",
+        "identity",
+        "care",
+        "trauma"
+      ],
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "AD_09",
+      "name": "first-generation professional — first in family to enter a high-status institution",
+      "size_M": 200,
+      "platform_affinity": [
+        "Netflix",
+        "Amazon",
+        "A24"
+      ],
+      "entry_condition": "protagonist navigates a world with different rules than the one they grew up in",
+      "affinity_with": [
+        "AD_06",
+        "AD_03",
+        "AD_13"
+      ],
+      "domain_tags": [
+        "identity",
+        "class",
+        "family",
+        "institution"
+      ],
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "AD_10",
+      "name": "immigrant and diaspora identity audience",
+      "size_M": 300,
+      "platform_affinity": [
+        "Netflix",
+        "Amazon",
+        "MUBI"
+      ],
+      "entry_condition": "protagonist carries two irreconcilable cultural identities simultaneously",
+      "affinity_with": [
+        "AD_05",
+        "AD_09",
+        "AD_13"
+      ],
+      "domain_tags": [
+        "identity",
+        "culture",
+        "belonging",
+        "immigration"
+      ],
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "AD_11",
+      "name": "prestige drama awards-circuit audience (25-54 college-educated)",
+      "size_M": 200,
+      "platform_affinity": [
+        "A24",
+        "Focus Features",
+        "Netflix",
+        "Apple TV+"
+      ],
+      "entry_condition": "elevated storytelling, adult themes, awards-season release",
+      "affinity_with": [
+        "AD_02",
+        "AD_04",
+        "AD_07"
+      ],
+      "domain_tags": [
+        "institution",
+        "class",
+        "culture",
+        "morality"
+      ],
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "AD_12",
+      "name": "healthcare workers and caregivers",
+      "size_M": 200,
+      "platform_affinity": [
+        "Netflix",
+        "HBO",
+        "Apple TV+"
+      ],
+      "entry_condition": "the healthcare system's structure is visible, not just the clinical facts",
+      "affinity_with": [
+        "AD_01",
+        "AD_04",
+        "AD_06"
+      ],
+      "domain_tags": [
+        "health",
+        "care",
+        "institution",
+        "labor"
+      ],
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "AD_13",
+      "name": "LGBTQ+ community and allies",
+      "size_M": 470,
+      "platform_affinity": [
+        "Netflix",
+        "HBO",
+        "A24"
+      ],
+      "entry_condition": "identity navigation within hostile or indifferent structures",
+      "affinity_with": [
+        "AD_03",
+        "AD_09",
+        "AD_10"
+      ],
+      "domain_tags": [
+        "identity",
+        "freedom",
+        "culture",
+        "belonging"
+      ],
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "AD_14",
+      "name": "science and technology professionals and enthusiasts",
+      "size_M": 300,
+      "platform_affinity": [
+        "Netflix",
+        "Apple TV+",
+        "HBO"
+      ],
+      "entry_condition": "science is represented with accuracy and its social consequences are visible",
+      "affinity_with": [
+        "AD_04",
+        "AD_07",
+        "AD_11"
+      ],
+      "domain_tags": [
+        "technology",
+        "science",
+        "AI",
+        "discovery"
+      ],
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "AD_15",
+      "name": "grief and bereavement community — recent loss or anticipatory grief",
+      "size_M": 800,
+      "platform_affinity": [
+        "Netflix",
+        "A24",
+        "Neon"
+      ],
+      "entry_condition": "loss is at the emotional center, rendered without sentimentality",
+      "affinity_with": [
+        "AD_05",
+        "AD_08",
+        "AD_01"
+      ],
+      "domain_tags": [
+        "grief",
+        "loss",
+        "family",
+        "healing"
+      ],
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "AD_16",
+      "name": "young adults in identity formation (18-28)",
+      "size_M": 1000,
+      "platform_affinity": [
+        "Netflix",
+        "A24",
+        "Neon",
+        "MUBI"
+      ],
+      "entry_condition": "protagonist is choosing who they will be, not who they have been",
+      "affinity_with": [
+        "AD_09",
+        "AD_13",
+        "AD_10"
+      ],
+      "domain_tags": [
+        "identity",
+        "future",
+        "belonging",
+        "transformation"
+      ],
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "AD_17",
+      "name": "midlife reckoning audience (40-55) — questioning choices made at 25",
+      "size_M": 500,
+      "platform_affinity": [
+        "Netflix",
+        "HBO",
+        "Apple TV+"
+      ],
+      "entry_condition": "protagonist faces the cost of their past choices when there is still time to act",
+      "affinity_with": [
+        "AD_11",
+        "AD_06",
+        "AD_05"
+      ],
+      "domain_tags": [
+        "identity",
+        "time",
+        "loss",
+        "past"
+      ],
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "AD_18",
+      "name": "economic precarity audience — adults whose financial stability is genuinely fragile",
+      "size_M": 800,
+      "platform_affinity": [
+        "Netflix",
+        "Amazon",
+        "Hulu"
+      ],
+      "entry_condition": "protagonist's material circumstances are visible and accurate",
+      "affinity_with": [
+        "AD_06",
+        "AD_09",
+        "AD_13"
+      ],
+      "domain_tags": [
+        "class",
+        "labor",
+        "economics",
+        "precarity"
+      ],
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "AD_19",
+      "name": "documentary and true-events audience",
+      "size_M": 400,
+      "platform_affinity": [
+        "Netflix",
+        "HBO",
+        "Apple TV+"
+      ],
+      "entry_condition": "based on or inspired by documented events",
+      "affinity_with": [
+        "AD_02",
+        "AD_04",
+        "AD_14"
+      ],
+      "domain_tags": [
+        "truth",
+        "institution",
+        "history",
+        "accountability"
+      ],
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "AD_20",
+      "name": "philosophical and moral complexity audience — want films that do not resolve their questions",
+      "size_M": 150,
+      "platform_affinity": [
+        "MUBI",
+        "A24",
+        "Neon",
+        "Apple TV+"
+      ],
+      "entry_condition": "central question remains open at credits",
+      "affinity_with": [
+        "AD_11",
+        "AD_07",
+        "AD_14"
+      ],
+      "domain_tags": [
+        "truth",
+        "epistemology",
+        "morality",
+        "complexity"
+      ],
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "world_textures": [
+    {
+      "id": "WT_01",
+      "name": "federal regulatory agency",
+      "domain_tags": [
+        "bureaucracy",
+        "authority",
+        "precision",
+        "government"
+      ],
+      "surprise_weight": 0.8,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "WT_02",
+      "name": "intensive care unit",
+      "domain_tags": [
+        "medicine",
+        "life_death",
+        "precision",
+        "intimacy"
+      ],
+      "surprise_weight": 0.65,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "WT_03",
+      "name": "migration detention facility",
+      "domain_tags": [
+        "law",
+        "displacement",
+        "power",
+        "humanity"
+      ],
+      "surprise_weight": 0.75,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "WT_04",
+      "name": "algorithmic hiring system inside a corporation",
+      "domain_tags": [
+        "technology",
+        "fairness",
+        "automation",
+        "identity"
+      ],
+      "surprise_weight": 0.8,
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "WT_05",
+      "name": "climate research station in an endangered ecosystem",
+      "domain_tags": [
+        "science",
+        "nature",
+        "urgency",
+        "futility"
+      ],
+      "surprise_weight": 0.75,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "WT_06",
+      "name": "public defender's office in an underfunded court system",
+      "domain_tags": [
+        "law",
+        "justice",
+        "poverty",
+        "idealism"
+      ],
+      "surprise_weight": 0.7,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "WT_07",
+      "name": "archaeological site where the past and present collide",
+      "domain_tags": [
+        "history",
+        "time",
+        "identity",
+        "discovery"
+      ],
+      "surprise_weight": 0.7,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "WT_08",
+      "name": "elder care facility",
+      "domain_tags": [
+        "aging",
+        "dignity",
+        "family",
+        "institution"
+      ],
+      "surprise_weight": 0.65,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "WT_09",
+      "name": "a courtroom during a precedent-setting case",
+      "domain_tags": [
+        "law",
+        "language",
+        "power",
+        "precedent"
+      ],
+      "surprise_weight": 0.65,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "WT_10",
+      "name": "pharmaceutical research lab during a drug trial",
+      "domain_tags": [
+        "science",
+        "ethics",
+        "money",
+        "hope"
+      ],
+      "surprise_weight": 0.75,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "WT_11",
+      "name": "archive or document repository holding suppressed records",
+      "domain_tags": [
+        "history",
+        "truth",
+        "power",
+        "silence"
+      ],
+      "surprise_weight": 0.8,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "WT_12",
+      "name": "international treaty negotiation",
+      "domain_tags": [
+        "diplomacy",
+        "language",
+        "power",
+        "stakes"
+      ],
+      "surprise_weight": 0.7,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "WT_13",
+      "name": "an AI development lab at the moment of an irreversible deployment",
+      "domain_tags": [
+        "technology",
+        "ethics",
+        "irreversibility",
+        "future"
+      ],
+      "surprise_weight": 0.8,
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "WT_14",
+      "name": "a village facing forced relocation due to climate or development",
+      "domain_tags": [
+        "community",
+        "displacement",
+        "power",
+        "nature"
+      ],
+      "surprise_weight": 0.7,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "WT_15",
+      "name": "a prison where the guard and prisoner have irreconcilably connected histories",
+      "domain_tags": [
+        "justice",
+        "history",
+        "power_reversal",
+        "intimacy"
+      ],
+      "surprise_weight": 0.75,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "WT_16",
+      "name": "a living alien ecosystem with its own evolutionary consciousness",
+      "domain_tags": [
+        "nature",
+        "consciousness",
+        "ecology",
+        "alien"
+      ],
+      "commercial_proof": "Avatar $2.92B, Avatar 2 $2.32B",
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "WT_17",
+      "name": "a family home across three generations — the same rooms, different decades",
+      "domain_tags": [
+        "family",
+        "time",
+        "memory",
+        "inheritance"
+      ],
+      "commercial_proof": "Coco $814M, Encanto $256M, Up $731M",
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "WT_18",
+      "name": "an ancient world being rediscovered — ruins that still hold living consequences",
+      "domain_tags": [
+        "history",
+        "discovery",
+        "wonder",
+        "past"
+      ],
+      "commercial_proof": "Black Panther $1.35B, Indiana Jones, Jurassic Park $1.06B",
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "WT_19",
+      "name": "a society in a single compressed moment of transformation — the last night before everything changes forever",
+      "domain_tags": [
+        "society",
+        "transformation",
+        "time",
+        "love"
+      ],
+      "commercial_proof": "Titanic $2.26B, Bohemian Rhapsody $910M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "WT_20",
+      "name": "a frontier world where the rules of civilization have not yet arrived — raw possibility and raw danger in equal measure",
+      "domain_tags": [
+        "frontier",
+        "survival",
+        "freedom",
+        "nature"
+      ],
+      "commercial_proof": "The Revenant $533M, Interstellar $675M, Dances with Wolves",
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "WT_21",
+      "name": "an enchanted realm where physical laws are expressions of emotional truth",
+      "domain_tags": [
+        "magic",
+        "emotion",
+        "wonder",
+        "identity"
+      ],
+      "commercial_proof": "Frozen $1.29B, Moana $645M, Beauty and the Beast $1.26B",
+      "thematic_cluster": "civilizational"
+    }
+  ],
+  "civilizational_stakes": [
+    {
+      "id": "CS_01",
+      "description": "what is under threat is the shared method by which a civilization agrees on what is real",
+      "domain_tags": [
+        "truth",
+        "epistemology",
+        "civilization",
+        "foundation"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 2000,
+      "commercial_proof": "Applies to all $500M+ films with civilizational subtext — Oppenheimer, Interstellar, Don't Look Up",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CS_02",
+      "description": "a single methodology that held a civilization together for centuries is being tested for the first time",
+      "domain_tags": [
+        "methodology",
+        "tradition",
+        "crisis",
+        "foundation"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 1500,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "CS_03",
+      "description": "the speed at which the threat moves makes every human response structurally too slow",
+      "domain_tags": [
+        "speed",
+        "scale",
+        "futility",
+        "technology"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 1000,
+      "commercial_proof": "Don't Look Up $limited on Netflix, Contagion $136M",
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "CS_05",
+      "description": "the institution that was built to protect information integrity is now producing the misinformation",
+      "domain_tags": [
+        "institution",
+        "irony",
+        "complicity",
+        "systemic"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 800,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "CS_06",
+      "description": "a single human practice — slow, laborious, and morally grounded — is the only thing that can distinguish truth from fabrication at scale",
+      "domain_tags": [
+        "methodology",
+        "human_intelligence",
+        "scale",
+        "precision"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 1500,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "CS_07",
+      "description": "the adversary is not malicious — it is a property of the world that simply produces unlimited convincing falsehood as a byproduct of existing",
+      "domain_tags": [
+        "technology",
+        "AI",
+        "scale",
+        "no_villain"
+      ],
+      "surprise_weight": 0.9,
+      "audience_resonance_M": 1200,
+      "thematic_cluster": "technology"
+    }
+  ],
+  "methodology_protagonists": [
+    {
+      "id": "MP_01",
+      "description": "a verification methodology that took a human lifetime to build is the story's real protagonist — the human is its instrument",
+      "domain_tags": [
+        "methodology",
+        "knowledge",
+        "lifetime",
+        "precision"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "The Quota concept elevated — but here the methodology has civilizational scope",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "MP_02",
+      "description": "a historical figure's lifework is being applied — without their knowledge — to a problem they could not have imagined",
+      "domain_tags": [
+        "history",
+        "methodology",
+        "anachronism",
+        "legacy"
+      ],
+      "surprise_weight": 0.95,
+      "commercial_proof": "Genuinely novel — no direct precedent in theatrical corpus",
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "MP_03",
+      "description": "the method for authenticating truth was designed in an era when fabrication was difficult and slow — it has never been tested against fabrication that is fast and unlimited",
+      "domain_tags": [
+        "methodology",
+        "scale",
+        "technology",
+        "limits"
+      ],
+      "surprise_weight": 0.95,
+      "commercial_proof": "Genuinely novel — no direct precedent",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "MP_04",
+      "description": "the practitioner and the method have become inseparable — if the method fails, the practitioner ceases to exist as a person",
+      "domain_tags": [
+        "identity",
+        "methodology",
+        "existential",
+        "precision"
+      ],
+      "surprise_weight": 0.85,
+      "commercial_proof": "Whiplash's obsession dynamic elevated to civilizational stakes",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "MP_05",
+      "description": "the adversary has learned from the method itself — is using the verification logic to generate undetectable forgeries",
+      "domain_tags": [
+        "adversarial",
+        "methodology",
+        "learning",
+        "AI"
+      ],
+      "surprise_weight": 0.95,
+      "commercial_proof": "Genuinely novel — adversary as student of the protagonist's method",
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "MP_06",
+      "description": "a chain-of-custody methodology built for analog objects is being applied to digital information — every assumption in the methodology breaks at a different point",
+      "domain_tags": [
+        "methodology",
+        "technology",
+        "analog",
+        "digital",
+        "limits"
+      ],
+      "surprise_weight": 0.9,
+      "commercial_proof": "Novel — no direct film precedent in this exact configuration",
+      "thematic_cluster": "technology"
+    }
+  ],
+  "historical_methodology_transplants": [
+    {
+      "id": "HT_02",
+      "era_of_origin": "early forensic science (19th century)",
+      "methodology": "trace evidence analysis — every contact leaves a mark",
+      "modern_crisis": "deepfake evidence that leaves no physical trace",
+      "bridge": "the foundational assumption of forensic science was that physical contact was necessary; in a digital world, harm leaves no trace",
+      "domain_tags": [
+        "forensics",
+        "law",
+        "technology",
+        "truth"
+      ],
+      "audience_resonance_M": 500,
+      "surprise_weight": 0.85,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "HT_03",
+      "era_of_origin": "Enlightenment peer review and scientific method",
+      "methodology": "replication, consensus, and falsifiability as arbiters of truth",
+      "modern_crisis": "coordinated peer-review manipulation and AI-generated research",
+      "bridge": "the method designed to eliminate individual bias is being defeated by coordinated systematic bias",
+      "domain_tags": [
+        "science",
+        "truth",
+        "institution",
+        "AI"
+      ],
+      "audience_resonance_M": 400,
+      "surprise_weight": 0.85,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "HT_04",
+      "era_of_origin": "indigenous oral tradition and memory-keeping",
+      "methodology": "community consensus verification — truth is maintained by collective witness",
+      "modern_crisis": "the community that maintained the tradition has been dispersed; AI generates synthetic versions",
+      "bridge": "truth that required a community of witnesses cannot survive without the community",
+      "domain_tags": [
+        "indigenous",
+        "tradition",
+        "community",
+        "AI",
+        "identity"
+      ],
+      "audience_resonance_M": 600,
+      "surprise_weight": 0.85,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "HT_05",
+      "era_of_origin": "Cold War intelligence tradecraft",
+      "methodology": "human intelligence network verification — every source confirmed by another source",
+      "modern_crisis": "every source is a potential AI-generated agent; the network cannot verify itself",
+      "bridge": "the tradecraft designed to resist penetration assumes human agents; algorithmic penetration is structurally different",
+      "domain_tags": [
+        "intelligence",
+        "trust",
+        "AI",
+        "network",
+        "security"
+      ],
+      "audience_resonance_M": 400,
+      "surprise_weight": 0.8,
+      "thematic_cluster": "technology"
+    },
+    {
+      "id": "HT_06",
+      "era_of_origin": "medieval European guild system (12th-18th century)",
+      "methodology": "direct material inspection and master certification — a trained human examines the physical artifact, applies a guild mark, and stakes their professional reputation on authenticity",
+      "modern_crisis": "algorithmically predicted quality certificates issued before manufacture completes — the inspection happens before the object exists",
+      "bridge": "a quality auditor trained in the guild tradition of direct examination who is asked to sign off on predicted quality scores for objects they are not allowed to inspect",
+      "domain_tags": [
+        "craft",
+        "certification",
+        "institution",
+        "technology",
+        "trust"
+      ],
+      "audience_resonance_M": 350,
+      "surprise_weight": 0.75,
+      "commercial_proof": "No direct precedent in theatrical corpus — under-used in the historical methodology transplant category",
+      "thematic_cluster": "institutional"
+    }
+  ],
+  "moral_fault_lines": [
+    {
+      "id": "MF_01",
+      "description": "loyalty vs truth — both are owed to the same person and cannot coexist",
+      "domain_tags": [
+        "loyalty",
+        "truth",
+        "relationship",
+        "betrayal"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "civilizational"
+    },
+    {
+      "id": "MF_02",
+      "description": "fairness vs care — the fair outcome destroys the person you care about",
+      "domain_tags": [
+        "fairness",
+        "care",
+        "institution",
+        "values"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "MF_03",
+      "description": "liberty vs protection — protecting someone means controlling them",
+      "domain_tags": [
+        "freedom",
+        "safety",
+        "family",
+        "institution"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "emotional"
+    },
+    {
+      "id": "MF_04",
+      "description": "individual conscience vs collective loyalty — one person's integrity vs many people's safety",
+      "domain_tags": [
+        "conscience",
+        "community",
+        "betrayal",
+        "institution"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "MF_05",
+      "description": "efficiency vs dignity — the optimal system treats people as variables",
+      "domain_tags": [
+        "efficiency",
+        "humanity",
+        "institution",
+        "systemic"
+      ],
+      "surprise_weight": 0.85,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "institutional"
+    },
+    {
+      "id": "MF_06",
+      "description": "present harm vs future prevention — doing harm now is the only way to prevent greater harm later",
+      "domain_tags": [
+        "time",
+        "ethics",
+        "consequentialism",
+        "prevention"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 400,
+      "thematic_cluster": "temporal"
+    },
+    {
+      "id": "MF_07",
+      "description": "past justice vs future peace — pursuing the truth reopens a wound the community needs to stay closed",
+      "domain_tags": [
+        "justice",
+        "peace",
+        "history",
+        "community"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 350,
+      "thematic_cluster": "identity"
+    },
+    {
+      "id": "MF_08",
+      "description": "merit vs circumstance — the meritocracy rewards the person with the best starting position",
+      "domain_tags": [
+        "fairness",
+        "class",
+        "identity",
+        "systemic"
+      ],
+      "surprise_weight": 0.75,
+      "audience_resonance_M": 700,
+      "thematic_cluster": "economic"
+    },
+    {
+      "id": "MF_09",
+      "description": "scientific truth vs lived experience — the data says one thing; the patient's body says another",
+      "domain_tags": [
+        "science",
+        "experience",
+        "authority",
+        "knowledge"
+      ],
+      "surprise_weight": 0.8,
+      "audience_resonance_M": 500,
+      "thematic_cluster": "nature"
+    },
+    {
+      "id": "MF_10",
+      "description": "the debt that cannot be repaid — someone saved your life; you cannot save theirs back",
+      "domain_tags": [
+        "obligation",
+        "gratitude",
+        "asymmetry",
+        "relationship"
+      ],
+      "surprise_weight": 0.7,
+      "audience_resonance_M": 600,
+      "thematic_cluster": "institutional"
+    }
+  ],
+  "formats": [
+    {
+      "id": "FMT_01",
+      "name": "Feature Film",
+      "economics_key": "feature",
+      "description": "Theatrical-first cinema; one self-contained story built for the big screen and a global box-office event.",
+      "domain_tags": ["spectacle", "theatrical", "scale", "event"],
+      "thematic_cluster": "civilizational",
+      "window_preference": "theatrical_wide"
+    },
+    {
+      "id": "FMT_02",
+      "name": "Limited Series",
+      "economics_key": "limited_series",
+      "description": "A closed-ended premium streaming series (6-10 episodes) that tells one complete novelistic story.",
+      "domain_tags": ["intimacy", "serialized", "prestige", "character"],
+      "thematic_cluster": "emotional",
+      "window_preference": "streaming_first"
+    },
+    {
+      "id": "FMT_03",
+      "name": "Returning Series",
+      "economics_key": "returning_series",
+      "description": "An open-ended, multi-season streaming or cable drama built to renew and compound an audience over years.",
+      "domain_tags": ["world", "serialized", "ensemble", "procedural"],
+      "thematic_cluster": "institutional",
+      "window_preference": "streaming_first"
+    },
+    {
+      "id": "FMT_04",
+      "name": "Animation Feature",
+      "economics_key": "animation_feature",
+      "description": "A theatrical animated feature; culturally legible worldwide, long box-office legs, strong family co-viewing.",
+      "domain_tags": ["spectacle", "family", "animation", "myth"],
+      "thematic_cluster": "identity",
+      "window_preference": "theatrical_wide"
+    },
+    {
+      "id": "FMT_05",
+      "name": "Animation Series",
+      "economics_key": "animation_series",
+      "description": "A stylized animated streaming series for older audiences; fandom-driven, license plus ancillary (merch, games).",
+      "domain_tags": ["world", "fandom", "animation", "stylized"],
+      "thematic_cluster": "technology",
+      "window_preference": "streaming_first"
+    },
+    {
+      "id": "FMT_06",
+      "name": "Microdrama",
+      "economics_key": "microdrama",
+      "description": "Vertical short-form serialized melodrama (60-100 one-minute episodes) monetized in-app on mobile.",
+      "domain_tags": ["intimacy", "mobile", "short_form", "melodrama"],
+      "thematic_cluster": "emotional",
+      "window_preference": "streaming_first"
+    }
+  ]
+}

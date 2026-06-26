@@ -1,0 +1,13 @@
+id,name,label,gloss,source
+1,pre_modern,Pre-Modern,Before c. 1700; agrarian / dynastic / pre-industrial,curated
+2,industrial,Industrial,1700-1880; coal steam factory; first wave urban migration,curated
+3,pre_wwi,Belle Epoque,1880-1914; electrification telegraph empire global trade,curated
+4,interwar,Interwar,1918-1939; jazz Weimar Depression rise of fascism,curated
+5,postwar,Postwar / Mid-Century,1945-1970; suburbanisation broadcast Cold War expansion,curated
+6,cold_war_late,Late Cold War,1970-1989; recession oil shock punk samizdat shadow,curated
+7,late_20c,Late 20th Century,1989-2001; post-Soviet end-of-history globalization optimism,curated
+8,networked_2000s,Networked 2000s,2001-2008; internet boom cellphone-everywhere War on Terror,curated
+9,post_2008,Post-Crisis,2008-2019; austerity precarity smartphone Arab Spring,curated
+10,pandemic,Pandemic,2020-2022; lockdown Zoom remote-work supply-chain rupture,curated
+11,present,Present,2023-2026; AI ascendant climate-emergency multipolar war return,curated
+12,near_future,Near-Future Speculative,2027-2050; speculative-but-plausible (no faster-than-light),curated

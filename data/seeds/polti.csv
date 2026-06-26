@@ -1,0 +1,37 @@
+id,name,label,gloss,source
+1,supplication,Supplication,A persecuted protagonist begs a powerful figure to grant safety,polti-1895
+2,deliverance,Deliverance,A protagonist saves an unfortunate from a persecutor,polti-1895
+3,vengeance,Crime Pursued by Vengeance,An avenger pursues a criminal for a transgression,polti-1895
+4,kin_vengeance,Vengeance Taken for Kin upon Kin,A relative avenges another relative against a guilty kinsman,polti-1895
+5,pursuit,Pursuit,A fugitive flees a punishment they may or may not deserve,polti-1895
+6,disaster,Disaster,A power is overthrown by the catastrophe of a victorious enemy or fate,polti-1895
+7,cruelty_misfortune,Falling Prey to Cruelty or Misfortune,An unfortunate is degraded by an unfeeling master or sudden catastrophe,polti-1895
+8,revolt,Revolt,A tyrant is overthrown by a conspirator or an oppressed multitude,polti-1895
+9,daring_enterprise,Daring Enterprise,A bold leader undertakes a risky operation against an adversary or an obstacle,polti-1895
+10,abduction,Abduction,An abductor takes a victim from a guardian,polti-1895
+11,enigma,The Enigma,A protagonist must solve a riddle imposed by an interrogator at the cost of their life or another stake,polti-1895
+12,obtaining,Obtaining,A solicitor must acquire something from an adversary by guile or force,polti-1895
+13,enmity_kin,Enmity of Kin,A malevolent kinsman opposes a hated kinsman to the death,polti-1895
+14,rivalry_kin,Rivalry of Kin,Two kin compete for the same prize creating a fatal rivalry,polti-1895
+15,murderous_adultery,Murderous Adultery,Two adulterous lovers betray and kill the wronged spouse,polti-1895
+16,madness,Madness,A protagonist commits crimes or destruction while seized by insanity,polti-1895
+17,fatal_imprudence,Fatal Imprudence,A reckless protagonist destroys themselves or a loved one through carelessness,polti-1895
+18,involuntary_crimes_love,Involuntary Crimes of Love,A lover unknowingly enters incest or a forbidden union,polti-1895
+19,slaying_unrecognized,Slaying of a Kinsman Unrecognized,A protagonist kills a kinsman they did not recognize,polti-1895
+20,sacrifice_ideal,Self-Sacrifice for an Ideal,A protagonist surrenders happiness or life for a creed or principle,polti-1895
+21,sacrifice_kin,Self-Sacrifice for Kin,A protagonist surrenders happiness or life to save a relative,polti-1895
+22,passion_sacrifice,All Sacrificed for Passion,A protagonist abandons everything for an overwhelming desire,polti-1895
+23,necessity_sacrifice,Necessity of Sacrificing Loved Ones,A protagonist must sacrifice a loved one to save many,polti-1895
+24,superior_inferior,Rivalry Between Superior and Inferior,An inferior contends with a superior for the same prize,polti-1895
+25,adultery,Adultery,Two lovers betray a spouse but do not commit murder,polti-1895
+26,crimes_love,Crimes of Love,A lover commits taboo or transgressive love such as incestuous love,polti-1895
+27,discovery_dishonor,Discovery of the Dishonor of a Loved One,A protagonist learns a beloved has done something dishonorable,polti-1895
+28,obstacles_love,Obstacles to Love,External barriers (class family law) prevent two lovers from uniting,polti-1895
+29,enemy_loved,An Enemy Loved,A lover is also an enemy of the protagonist's kin or cause,polti-1895
+30,ambition,Ambition,An ambitious protagonist climbs against rivals and obstacles,polti-1895
+31,conflict_god,Conflict with a God,A mortal challenges a god or a divine principle,polti-1895
+32,mistaken_jealousy,Mistaken Jealousy,A protagonist's jealousy is provoked by false evidence,polti-1895
+33,erroneous_judgment,Erroneous Judgment,A protagonist condemns the wrong party out of ignorance or bias,polti-1895
+34,remorse,Remorse,A protagonist suffers conscience pangs over a hidden or revealed crime,polti-1895
+35,recovery_lost,Recovery of a Lost One,A protagonist seeks and finds a lost beloved or relative,polti-1895
+36,loss_loved,Loss of Loved Ones,A protagonist witnesses the death of beloved companions,polti-1895

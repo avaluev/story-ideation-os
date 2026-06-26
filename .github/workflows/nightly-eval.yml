@@ -1,0 +1,40 @@
+name: nightly-eval
+
+# OPS-07: Nightly evaluation of existing out/concepts/ output.
+# Runs make eval at 03:00 UTC; skips gracefully when out/concepts/ is empty.
+# Email on failure is GitHub Actions default notification — no extra config needed.
+
+on:
+  schedule:
+    # 03:00 UTC every day
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Allow manual trigger from the GitHub UI
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dev dependencies
+        run: uv sync --dev
+
+      - name: Check for concepts
+        id: count
+        run: |
+          count=$(ls out/concepts/*.md 2>/dev/null | wc -l || echo 0)
+          echo "concept_count=${count}" >> "$GITHUB_OUTPUT"
+
+      - name: Skip if empty
+        if: steps.count.outputs.concept_count == '0'
+        run: echo "No concepts to evaluate — skipping."
+
+      - name: Run evals
+        if: steps.count.outputs.concept_count != '0'
+        run: uv run pytest evals/ -x

@@ -1,0 +1,44 @@
+{
+  "campaign": "amplify-20-flagship-v6",
+  "created": "2026-06-01",
+  "description": "Amplify the existing 20 verified flagship concepts into Hollywood-grade EN+RU per-concept reports backed by real deep-links and value-on-page quotes, with every number's formula shown inline.",
+  "definition_of_done": {
+    "reports": 20,
+    "languages": ["EN", "RU"],
+    "packaging": "per_concept_files",
+    "deep_links_per_report_min": 12,
+    "quote_bound_pct_min": 0.85,
+    "verified_density_min": 0.80,
+    "http_2xx_pct_min": 0.98,
+    "mean_card_grade": "A",
+    "every_dollar_has_inline_arithmetic": true,
+    "fabricated_count_max": 0,
+    "en_ru_parity": ["url_set", "dollar_multiset", "heading_count"]
+  },
+  "baseline_to_exceed": {
+    "verified_claims": 109,
+    "deep_link_pct": 0.80,
+    "quote_bound_pct": 0.735,
+    "mean_composite": 75
+  },
+  "guards": {
+    "make_test": "green",
+    "make_eval": "green",
+    "lint_imports": ["ANOMALY-001", "ANOMALY-002", "ANOMALY-003"],
+    "webfetch_primary_forbidden": true,
+    "openrouter_optional": true,
+    "no_gemini": true
+  },
+  "budget": {
+    "research_max_concurrency": 4,
+    "iso_week_cache": true,
+    "opus_touch_budget": "minimal",
+    "exec_model": "sonnet"
+  },
+  "concepts": [
+    "01_husbandry", "02_truthbell", "03_thawline", "04_tremor", "05_aurelia",
+    "06_tidemark", "07_hearsay", "08_threshold", "09_allocate", "10_forewarning",
+    "11_mother-tongue", "12_ledger", "13_conveyance", "14_aftercare", "15_carbon",
+    "16_halflife", "17_tenure", "18_tenderness", "19_irreversible", "20_wellkeeper"
+  ]
+}

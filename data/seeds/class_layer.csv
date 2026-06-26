@@ -1,0 +1,8 @@
+id,name,label,gloss,source
+1,precariat,Precariat,No reliable income; insecure housing; gig or informal economy,curated
+2,working,Working class,Wage-dependent skilled or semi-skilled; union or trade,curated
+3,lower_middle,Lower middle class,Salaried but stretched; mortgage on edge of default,curated
+4,middle,Middle class,Stable salaried; owns home; some savings,curated
+5,professional,Professional / Upper middle,Credentialed; six-figure income; portfolio,curated
+6,elite,Elite,Wealth not labour; multiple homes; capital decisions,curated
+7,dispossessed_aristocracy,Dispossessed aristocracy,Title and history but bankrupt; living on remnants,curated

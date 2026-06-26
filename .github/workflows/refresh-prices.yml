@@ -1,0 +1,60 @@
+name: refresh-prices
+
+# OPS-07: Weekly model pricing diff — opens a PR if pricing changed.
+# Runs every Monday at 06:00 UTC. Uses peter-evans/create-pull-request@v6
+# to propose changes when refresh_prices.py detects a diff (exit 1).
+
+on:
+  schedule:
+    # Monday 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch: # Allow manual trigger from the GitHub UI
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Install dev dependencies
+        run: uv sync --dev
+
+      - name: Run refresh_prices
+        id: refresh
+        run: |
+          set +e
+          uv run python -m scripts.refresh_prices
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Open PR if diff detected
+        if: steps.refresh.outputs.exit == '1'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: refresh-prices-${{ github.run_id }}
+          add-paths: |
+            data/refresh_prices_*.txt
+          commit-message: "chore(P5): weekly refresh-prices report"
+          title: "chore(P5): model pricing diff — review and merge"
+          body: |
+            Weekly refresh-prices cron detected one or more model pricing differences.
+
+            The diff report is committed to this branch under `data/refresh_prices_*.txt`.
+
+            Fix path:
+            1. Review the diff file for changed models.
+            2. Update `MODELS` in `pipeline/openrouter_client.py` with new pricing.
+            3. Re-run `make refresh-prices` locally to confirm clean output.
+            4. Merge this PR.
+
+            OPS-07 / OPS-02 mitigation: weekly automatic pricing vigilance.

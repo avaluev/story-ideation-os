@@ -1,0 +1,9 @@
+id,name,label,gloss,source
+1,companion_animal,Companion-animal,Dog cat horse with significant role in scenes,curated
+2,antagonist_animal,Antagonist-animal,An animal as direct adversary; shark wolf bear,curated
+3,mythic_nonhuman,Mythic non-human,God spirit djinn revenant in story-world,curated
+4,ecological_presence,Ecological presence,Forest river weather acts as character,curated
+5,object_as_character,Object-as-character,Letter ring photograph carries plot weight,curated
+6,absent_but_felt,Absent-but-felt,Ghost-like absence (deceased loved one missing person),curated
+7,spectral,Spectral,Actual ghost or revenant in story-world,curated
+8,no_nonhuman,No-nonhuman,Story is purely human-to-human,curated

@@ -1,0 +1,7 @@
+id,name,label,gloss,source
+1,strong_religious,Strong-religious,Daily practice belief central to identity and decision,curated
+2,observant,Observant,Regular practice; tradition follows family; some doubt,curated
+3,lapsed,Lapsed,Raised in tradition; no longer practising; ambivalent,curated
+4,secular,Secular,Non-religious throughout; humanist or scientific frame,curated
+5,heretical,Heretical,Inside a tradition but in active dispute with its authority,curated
+6,mystical_syncretic,Mystical / Syncretic,Personal blend across traditions; numinous experience,curated

@@ -1,0 +1,121 @@
+segments:
+
+  - id: S01
+    name: "First/Second-Generation Immigrants (General)"
+    sdt_root: relatedness
+    current_deprivation_claim: "Stories from their origin cultures are almost never produced by people who actually lived them, leaving a gap between the immigrants' lived memory and the homogenised Hollywood version of their home country."
+    evidence_sources_to_check:
+      - "dpla-items"
+      - "nyt-articlesearch-v2"
+      - "guardian-content-search"
+    addressable_audience_m: 280
+
+  - id: S02
+    name: "Muslim Millennials"
+    sdt_root: autonomy
+    current_deprivation_claim: "Mainstream film consistently presents Muslim characters as either villains or victims, denying this segment narratives in which Muslim protagonists exercise genuine agency over complex moral dilemmas."
+    evidence_sources_to_check:
+      - "gdelt-doc-v2"
+      - "guardian-content-search"
+      - "openalex-works"
+    addressable_audience_m: 190
+
+  - id: S03
+    name: "Eastern European Expats"
+    sdt_root: relatedness
+    current_deprivation_claim: "The post-Communist transition experience — economic dislocation, identity crisis, and westward migration — has no canonical dramatic canon despite affecting 100M+ people over three decades."
+    evidence_sources_to_check:
+      - "chronicling-america-results"
+      - "dpla-items"
+      - "guardian-content-search"
+    addressable_audience_m: 55
+
+  - id: S04
+    name: "Southeast Asian Diaspora"
+    sdt_root: competence
+    current_deprivation_claim: "The extraordinary wartime and post-war reconstruction stories of Southeast Asia (Vietnam, Cambodia, Philippines, Indonesia) remain largely invisible in Western dramatic output despite massive diaspora populations in the US, UK, and Australia."
+    evidence_sources_to_check:
+      - "dpla-items"
+      - "nara-catalog"
+      - "guardian-content-search"
+    addressable_audience_m: 120
+
+  - id: S05
+    name: "Gen Z Urban Workers"
+    sdt_root: autonomy
+    current_deprivation_claim: "Gen Z urban workers have grown up in an era of broken institutional promises — housing, career, climate — but cinema still offers them legacy hero-journey templates rather than narratives that reflect the specific texture of their precarity."
+    evidence_sources_to_check:
+      - "gdelt-doc-v2"
+      - "guardian-content-search"
+      - "openalex-works"
+    addressable_audience_m: 200
+
+  - id: S06
+    name: "Latin American Diaspora"
+    sdt_root: relatedness
+    current_deprivation_claim: "Latin American historical narratives — particularly those spanning the dictatorships, land reforms, and migration waves of the 20th century — are overwhelmingly absent from English-language dramatic output despite a 65M+ US diaspora."
+    evidence_sources_to_check:
+      - "dpla-items"
+      - "federal-register-articles"
+      - "guardian-content-search"
+    addressable_audience_m: 65
+
+  - id: S07
+    name: "African Diaspora (Urban)"
+    sdt_root: competence
+    current_deprivation_claim: "Urban African diaspora audiences are served primarily by US Black American stories; the specific experience of African immigrants navigating dual cultural identities in European and North American cities remains a blank space in dramatic storytelling."
+    evidence_sources_to_check:
+      - "gdelt-doc-v2"
+      - "dpla-items"
+      - "guardian-content-search"
+    addressable_audience_m: 90
+
+  - id: S08
+    name: "South Asian Diaspora (UK/USA/Canada)"
+    sdt_root: relatedness
+    current_deprivation_claim: "Partition, Bangladeshi Liberation, Sri Lankan civil conflict, and the South Asian labour migration to the Gulf are foundational experiences for tens of millions yet remain almost entirely absent from prestige dramatic storytelling."
+    evidence_sources_to_check:
+      - "dpla-items"
+      - "guardian-content-search"
+      - "crossref-works"
+    addressable_audience_m: 150
+
+  - id: S09
+    name: "Central Asian Youth"
+    sdt_root: autonomy
+    current_deprivation_claim: "Post-Soviet Central Asian youth (Kazakhstani, Uzbek, Kyrgyz, Tajik, Turkmen) are navigating a collision of Soviet legacy, Islamic identity, and globalism with almost zero narrative representation in accessible international film or television."
+    evidence_sources_to_check:
+      - "gdelt-doc-v2"
+      - "nsarchive-document"
+      - "openalex-works"
+    addressable_audience_m: 50
+
+  - id: S10
+    name: "Middle Eastern Students Abroad"
+    sdt_root: competence
+    current_deprivation_claim: "Middle Eastern students studying abroad carry the specific cognitive dissonance of high professional ambition and political homelessness — a narrative tension cinema has never seriously explored from the inside."
+    evidence_sources_to_check:
+      - "gdelt-doc-v2"
+      - "crossref-works"
+      - "guardian-content-search"
+    addressable_audience_m: 60
+
+  - id: S11
+    name: "Chinese Overseas Community"
+    sdt_root: relatedness
+    current_deprivation_claim: "The 60M-strong overseas Chinese community has lived through Maoist exodus, Southeast Asian persecution, and contemporary identity negotiation — stories told almost exclusively by state-adjacent mainland productions that cannot reflect the diaspora's actual ambivalence."
+    evidence_sources_to_check:
+      - "dpla-items"
+      - "gdelt-doc-v2"
+      - "openalex-works"
+    addressable_audience_m: 60
+
+  - id: S12
+    name: "Post-Soviet Identity-Seekers"
+    sdt_root: autonomy
+    current_deprivation_claim: "Adults who grew up in the Soviet Union's final decade and its chaotic collapse carry a unique identity rupture — the world they were raised to inhabit ceased to exist before they reached adulthood — and no mainstream dramatic canon addresses this experience with genuine complexity."
+    evidence_sources_to_check:
+      - "nsarchive-document"
+      - "gdelt-doc-v2"
+      - "dpla-items"
+    addressable_audience_m: 55

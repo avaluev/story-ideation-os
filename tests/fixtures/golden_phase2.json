@@ -1,0 +1,11 @@
+{
+  "asset_id": "golden-asset-002",
+  "job_statement": "When I seek cultural identity I want historic validation",
+  "primary_need": "relatedness",
+  "primary_strength": 0.85,
+  "secondary_need": "competence",
+  "secondary_strength": 0.60,
+  "deprivation_amplifier_active": true,
+  "jtbd_notes": "Golden fixture — schema contract test only. Not scoring data.",
+  "total_score": null
+}

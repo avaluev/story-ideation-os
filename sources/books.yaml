@@ -1,0 +1,75 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "K"
+category_name: "Books / Literature / Philosophy / Religion / Speculative Fiction"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Endpoints are deep-link
+# reachable per FilmIntel deep-link evidence policy; no bare-domain api_base,
+# no search-engine redirects. Source-IDs prefix `books-` to keep globally
+# unique against sources/data-sources.yaml's A-J catalogs.
+
+sources:
+
+  - source_id: "books-gutendex-list"
+    category: "K"
+    name: "Gutendex — Project Gutenberg JSON API"
+    homepage_url: "https://gutendex.com"
+    api_base: "https://gutendex.com/books/"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "JSON wrapper over Project Gutenberg's 70K+ public-domain books. Filterable by author, language, subject, copyright. Per-book deep-path https://www.gutenberg.org/ebooks/{id} for citations."
+
+  - source_id: "books-openlibrary-works"
+    category: "K"
+    name: "Open Library Works API"
+    homepage_url: "https://openlibrary.org"
+    api_base: "https://openlibrary.org/works.json"
+    quota:
+      requests_per_minute: 100
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Internet Archive's Open Library work-level catalog (29M+ books, distinct from edition-level). Works link to editions, subjects, authors. Deep-path https://openlibrary.org/works/{olid}.json."
+
+  - source_id: "books-archive-texts-search"
+    category: "K"
+    name: "Internet Archive Texts Advanced Search"
+    homepage_url: "https://archive.org"
+    api_base: "https://archive.org/advancedsearch.php?q=mediatype%3Atexts&output=json"
+    quota:
+      requests_per_minute: 15
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "mixed"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Internet Archive 35M+ digitized texts (literature, philosophy, religion, sci-fi). Faceted search; deep-path https://archive.org/details/{identifier} for citations."
+
+  - source_id: "books-wikidata-novels-sparql"
+    category: "K"
+    name: "Wikidata SPARQL — Novels & Literary Works"
+    homepage_url: "https://query.wikidata.org"
+    api_base: "https://query.wikidata.org/sparql"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Wikidata SPARQL endpoint. Query for `instance of: novel` (Q8261) yields 200K+ novels with publication dates, genres, subjects, original language. 60s timeout per query."

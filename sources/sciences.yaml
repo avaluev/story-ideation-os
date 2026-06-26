@@ -1,0 +1,74 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "L"
+category_name: "Sciences — Physics / Bio / Chem / Neuro / Astro"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Sciences endpoints
+# distinct from Category F (Crossref/OpenAlex/arXiv generic scholarly).
+# Focus: domain-specific NIH/NASA/biorxiv/PubChem/CORE deep-link APIs.
+
+sources:
+
+  - source_id: "sciences-nasa-ads-search"
+    category: "L"
+    name: "NASA ADS — Astrophysics Data System Search API"
+    homepage_url: "https://ui.adsabs.harvard.edu"
+    api_base: "https://api.adsabs.harvard.edu/v1/search/query"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 5000
+    auth_method: "token"
+    auth_required: true
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Harvard-Smithsonian Astrophysics Data System; 16M+ records spanning astronomy, physics, planetary science. Free token via ui.adsabs.harvard.edu/user/settings/token. Deep-path /abs/{bibcode}."
+
+  - source_id: "sciences-biorxiv-details"
+    category: "L"
+    name: "bioRxiv Preprint Details API"
+    homepage_url: "https://www.biorxiv.org"
+    api_base: "https://api.biorxiv.org/details/biorxiv/"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "CC BY 4.0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "bioRxiv biology preprints, JSON details by DOI or interval. Sister API at api.biorxiv.org/details/medrxiv/ for medical preprints. Deep-path /content/10.1101/{doi}."
+
+  - source_id: "sciences-pubchem-compound"
+    category: "L"
+    name: "PubChem PUG REST — Compound by Name"
+    homepage_url: "https://pubchem.ncbi.nlm.nih.gov"
+    api_base: "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/aspirin/JSON"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 50000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "NIH NCBI PubChem; 110M+ chemical compounds with bioactivity, toxicity, synthesis. Replace `aspirin` in path with target compound. NIH polite-use 5 reqs/sec."
+
+  - source_id: "sciences-core-search"
+    category: "L"
+    name: "CORE — Open-Access Research Search API v3"
+    homepage_url: "https://core.ac.uk"
+    api_base: "https://api.core.ac.uk/v3/search/works"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 10000
+    auth_method: "token"
+    auth_required: true
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "CORE aggregator of 290M+ open-access papers from 12K+ repositories. Free token registration. Distinct from Crossref (Category F) which indexes paywalled DOIs too."

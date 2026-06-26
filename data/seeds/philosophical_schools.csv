@@ -1,0 +1,25 @@
+id,name,label,gloss,source
+1,stoicism,Stoicism,Virtue is the only good; control of judgement; Marcus Aurelius Epictetus,curated
+2,existentialism,Existentialism,Existence precedes essence; freedom and dread; Sartre Camus de Beauvoir,curated
+3,confucianism,Confucianism,Ritual and filial piety as ground of moral life; Confucius Mencius,curated
+4,daoism,Daoism / Taoism,Effortless action wu wei; harmony with the way; Laozi Zhuangzi,curated
+5,buddhism_theravada,Buddhism (Theravada),Suffering attachment liberation; Pali canon; insight meditation,curated
+6,buddhism_mahayana,Buddhism (Mahayana),Bodhisattva ideal; emptiness; Zen Pure Land,curated
+7,sufism,Sufism,Mystical Islam; love-of-the-divine; Rumi Hafez,curated
+8,kabbalah,Kabbalah,Jewish mystical tradition; sefirot; Zohar,curated
+9,phenomenology,Phenomenology,Lived experience first-person; Husserl Heidegger Merleau-Ponty,curated
+10,pragmatism,Pragmatism,Truth as what works; consequences; James Dewey Peirce,curated
+11,frankfurt_school,Frankfurt School,Critical theory; ideology and culture industry; Adorno Horkheimer Benjamin,curated
+12,post_structuralism,Post-structuralism,Decentered subject; power-knowledge; Foucault Derrida Deleuze,curated
+13,liberation_theology,Liberation theology,Preferential option for the poor; Latin-American Catholic; Gutierrez Boff,curated
+14,negritude,Negritude,Assertion of Black African cultural identity; Cesaire Senghor Damas,curated
+15,afro_pessimism,Afro-Pessimism / Black Pessimism,Anti-Black violence as foundational to civil society; Wilderson Sexton,curated
+16,eco_philosophy,Eco-philosophy / Deep ecology,Intrinsic value of non-human life; Naess Kohak,curated
+17,virtue_ethics,Virtue Ethics,Character not consequence; Aristotle MacIntyre Anscombe,curated
+18,utilitarianism,Utilitarianism,Greatest good for the greatest number; Bentham Mill Singer,curated
+19,deontology,Deontology / Kantian ethics,Duty and categorical imperative; Kant Korsgaard,curated
+20,care_ethics,Care Ethics,Moral life rooted in caring relations; Gilligan Held Noddings,curated
+21,feminism_intersectional,Intersectional feminism,Overlapping axes of oppression; Crenshaw hooks Lorde,curated
+22,marxism,Marxism / Historical materialism,Class struggle; mode of production; Marx Lukacs Gramsci,curated
+23,anarchism,Anarchism,Stateless cooperative society; Kropotkin Bookchin Goldman,curated
+24,absurdism,Absurdism,Confrontation with meaninglessness; rebellion as response; Camus Beckett,curated

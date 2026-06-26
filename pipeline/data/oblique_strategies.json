@@ -1,0 +1,1066 @@
+{
+  "schema_version": "1.0",
+  "license": "© Brian Eno & Peter Schmidt 1975, 1978, 1979 — included with attribution; transformative use only (LLM creativity prompt)",
+  "source_attestation": "Verified against http://music.hyperreal.org/artists/brian_eno/osfaq2.html on 2026-05-07",
+  "deck": [
+    {
+      "id": 1,
+      "text": "A line has two sides.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 2,
+      "text": "A very small object. Its centre.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 3,
+      "text": "Abandon normal instruments.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 4,
+      "text": "Accept advice.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 5,
+      "text": "Accretion.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 6,
+      "text": "Allow an easement (an easement is the abandonment of a stricture).",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 7,
+      "text": "Are there sections? Consider transitions.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 8,
+      "text": "Ask people to work against their better judgement.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 9,
+      "text": "Ask your body.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 10,
+      "text": "Assemble some of the instruments in a group and treat the group.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 11,
+      "text": "Balance the consistency principle with the inconsistency principle.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 12,
+      "text": "Be dirty.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 13,
+      "text": "Breathe more deeply.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 14,
+      "text": "Bridges -build -burn.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 15,
+      "text": "Broken pencil.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 16,
+      "text": "Call your mother and ask her what she's doing.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 17,
+      "text": "Change instrument roles.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 18,
+      "text": "Children's voices -speaking -singing.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 19,
+      "text": "Cluster analysis.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 20,
+      "text": "Consider different fading systems.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 21,
+      "text": "Consult other sources -promising -unpromising.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 22,
+      "text": "Convert a melodic element into a rhythmic element.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 23,
+      "text": "Courage!",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 24,
+      "text": "Cut a vital connection.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 25,
+      "text": "Decorate, decorate.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 26,
+      "text": "Define an area as 'safe' and use it as an anchor.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 27,
+      "text": "Destroy -nothing -the most important thing.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 28,
+      "text": "Discard an axiom.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 29,
+      "text": "Discover the recipes you are using and abandon them.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 30,
+      "text": "Distorting time.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 31,
+      "text": "Do nothing for as long as possible.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 32,
+      "text": "Do the washing up.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 33,
+      "text": "Do the words need changing?",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 34,
+      "text": "Do we need holes?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 35,
+      "text": "Don't be afraid of things because they're easy to do.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 36,
+      "text": "Don't break the silence.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 37,
+      "text": "Don't stress one thing more than another.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 38,
+      "text": "Emphasize differences.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 39,
+      "text": "Emphasize repetitions.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 40,
+      "text": "Emphasize the flaws.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 41,
+      "text": "Faced with a choice, do both.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 42,
+      "text": "Fill every beat.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 43,
+      "text": "Find a safe place and use it as a base for secret experiments.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 44,
+      "text": "Ghost harmonies.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 45,
+      "text": "Give the game away.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 46,
+      "text": "Give way to your worst impulse.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 47,
+      "text": "Go outside. Shut the door.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 48,
+      "text": "Go slowly.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 49,
+      "text": "Honour thy error as a hidden intention.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 50,
+      "text": "How would you have done it?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 51,
+      "text": "Humanize something free of error.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 52,
+      "text": "Imagine the music as a moving chain or caterpillar.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 53,
+      "text": "Imagine the music as a set of disconnected events.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 54,
+      "text": "Infinitesimal gradations.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 55,
+      "text": "Into the impossible.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 56,
+      "text": "Is it finished?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 57,
+      "text": "Is the style right?",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 58,
+      "text": "Is there something missing?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 59,
+      "text": "Just carry on.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 60,
+      "text": "Left channel, right channel, centre channel.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 61,
+      "text": "Listen in total darkness, or in a very large room, very quietly.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 62,
+      "text": "Look at a very small object, look at its centre.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 63,
+      "text": "Look at the order in which you do things.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 64,
+      "text": "Lost in useless territory.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 65,
+      "text": "Lowest common denominator check — single beat, single note, single riff.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 66,
+      "text": "Make a blank valuable by putting it in an exquisite frame.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 67,
+      "text": "Make an exhaustive list of everything you might do and do the last thing on the list.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 68,
+      "text": "Make it more sensual.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 69,
+      "text": "Mechanicalize something idiosyncratic.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 70,
+      "text": "Mute and continue.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 71,
+      "text": "Not building a wall but making a brick.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 72,
+      "text": "Once the search is in progress, something will be found.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 73,
+      "text": "Only one element of each kind.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 74,
+      "text": "Remember those quiet evenings.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 75,
+      "text": "Remove a restriction.",
+      "source_edition": [
+        "1975"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 76,
+      "text": "Remove ambiguities and convert to specifics.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 77,
+      "text": "Repetition is a form of change.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 78,
+      "text": "Reverse.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 79,
+      "text": "Short circuit (example: a man eating peas with the idea that they will improve his virility shovels them straight into his lap).",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 80,
+      "text": "Shut the door and listen from outside.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 81,
+      "text": "Simple subtraction.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 82,
+      "text": "Slow preparation, fast execution.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 83,
+      "text": "State the problem in words as clearly as possible.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 84,
+      "text": "Take a break.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 85,
+      "text": "Tape your mouth shut.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 86,
+      "text": "The inconsistency principle.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 87,
+      "text": "Trust in the you of now.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 88,
+      "text": "Try faking it.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 89,
+      "text": "Turn it upside down.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 90,
+      "text": "Twist the spine.",
+      "source_edition": [
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1978
+    },
+    {
+      "id": 91,
+      "text": "Use an old idea.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 92,
+      "text": "Use fewer notes.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 93,
+      "text": "Use filters.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 94,
+      "text": "What are you really thinking about just now? Incorporate.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 95,
+      "text": "What is the reality of your output?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 96,
+      "text": "What mistakes did you make last time?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 97,
+      "text": "What were the branch points in the evolution of this piece?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 98,
+      "text": "What would your closest friend do?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 99,
+      "text": "What wouldn't you do?",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 100,
+      "text": "Work at a different speed.",
+      "source_edition": [
+        "1975",
+        "1978",
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1975
+    },
+    {
+      "id": 101,
+      "text": "You are an engineer.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 102,
+      "text": "You can only make one dot at a time.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    },
+    {
+      "id": 103,
+      "text": "Your mistake was a hidden intention.",
+      "source_edition": [
+        "1979"
+      ],
+      "tags": [],
+      "year_first_appeared": 1979
+    }
+  ]
+}

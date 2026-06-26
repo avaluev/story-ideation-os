@@ -1,0 +1,75 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "O"
+category_name: "Documentary — Festival / Archive / Cinematheque"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Documentary film
+# endpoints; many documentary archives don't expose JSON APIs (they are
+# browse-only sites), so api_base points at the deepest indexable path
+# per FilmIntel deep-link policy. bot_block_allow_listed flags WAFs.
+
+sources:
+
+  - source_id: "documentary-bfi-collections-search"
+    category: "O"
+    name: "BFI Collections Search — National Film Archive"
+    homepage_url: "https://collections-search.bfi.org.uk"
+    api_base: "https://collections-search.bfi.org.uk/web/Vocabulary/SemanticSearch/cinema"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "fair use"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "British Film Institute; 1M+ film/TV/non-fiction titles in National Archive. SemanticSearch returns HTML; bot-block on HEAD (Cloudflare). Browse-tier; deep paths in catalogue."
+
+  - source_id: "documentary-wikidata-sparql"
+    category: "O"
+    name: "Wikidata SPARQL — Documentary Films"
+    homepage_url: "https://query.wikidata.org"
+    api_base: "https://query.wikidata.org/sparql"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Wikidata SPARQL; query `instance of: documentary film` (Q93204) yields 30K+ documentaries with director, country, festival prize, runtime, IMDb-id cross-link. Same endpoint different source_id from books-wikidata."
+
+  - source_id: "documentary-archive-films"
+    category: "O"
+    name: "Internet Archive Moving Images — Films Collection"
+    homepage_url: "https://archive.org"
+    api_base: "https://archive.org/advancedsearch.php?q=mediatype%3Amovies+AND+collection%3Aprelinger&output=json"
+    quota:
+      requests_per_minute: 15
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "mixed"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Internet Archive's Prelinger + community film collections; 65K+ public-domain documentaries, ephemeral films, newsreels. Deep-path archive.org/details/{identifier}. Goes back to 1894."
+
+  - source_id: "documentary-imdb-keyword-documentary"
+    category: "O"
+    name: "IMDb Keyword Search — Documentary"
+    homepage_url: "https://www.imdb.com"
+    api_base: "https://www.imdb.com/search/keyword/?keywords=documentary"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 100
+    auth_method: "none"
+    auth_required: false
+    license: "proprietary"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "IMDb keyword search anchored on `documentary` keyword. Bot-block allow-listed (Akamai 403 to HEAD; 200 to browser GET). Deep-path /search/title/?genres=documentary&sort=user_rating."

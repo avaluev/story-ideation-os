@@ -1,0 +1,13 @@
+id,name,label,gloss,source
+1,silence_heavy,Silence-heavy,Ambient noise dominates dialogue is sparse; A Quiet Place register,curated
+2,ambient,Ambient,Drone and atmosphere wash; Eno register,curated
+3,classical_canon,Classical-canon,Romantic-era orchestral score; Korngold lineage,curated
+4,pop_driven,Pop-driven,Pop needle-drops as score; Tarantino register,curated
+5,dissonant_modernist,Dissonant-modernist,Atonal Penderecki / Ligeti register,curated
+6,field_recording,Field-recording,Ambient environment recordings as primary score,curated
+7,liturgical,Liturgical,Sacred music or liturgical chant; Bresson Parsifal,curated
+8,ritual_percussive,Ritual-percussive,Drum-led ritual; world-music traditions,curated
+9,solo_voice,Solo-voice,Lone voice carrying the score; folk hymn dirge,curated
+10,drone,Drone,Sustained low frequency drone; bowed string,curated
+11,processed_electronic,Processed-electronic,Synthesizer/electronic score; Vangelis Carpenter Reznor,curated
+12,archival_recordings,Archival-recordings,Found audio old radio broadcasts wax cylinders,curated

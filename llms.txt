@@ -1,0 +1,34 @@
+# story-ideation-os
+
+> A multi-agent operating system that generates investor-grade film and series concepts. Large language models draft the prose; pure Python computes every financial figure; an evidence layer verifies every external number against a primary source. Released open-source under Apache 2.0.
+
+Key facts (verifiable from the repository):
+- Creative seed space: ~19 trillion combinations across 12 narrative axes.
+- Comparable-title corpus: ~890 films with real worldwide grosses and ROI.
+- Pipeline: 12 stages (seed → research → draft → challenge → amplify → genius audit → consistency → narrative → eval → lessons).
+- Guarantees are architectural, each tied to an Architecture Decision Record (ADR-0001..0012) and a test or lint enforcer.
+- Quality: 2,100+ tests, 110+ eval gates, an import linter, and pre-commit/CI gates.
+- Output is bilingual (English + parity-checked Russian).
+
+## Documentation
+- [README](README.md): overview, capabilities, quickstart.
+- [Repository structure & 8 engine layers](docs/REPOSITORY_STRUCTURE.md): the authoritative map.
+- [Architecture](docs/ARCHITECTURE.md): the pipeline in depth.
+- [Architecture Decision Records](docs/adr): the why behind every invariant.
+- [Report schema](docs/report_v4_schema.md): the concept-output contract.
+- [Operating contract](CLAUDE.md): every hard rule with its mechanical enforcer.
+
+## Showcase
+- [20-concept flagship slate (English)](showcase/concepts/EN): full concept cards with verified comps.
+- [20-concept flagship slate (Russian)](showcase/concepts/RU): parity-checked translations.
+- [Slate summary](showcase/SLATE_SUMMARY.md) and [best ideas](showcase/BEST_IDEAS_VERIFIED.md).
+
+## Source
+- [Engine](pipeline): ~33k lines of Python across 8 layers.
+- [Creative frameworks](frameworks): read-only doctrine.
+- [Tests](tests) and [eval gates](evals).
+
+## Contributing
+- [Contributing guide](CONTRIBUTING.md) — golden rule: numbers come from Python, claims come from sources.
+- [Security policy](SECURITY.md).
+- License: [Apache 2.0](LICENSE).

@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-05-09T13:30:00Z",
+  "source": "bootstrap-flat",
+  "note": "Day-1 bootstrap with flat 1.0 weights across all axes. The pipeline.cultural_resonance daily refresh job (T094) will populate live weights from FRED + YouTube Data API + GDELT + Google Trends.",
+  "axis_weights": {
+    "tensions": 1.0,
+    "spaces": 1.0,
+    "polti": 1.0,
+    "tobias": 1.0,
+    "booker": 1.0,
+    "stc": 1.0,
+    "truby": 1.0,
+    "archetypes": 1.0,
+    "arc_shapes": 1.0,
+    "time_periods": 1.0,
+    "geography": 1.0,
+    "philosophical_schools": 1.0,
+    "sensory_keys": 1.0,
+    "color_palettes": 1.0,
+    "sound_registers": 1.0,
+    "pacing_registers": 1.0,
+    "body_axis": 1.0,
+    "class_layer": 1.0,
+    "faith_axis": 1.0,
+    "technology_layer": 1.0,
+    "family_config": 1.0,
+    "nonhuman_presence": 1.0,
+    "mutation_operators": 1.0
+  },
+  "tension_overrides": {},
+  "space_overrides": {}
+}

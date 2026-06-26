@@ -1,0 +1,557 @@
+schema_version: "1.0"
+last_verified: "2026-05-07T00:00:00Z"
+
+# Categories A..J live in this file's `sources:` list (existing miner buckets).
+# Categories K..R live in dedicated cross-domain catalog files (V4A-003a,
+# Track B Knowledge Layer). The phase-1-miner-cross-domain agent consults
+# this index plus the per-domain files to know which endpoints to query.
+cross_domain_catalogs:
+  - path: "sources/books.yaml"
+    category: "K"
+    name: "Books / Literature / Philosophy / Religion / Speculative Fiction"
+  - path: "sources/sciences.yaml"
+    category: "L"
+    name: "Sciences — Physics / Bio / Chem / Neuro / Astro"
+  - path: "sources/medicine.yaml"
+    category: "M"
+    name: "Medicine — Clinical / Rare Disease / Public Health"
+  - path: "sources/arts.yaml"
+    category: "N"
+    name: "Arts — Painting / Sculpture / Architecture / Decorative"
+  - path: "sources/documentary.yaml"
+    category: "O"
+    name: "Documentary — Festival / Archive / Cinematheque"
+  - path: "sources/animation.yaml"
+    category: "P"
+    name: "Animation — Cinema-Grade / Festival / Anime"
+  - path: "sources/history.yaml"
+    category: "Q"
+    name: "History — Events / Biographies / Civilizations / Archaeology"
+  - path: "sources/music.yaml"
+    category: "R"
+    name: "Music & Performance — Recordings / Performances / Composition"
+
+quotas:
+  openrouter_paid_per_day: 1000
+  openrouter_free_per_day: 50
+  daily_usd_cap: 1000
+  monthly_usd_cap: 25000
+  phase_3_sonar_call_cap: 10
+
+untapped_check_strategy:
+  default:
+    method: "cross-search"
+    targets: ["wikipedia", "letterboxd", "imdb"]
+    rule: "an asset is 'untapped' if it does NOT appear in 2+ of: Wikipedia 'In popular culture' section; a Letterboxd list with >=10 films; an IMDb 'connections to' graph"
+  per_category_overrides:
+    A:
+      method: "case-citation-count"
+      threshold: "<5 popular-press refs in last 10y"
+    B:
+      method: "PubMed-and-IMDb-cross"
+      threshold: "case report exists AND no IMDb dramatization"
+    C:
+      method: "declassification-recency"
+      threshold: "declassified <5y ago"
+
+sources:
+
+  # ─── Category A: Legal ───────────────────────────────────────────────────────
+
+  - source_id: "courtlistener-search-v4"
+    category: "A"
+    name: "CourtListener Search API v4"
+    homepage_url: "https://www.courtlistener.com"
+    api_base: "https://www.courtlistener.com/api/rest/v4/search/"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 5000
+    auth_method: "token"
+    auth_required: true
+    license: "CC BY 4.0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "case-citation-count"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Free tier 5,000 reqs/day; auth header X-Token. Rich full-text of federal court opinions."
+
+  - source_id: "caselaw-access-project"
+    category: "A"
+    name: "Caselaw Access Project API"
+    homepage_url: "https://case.law"
+    api_base: "https://api.case.law/v1/cases/"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 500
+    auth_method: "token"
+    auth_required: true
+    license: "CC BY 4.0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "case-citation-count"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Harvard Law; 6.9M full-text US caselaw records. Free tier 500 reqs/day with token."
+
+  - source_id: "federal-register-articles"
+    category: "A"
+    name: "Federal Register Articles API"
+    homepage_url: "https://www.federalregister.gov"
+    api_base: "https://api.federalregister.gov/v1/articles.json"
+    quota:
+      requests_per_minute: 1000
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "case-citation-count"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "No auth required. Full text of all US federal regulatory notices since 1994."
+
+  # ─── Category B: Medical ─────────────────────────────────────────────────────
+
+  - source_id: "pubmed-eutils-esearch"
+    category: "B"
+    name: "PubMed Entrez eSearch API"
+    homepage_url: "https://pubmed.ncbi.nlm.nih.gov"
+    api_base: "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 100000
+    auth_method: "key"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "PubMed-and-IMDb-cross"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "NCBI PubMed; 36M+ biomedical citations. API key raises to 10 reqs/sec; anonymous is 3/sec."
+
+  - source_id: "semantic-scholar-search"
+    category: "B"
+    name: "Semantic Scholar Graph API — Paper Search"
+    homepage_url: "https://www.semanticscholar.org"
+    api_base: "https://api.semanticscholar.org/graph/v1/paper/search"
+    quota:
+      requests_per_minute: 100
+      requests_per_day: 100000
+    auth_method: "key"
+    auth_required: false
+    license: "ODC-BY"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "PubMed-and-IMDb-cross"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "AI2 open research paper corpus; 200M+ papers. Free tier with API key."
+
+  - source_id: "clinicaltrials-full-studies"
+    category: "B"
+    name: "ClinicalTrials.gov Full Studies API"
+    homepage_url: "https://clinicaltrials.gov"
+    api_base: "https://clinicaltrials.gov/api/v2/studies"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 50000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "PubMed-and-IMDb-cross"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "US NLM registry of clinical trials; ~450K studies globally. No auth needed."
+
+  # ─── Category C: Historical ──────────────────────────────────────────────────
+
+  - source_id: "nara-catalog"
+    category: "C"
+    name: "National Archives Catalog API"
+    homepage_url: "https://www.archives.gov"
+    api_base: "https://catalog.archives.gov/api/v2/records/search"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "NARA archival records catalog; 3B+ pages of digitized federal records."
+
+  - source_id: "dpla-items"
+    category: "C"
+    name: "Digital Public Library of America Items API"
+    homepage_url: "https://dp.la"
+    api_base: "https://api.dp.la/v2/items"
+    quota:
+      requests_per_minute: 100
+      requests_per_day: 100000
+    auth_method: "key"
+    auth_required: true
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "50M+ digitized historical items from US libraries and archives. Free API key."
+
+  - source_id: "chronicling-america-results"
+    category: "C"
+    name: "Chronicling America Newspaper Search"
+    homepage_url: "https://chroniclingamerica.loc.gov"
+    api_base: "https://chroniclingamerica.loc.gov/search/pages/results/"
+    quota:
+      requests_per_minute: 20
+      requests_per_day: 50000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Library of Congress; 19M+ digitized American newspaper pages 1770–1963."
+
+  # ─── Category D: News ────────────────────────────────────────────────────────
+
+  - source_id: "gdelt-doc-v2"
+    category: "D"
+    name: "GDELT Doc 2.0 API"
+    homepage_url: "https://gdeltproject.org"
+    api_base: "https://api.gdeltproject.org/api/v2/doc/doc"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Realtime global news analysis; 250+ countries, 65 languages. No auth needed."
+
+  - source_id: "nyt-articlesearch-v2"
+    category: "D"
+    name: "New York Times Article Search API v2"
+    homepage_url: "https://developer.nytimes.com"
+    api_base: "https://api.nytimes.com/svc/search/v2/articlesearch.json"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 4000
+    auth_method: "key"
+    auth_required: true
+    license: "proprietary"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "NYT Article Search back to 1851; free API key via developer.nytimes.com."
+
+  - source_id: "guardian-content-search"
+    category: "D"
+    name: "The Guardian Content API"
+    homepage_url: "https://open-platform.theguardian.com"
+    api_base: "https://content.guardianapis.com/search"
+    quota:
+      requests_per_minute: 12
+      requests_per_day: 5000
+    auth_method: "key"
+    auth_required: true
+    license: "proprietary"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "The Guardian open news API; 2M+ articles since 1999. Free developer key."
+
+  # ─── Category E: Mythology ───────────────────────────────────────────────────
+
+  - source_id: "gutenberg-today-rss"
+    category: "E"
+    name: "Project Gutenberg Today Feed (RSS)"
+    homepage_url: "https://www.gutenberg.org"
+    api_base: "https://www.gutenberg.org/cache/epub/feeds/today.rss"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "70K+ free ebooks including mythology, folklore. today.rss shows latest additions."
+
+  - source_id: "archive-mythology-search"
+    category: "E"
+    name: "Internet Archive Advanced Search — Mythology"
+    homepage_url: "https://archive.org"
+    api_base: "https://archive.org/advancedsearch.php?q=subject%3Amythology"
+    quota:
+      requests_per_minute: 15
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "mixed"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Internet Archive subject search for mythology texts; millions of digitized books."
+
+  - source_id: "openlibrary-search"
+    category: "E"
+    name: "Open Library Search API"
+    homepage_url: "https://openlibrary.org"
+    api_base: "https://openlibrary.org/search.json"
+    quota:
+      requests_per_minute: 20
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Open Library full-text and catalog search; 20M+ books including mythology/folklore."
+
+  # ─── Category F: Science ─────────────────────────────────────────────────────
+
+  - source_id: "crossref-works"
+    category: "F"
+    name: "Crossref Works API"
+    homepage_url: "https://www.crossref.org"
+    api_base: "https://api.crossref.org/works"
+    quota:
+      requests_per_minute: 50
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "150M+ DOI-linked scholarly works. Polite pool with email header = 50 req/sec."
+
+  - source_id: "openalex-works"
+    category: "F"
+    name: "OpenAlex Works API"
+    homepage_url: "https://openalex.org"
+    api_base: "https://api.openalex.org/works"
+    quota:
+      requests_per_minute: 100
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "250M+ scholarly works. Open, no auth required. Polite pool with email param."
+
+  - source_id: "arxiv-query"
+    category: "F"
+    name: "arXiv API Query Interface"
+    homepage_url: "https://arxiv.org"
+    api_base: "https://export.arxiv.org/api/query"
+    quota:
+      requests_per_minute: 3
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "arXiv non-exclusive"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "2M+ preprints in physics, math, CS, etc. Atom feed; 3 req/sec rate limit."
+
+  # ─── Category G: Conspiracy (declassified-doc trail) ─────────────────────────
+
+  - source_id: "blackvault-documentarchive"
+    category: "G"
+    name: "The Black Vault Document Archive"
+    homepage_url: "https://www.theblackvault.com"
+    api_base: "https://www.theblackvault.com/documentarchive/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "fair use"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Largest FOIA document archive. 2M+ declassified US government records."
+
+  - source_id: "nsarchive-document"
+    category: "G"
+    name: "National Security Archive Document"
+    homepage_url: "https://nsarchive.gwu.edu"
+    api_base: "https://nsarchive.gwu.edu/project/nuclear-documentation/"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "fair use"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "GWU National Security Archive; declassified US foreign policy + intelligence docs. WAF blocks HEAD (404/403); bot_block_allow_listed."
+
+  - source_id: "fbi-vault"
+    category: "G"
+    name: "FBI Vault FOIA Library"
+    homepage_url: "https://vault.fbi.gov"
+    api_base: "https://vault.fbi.gov/index.php/collection-list/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "declassification-recency"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "FBI FOIA reading room; 7,000+ FOIA-released documents. Direct URL browsing."
+
+  # ─── Category H: Criminal ────────────────────────────────────────────────────
+
+  - source_id: "fbi-wanted-v1"
+    category: "H"
+    name: "FBI Wanted API v1"
+    homepage_url: "https://www.fbi.gov/wanted"
+    api_base: "https://api.fbi.gov/v1/wanted/"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Official FBI Wanted fugitives API. JSON; no auth needed. Paginated."
+
+  - source_id: "fbi-topten-api"
+    category: "H"
+    name: "FBI Top Ten Most Wanted API"
+    homepage_url: "https://www.fbi.gov/wanted/topten"
+    api_base: "https://api.fbi.gov/v1/wanted/@wanted_by=topten"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Top Ten Most Wanted list via FBI API. Filter with ?field_offices=topten parameter."
+
+  - source_id: "ucr-api"
+    category: "H"
+    name: "UCR Crime Data Explorer API"
+    homepage_url: "https://crime-data-explorer.fr.cloud.gov"
+    api_base: "https://api.usa.gov/crime/fbi/cde/participation/national/"
+    quota:
+      requests_per_minute: 10
+      requests_per_day: 1000
+    auth_method: "key"
+    auth_required: true
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "FBI Uniform Crime Reporting API; national + state-level crime statistics."
+
+  # ─── Category I: Audience Validation ─────────────────────────────────────────
+
+  - source_id: "tmdb-movie-by-id"
+    category: "I"
+    name: "TMDB Movie Details API"
+    homepage_url: "https://www.themoviedb.org"
+    api_base: "https://api.themoviedb.org/3/movie/"
+    quota:
+      requests_per_minute: 50
+      requests_per_day: 100000
+    auth_method: "key"
+    auth_required: true
+    license: "CC BY-NC 4.0"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "TMDB movie metadata: cast, crew, ratings, revenue. Free API key registration."
+
+  - source_id: "boxofficemojo-title"
+    category: "I"
+    name: "Box Office Mojo Title Page"
+    homepage_url: "https://www.boxofficemojo.com"
+    api_base: "https://www.boxofficemojo.com/title/tt6751668/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "proprietary"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Box Office Mojo per-title revenue page. Bot-block allow-listed (returns 403 to HEAD)."
+
+  - source_id: "flixpatrol-streaming-services"
+    category: "I"
+    name: "FlixPatrol Streaming Services"
+    homepage_url: "https://www.flixpatrol.com"
+    api_base: "https://flixpatrol.com/streaming-services/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 100
+    auth_method: "none"
+    auth_required: false
+    license: "proprietary"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "FlixPatrol streaming ranking data. Bot-block allow-listed (returns 403/401 to HEAD)."
+
+  # ─── Category J: Paranormal ──────────────────────────────────────────────────
+
+  - source_id: "blackvault-paranormal"
+    category: "J"
+    name: "The Black Vault Paranormal Documents"
+    homepage_url: "https://www.theblackvault.com"
+    api_base: "https://www.theblackvault.com/documentarchive/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "fair use"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Black Vault paranormal document category. Bot-block allow-listed."
+
+  - source_id: "blackvault-aliencases"
+    category: "J"
+    name: "The Black Vault Alien Cases Archive"
+    homepage_url: "https://documents.theblackvault.com"
+    api_base: "https://www.theblackvault.com/documentarchive/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 500
+    auth_method: "none"
+    auth_required: false
+    license: "fair use"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Black Vault alien cases document sub-archive. Bot-block allow-listed."
+
+  - source_id: "archive-foia-set"
+    category: "J"
+    name: "Internet Archive FOIA Release Set"
+    homepage_url: "https://archive.org"
+    api_base: "https://archive.org/advancedsearch.php?q=subject%3AFOIA+AND+mediatype%3Atexts&output=json"
+    quota:
+      requests_per_minute: 15
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-07T00:00:00Z"
+    notes: "Internet Archive FOIA release collection including UAP/paranormal FOIA releases."

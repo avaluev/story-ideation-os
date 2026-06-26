@@ -1,0 +1,31 @@
+id,name,label,gloss,source
+1,tarkovsky_amber,Tarkovsky-amber,Sepia browns and ambers; long takes; deep-space planes,curated
+2,kubrick_symmetric,Kubrick-symmetric,Single-point perspective; cool whites and reds; geometric,curated
+3,brakhage_fragmented,Brakhage-fragmented,Hand-painted abstraction; rapid splices; kaleidoscopic,curated
+4,vermeer_window,Vermeer-window,Side-light interiors; ochres and lapis; domestic stillness,curated
+5,hammershoi_grey,Hammershoi-grey,Greys and creams; empty rooms; northern-window light,curated
+6,goya_black,Goya-black,Black paintings; saturnine reds; Spanish Romantic dread,curated
+7,rothko_saturated,Rothko-saturated,Color-field saturation; red-on-orange; meditative,curated
+8,ozu_still,Ozu-still,Tatami-level static frames; muted earth-tones; family interiors,curated
+9,wong_kar_wai,Wong-Kar-wai-saturated,Step-printed motion; emerald and crimson; humid neon,curated
+10,decarava_low_key,Roy-DeCarava low-key,Black-and-white but barely; deep shadow detail; jazz-toned,curated
+11,ramsay_tactile,Lynne-Ramsay-tactile,Close-skin macro; off-screen sound; bruise-coloured,curated
+12,malick_natural,Malick-natural,Magic-hour wide-angle; long lenses; whispered narration,curated
+13,doyle_handheld,Christopher-Doyle-handheld,Shaky urgency; neon-soaked greens; subjective POV,curated
+14,deakins_open,Deakins-open,Wide horizon high contrast; minimal lighting equipment,curated
+15,kowalski_grimy,Kowalski-grimy,Industrial blues and rust; underexposure; East-bloc,curated
+16,goro_miyazaki_pastel,Studio-Ghibli-pastel,Pastel skies; lush greens; hand-drawn animation,curated
+17,satoshi_kon_dense,Satoshi-Kon-dense,Photoreal anime; dense crowds; reality-vs-illusion blur,curated
+18,jodorowsky_psychedelic,Jodorowsky-psychedelic,Saturated mythic icons; staged tableau; alchemical,curated
+19,fellini_carnival,Fellini-carnival,Black-and-white processions; dream procession; baroque,curated
+20,bergman_close,Bergman-close,Tight portraits in cool tones; theological intimacy,curated
+21,reygadas_blueprint,Reygadas-blueprint,Long-static gradient skies; Mexican plateaus,curated
+22,kiarostami_window,Kiarostami-window,Car-window framings; switchback roads; Persian sunlight,curated
+23,akerman_real_time,Akerman-real-time,Fixed-frame domestic real-time; women's labour,curated
+24,denis_skin,Claire-Denis-skin,Skin-tone macro; equatorial heat; military intimacy,curated
+25,roeg_montage,Roeg-montage,Time-fractured cuts; pre-cog editing; British 1970s,curated
+26,roy_andersson_tableau,Roy-Andersson-tableau,Painted-canvas flat tableaux; cool greys; deadpan,curated
+27,hsiao_hsien_long,Hou-Hsiao-Hsien-long,Static long shots through doors and windows; Taiwanese,curated
+28,lubezki_wide,Lubezki-wide,Anamorphic single-take; wide lens portraiture,curated
+29,chivo_amber,Lubezki-amber,Sun-tinted natural light; The Tree of Life ground-floor,curated
+30,khondji_warm,Khondji-warm,Warm yellows oranges; nostalgic; Lost in Translation register,curated

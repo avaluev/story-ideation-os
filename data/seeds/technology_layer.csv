@@ -1,0 +1,9 @@
+id,name,label,gloss,source
+1,pre_electric,Pre-electric,Before reliable household electricity; candlelight horse,curated
+2,industrial,Industrial,Coal steam factory railroad telegraph,curated
+3,electric_domestic,Electric-domestic,Household appliances radio incandescent street lamp,curated
+4,broadcast,Broadcast,Television news cycle long-distance call,curated
+5,networked,Networked,Internet email mobile phone; pre-smartphone,curated
+6,surveilled,Surveilled,CCTV social media data brokers facial recognition,curated
+7,agentic_ai,Agentic AI,LLM assistants automated decisions in high-stake contexts,curated
+8,post_collapse,Post-collapse,Power grid degraded; technology vintage; salvage economy,curated

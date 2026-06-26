@@ -1,0 +1,101 @@
+id,name,region,gloss,source
+1,volga_german,Volga German,Russia/Kazakhstan,Ethnic Germans deported to Kazakhstan in 1941; communities returning to Volga,curated
+2,goan_catholic,Goan Catholic,South Asia,Portuguese-Catholic Goan community; diaspora in UK Canada Gulf,curated
+3,hutterite,Hutterite colony,North America,German Anabaptist communal farming colony; Manitoba Saskatchewan,curated
+4,sapmi,Sapmi (Sami homeland),Northern Europe,Indigenous Sami across Norway Sweden Finland Russia,curated
+5,karen_buffalo,Karen refugees in Buffalo,USA,Burmese Karen community settled in upstate New York,curated
+6,manchester_greek_cypriot,Manchester Greek Cypriot,UK,Cypriot diaspora in Manchester centred on church and football,curated
+7,cherokee_oklahoma,Cherokee Nation Oklahoma,USA,Eastern Band relocated by Trail of Tears; Tahlequah seat,curated
+8,ainu_hokkaido,Ainu Hokkaido,Japan,Indigenous people of Hokkaido formally recognised in 2019,curated
+9,druze_chouf,Druze Chouf,Levant,Lebanese Druze community in Mount Lebanon Chouf district,curated
+10,nuyorican,Nuyorican,USA,Puerto Rican community in New York City; cafe poetry tradition,curated
+11,chechen_grozny_diaspora,Chechen Grozny diaspora,Caucasus / Europe,Chechen exiles after both wars; communities in Vienna Berlin,curated
+12,zomi_dallas,Zomi Christians in Dallas,USA,Burmese Zomi Pentecostal community resettled in Texas,curated
+13,detroit_arab_american,Detroit Arab-American,USA,Largest Arab-American concentration; Lebanese Iraqi Yemeni Palestinian,curated
+14,inuvialuit_north,Inuvialuit (Western Arctic),Canada,Inuit of the Mackenzie Delta and Beaufort Sea,curated
+15,kerala_christian_emirates,Keralite Christians in UAE,Middle East,Syro-Malabar Catholic Keralites; petroleum-economy migrant labour,curated
+16,oromo_minneapolis,Oromo Minneapolis,USA,Largest Oromo diaspora; Ethiopian agrarian roots; Twin Cities,curated
+17,ulster_scots,Ulster Scots,Ireland/N.Ireland,Presbyterian descendants of Scottish settlers in Ulster,curated
+18,acadian_louisiana,Acadian / Cajun Louisiana,USA,French-speaking Acadian descendants expelled from Nova Scotia,curated
+19,dukhobor_british_columbia,Doukhobor British Columbia,Canada,Russian pacifist communal community in BC's Slocan Valley,curated
+20,vietnamese_orange_county,Vietnamese Orange County,USA,Largest Vietnamese diaspora outside Vietnam; Little Saigon,curated
+21,iranian_los_angeles,Tehrangeles,USA,Iranian diaspora in Los Angeles after 1979 revolution,curated
+22,polish_chicago,Polish Chicago,USA,Largest Polish-American population; Hamtramck and Jackowo,curated
+23,armenian_glendale,Armenian Glendale,USA,Largest Armenian community in the US,curated
+24,uighur_istanbul,Uighur Istanbul,Turkey,Largest Uighur diaspora outside China; Zeytinburnu district,curated
+25,rohingya_cox_bazar,Rohingya Cox's Bazar,Bangladesh,World's largest refugee camp; Rohingya post-2017 expulsion,curated
+26,assyrian_chicago,Assyrian Chicago,USA,Christian Assyrian community fled Iraq Syria,curated
+27,romanichal_uk,Romanichal Travellers UK,UK,Long-established Romani community in England Wales,curated
+28,maori_auckland_west,Maori West Auckland,Aotearoa NZ,Urban Maori population in Auckland's western suburbs,curated
+29,kanaka_maoli_hawaii,Kanaka Maoli (Hawaii),USA,Native Hawaiians; sovereignty movement; ongoing land struggles,curated
+30,sephardic_thessaloniki,Sephardic Thessaloniki,Greece,Greek Sephardic Jewish community decimated in Holocaust,curated
+31,assyrian_san_jose,Assyrian San Jose,USA,Northern California Assyrian community,curated
+32,kurdish_diyarbakir,Kurdish Diyarbakir,Turkey,Largest Kurdish-majority city in Turkey,curated
+33,kashmiri_srinagar,Kashmiri Srinagar,South Asia,Kashmir Valley capital; pandit community displacement,curated
+34,uzbek_namangan,Uzbek Namangan,Central Asia,Fergana Valley city; Soviet legacy and Islamic revival,curated
+35,igbo_aba,Igbo Aba,West Africa,Commercial centre in southeast Nigeria; post-Biafran rebuild,curated
+36,coptic_minya,Coptic Minya,Egypt,Largest Coptic-Christian concentration in Upper Egypt,curated
+37,tibetan_dharamsala,Tibetan Dharamsala,South Asia,Seat of Tibetan government in exile,curated
+38,wayuu_la_guajira,Wayuu La Guajira,South America,Indigenous Wayuu spanning Colombia Venezuela border,curated
+39,karelians_finland,Karelians Finland,Northern Europe,Finnic group displaced from Soviet-annexed Karelia in 1944,curated
+40,zoroastrian_yazd,Zoroastrian Yazd,Iran,Last sizeable Iranian Zoroastrian community,curated
+41,pomak_rhodope,Pomak Rhodopes,Balkans,Slavic-speaking Muslim community in Bulgarian/Greek Rhodope mountains,curated
+42,baluchi_quetta,Baluchi Quetta,South Asia,Largest Baluchi-majority city; cross-border ties Iran Afghanistan,curated
+43,maronite_brooklyn,Maronite Brooklyn,USA,Lebanese Maronite Catholic community in Bay Ridge,curated
+44,coptic_jersey_city,Coptic Jersey City,USA,Largest Coptic-American concentration on the East Coast,curated
+45,tamil_jaffna,Tamil Jaffna,South Asia,Sri Lankan Tamil capital after civil war,curated
+46,nepali_jackson_heights,Nepali Jackson Heights,USA,Largest Nepali community in the US; Queens NYC,curated
+47,filipina_riyadh,Filipina domestic workers Riyadh,Middle East,Hundreds of thousands of OFWs in Saudi households,curated
+48,roma_eastern_slovakia,Roma Eastern Slovakia,Europe,Marginalised Roma settlements in Kosice region,curated
+49,quechua_cusco,Quechua Cusco,South America,Largest Quechua-speaking population centred on the former Incan capital,curated
+50,deaf_martha_vineyard,Deaf community Martha's Vineyard descendants,USA,19th-c hereditary deafness; lineage now scattered,curated
+51,jain_antwerp_diamond,Jain diamond merchants Antwerp,Europe,Indian Jain community dominant in Antwerp diamond trade,curated
+52,parsi_mumbai,Parsi Mumbai,South Asia,Zoroastrian community of Mumbai; declining demographics,curated
+53,palestinian_amman,Palestinian Amman,Middle East,Largest Palestinian diaspora; majority of Jordan's population,curated
+54,coptic_imbaba,Coptic Imbaba,Egypt,Cairo working-class Coptic enclave subject to sectarian flashpoints,curated
+55,uyghur_almaty,Uyghur Almaty,Central Asia,Established Kazakh-citizen Uyghur community pre-2014 wave,curated
+56,sikh_west_midlands,Sikh West Midlands UK,UK,Established Punjabi-Sikh community Birmingham/Wolverhampton,curated
+57,nakh_ingush_nazran,Nakh Ingush Nazran,Caucasus,Ingush capital after 1992 conflict with North Ossetia,curated
+58,ezidi_lalish,Ezidi (Yazidi) Lalish,Iraq,Yazidi spiritual centre; community recovering post-2014,curated
+59,karen_chicago,Karen refugees Chicago,USA,Burmese Karen community on Chicago north side,curated
+60,bukharan_jewish_queens,Bukharan Jewish Forest Hills,USA,Bukharan Jews from Uzbekistan settled in Queens NYC,curated
+61,west_bank_settlement,West Bank settlement,Middle East,Israeli civilian settlement in occupied West Bank,curated
+62,west_bank_palestinian,West Bank Palestinian village,Middle East,Palestinian agricultural village adjacent to settlement,curated
+63,greek_diaspora_australia,Greek Melbourne,Oceania,Largest Greek city outside Greece; second-generation tension,curated
+64,polish_iceland,Polish Iceland,Northern Europe,Largest immigrant group in Iceland; post-2004 EU accession wave,curated
+65,vietnamese_berlin,Vietnamese Berlin,Europe,East-German contract workers; West-German boat people; reunified,curated
+66,bosniaks_st_louis,Bosniaks St Louis,USA,Largest Bosnian-American population; Bevo Mill area,curated
+67,ethiopian_jewish_israel,Ethiopian Jewish Israel,Levant,Beta Israel community airlifted Operation Solomon and Moses,curated
+68,kalmyk_elista,Kalmyk Elista,Caucasus,Mongolic-Buddhist republic of Kalmykia; Stalin-era deportation legacy,curated
+69,catalan_barcelona,Catalan Barcelona,Iberia,Catalan independentism active in Catalonia capital,curated
+70,basque_san_sebastian,Basque San Sebastian (Donostia),Iberia,Basque cultural revival post-ETA dissolution,curated
+71,saami_kiruna_finland,Sami Kiruna Sweden,Northern Europe,Indigenous reindeer-herding community displaced by mine expansion,curated
+72,georgian_tbilisi,Georgian Tbilisi,Caucasus,Capital city; post-Soviet political turbulence; pro-EU youth,curated
+73,sudanese_khartoum_diaspora,Sudanese Khartoum diaspora,USA/UK,Sudanese community fled multiple wars Khartoum 1989 2003 2023,curated
+74,colombian_pereira_diaspora,Pereira Colombians in Spain,Iberia,Coffee-zone migrants in Madrid Murcia post-2000,curated
+75,salvadoran_long_island,Salvadoran Long Island,USA,Hempstead Brentwood Central American community,curated
+76,haitian_brockton,Haitian Brockton,USA,Largest Haitian-American community by share in Massachusetts,curated
+77,liberian_minnesota,Liberian Minnesota,USA,Largest Liberian diaspora outside West Africa,curated
+78,somali_columbus,Somali Columbus,USA,Second-largest Somali-American population after Minneapolis,curated
+79,senegalese_harlem,Senegalese Harlem,USA,Wolof-speaking community along West 116th Street,curated
+80,hmong_minnesota,Hmong Minnesota,USA,Indochina war refugees; concentrated in Twin Cities,curated
+81,khmer_long_beach,Khmer Long Beach,USA,Largest Cambodian-American population; survivors and second gen,curated
+82,sikh_yuba_city,Sikh Yuba City,USA,Long-established Punjabi farming community in Sutter County,curated
+83,armenian_aleppo_diaspora,Armenian Aleppo diaspora,Middle East,Aleppine Armenians displaced again by Syrian war,curated
+84,greek_pontian,Greek Pontians,Caucasus/Greece,Pontic Greeks repatriated from Georgia and Russia 1990s,curated
+85,roma_jarkov,Roma Kharkiv (Jarkov),Eastern Europe,Roma community displaced by 2022 invasion,curated
+86,navajo_chinle,Navajo Chinle,USA,Diné community in Arizona Canyon de Chelly area,curated
+87,sufi_konya,Sufi Konya,Anatolia,Mevlevi-order centre; Rumi's tomb,curated
+88,uyghur_zeytinburnu,Uyghur Zeytinburnu Istanbul,Turkey,Largest Uyghur community outside East Turkestan,curated
+89,inuit_nunavut_iqaluit,Inuit Iqaluit,Canada,Capital of Nunavut; Inuktitut majority,curated
+90,colombian_medellin_comuna_13,Comuna 13 Medellin,South America,Once-dangerous neighbourhood now tourist gentrifier,curated
+91,african_american_great_migration,African-American Great Migration descendants Chicago,USA,Black families who migrated from Mississippi to Chicago South Side,curated
+92,african_american_reverse_migration,Reverse-migration to Atlanta,USA,Black professionals returning to South after generations North,curated
+93,filipino_jersey_city,Filipino Jersey City,USA,Concentrated Filipino-American population in NJ,curated
+94,puerto_rican_orlando,Puerto Rican Orlando,USA,Diaspora wave after Hurricane Maria,curated
+95,burmese_rohingya_chicago,Burmese Rohingya Chicago,USA,Newly-arrived Rohingya community in Chicago,curated
+96,kurdish_nashville,Kurdish Nashville,USA,Largest Kurdish-American community,curated
+97,hmong_fresno,Hmong Fresno,USA,Central California Hmong-American population,curated
+98,iraqi_san_diego,Iraqi San Diego (El Cajon),USA,Chaldean Catholic Iraqi community,curated
+99,bhutanese_pittsburgh,Bhutanese Pittsburgh,USA,Lhotshampa Nepali-speaking Bhutanese resettled in PA,curated
+100,zoroastrian_diaspora_toronto,Zoroastrian Toronto,Canada,Largest Zoroastrian community outside Iran/India,curated

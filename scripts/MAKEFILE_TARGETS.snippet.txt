@@ -1,0 +1,55 @@
+# =============================================================================
+# OPTIONAL — Investor-mode Makefile targets
+# =============================================================================
+#
+# The investor handoff scripts work standalone via direct invocation. If you
+# want shorter `make bootstrap` / `make doctor` / `make package` aliases for
+# convenience, paste the snippet below into your Makefile by hand.
+#
+# WHY THIS IS A SEPARATE FILE: the harness protects Makefile/pyproject.toml/etc
+# from agent edits (per CLAUDE.md anti-config-silencing rules). This snippet
+# must be applied manually by the human operator.
+#
+# HOW TO APPLY:
+#   1. Open Makefile in your editor.
+#   2. Find the line that begins `.PHONY: help install lint ...`.
+#   3. Append these target names to the end of the .PHONY line:
+#        bootstrap doctor first-run package investor-pack
+#   4. Append everything below the SNIPPET line to the bottom of Makefile.
+#   5. Save. Test with: make help  (the new targets should show up)
+#
+# WITHOUT this snippet, all investor flows still work via the direct
+# commands documented in docs/INVESTOR_CLAUDE_PROMPT.md.
+#
+# ---- SNIPPET START (paste below your existing Makefile content) ------------
+
+## bootstrap: investor first-run setup (installs deps, prompts for OpenRouter key, runs doctor)
+bootstrap:
+	@bash scripts/bootstrap_investor.sh
+
+## doctor: validate Python, uv, .env, and OpenRouter key connectivity
+doctor:
+	@uv run python scripts/preflight.py
+
+## first-run: complete onboarding — bootstrap, then prompt for theme and run
+first-run: bootstrap
+	@echo
+	@echo "What is your one-sentence story theme?"
+	@read -r theme; \
+	  if [ -z "$$theme" ]; then echo "No theme entered. Aborting."; exit 1; fi; \
+	  echo; echo "Running pipeline with theme: $$theme"; echo; \
+	  $(MAKE) single THEME="$$theme"
+
+## package: build a scrubbed investor handoff tarball at dist/anomaly-engine-investor-v1.tar.gz
+package:
+	@bash scripts/build_handoff_tarball.sh
+
+## investor-pack: build bilingual EN+RU investor markdown from the last completed run
+investor-pack:
+	@LATEST=$$(ls -td runs/*/ 2>/dev/null | head -1 | sed 's:/$$::'); \
+	if [ -z "$$LATEST" ]; then echo "No runs/ directory found. Run 'make single' first."; exit 1; fi; \
+	RUN_ID=$$(basename "$$LATEST"); \
+	echo "Building investor pack for run $$RUN_ID..."; \
+	uv run python scripts/build_investor_pack.py --run-id "$$RUN_ID"
+
+# ---- SNIPPET END -----------------------------------------------------------

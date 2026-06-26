@@ -1,0 +1,506 @@
+[
+  {
+    "id": "RT_001",
+    "label": "Predator Threat",
+    "primary_fear": "Something faster, stronger, and purposeful is hunting you and there is no safe place.",
+    "audience_resonance_M": 850,
+    "organic_marketing_multiplier": 2.3,
+    "recent_film_proof": [
+      "No Country for Old Men (2007)",
+      "Prey (2022)",
+      "A Quiet Place (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amygdala",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_002",
+    "label": "Contamination Disgust",
+    "primary_fear": "Something invisible and spreading has already entered your body and cannot be removed.",
+    "audience_resonance_M": 780,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "The Thing (1982)",
+      "Contagion (2011)",
+      "It Follows (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Disgust",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_003",
+    "label": "Social Exclusion",
+    "primary_fear": "The group that keeps you alive has decided you no longer belong and will not explain why.",
+    "audience_resonance_M": 720,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Parasite (2019)",
+      "Get Out (2017)",
+      "Promising Young Woman (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Social_rejection",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_004",
+    "label": "Status Humiliation",
+    "primary_fear": "You are being made to feel worthless in public and no one will stop it.",
+    "audience_resonance_M": 650,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Whiplash (2014)",
+      "The Wrestler (2008)",
+      "Joker (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Humiliation",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_005",
+    "label": "Mate Competition",
+    "primary_fear": "A rival is more attractive, more capable, and will take what you have worked for.",
+    "audience_resonance_M": 600,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Gone Girl (2014)",
+      "Fatal Attraction (1987)",
+      "Marriage Story (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mate_competition",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_006",
+    "label": "Kin Protection",
+    "primary_fear": "Your child, parent, or closest person is in immediate danger and you may be too late.",
+    "audience_resonance_M": 900,
+    "organic_marketing_multiplier": 2.4,
+    "recent_film_proof": [
+      "Hereditary (2018)",
+      "Room (2015)",
+      "Prisoners (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kin_selection",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_007",
+    "label": "Resource Starvation",
+    "primary_fear": "Essential resources — food, money, shelter, oxygen — are running out and others will take what remains.",
+    "audience_resonance_M": 680,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Snowpiercer (2013)",
+      "Interstellar (2014)",
+      "The Road (2009)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Resource_scarcity",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_008",
+    "label": "Unknown Dark",
+    "primary_fear": "Something is present in the darkness that you cannot identify and your senses are useless.",
+    "audience_resonance_M": 750,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "Alien (1979)",
+      "Annihilation (2018)",
+      "Don't Look Up (2021)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fear_of_the_dark",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_009",
+    "label": "Body Horror",
+    "primary_fear": "Your own body is betraying you from within and cannot be trusted or controlled.",
+    "audience_resonance_M": 520,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "The Fly (1986)",
+      "Titane (2021)",
+      "The Substance (2024)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Body_horror",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_010",
+    "label": "Betrayal Shock",
+    "primary_fear": "The person you most trusted has been systematically deceiving you and you feel it physically.",
+    "audience_resonance_M": 690,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Knives Out (2019)",
+      "Uncut Gems (2019)",
+      "The Invisible Man (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Betrayal_trauma",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_011",
+    "label": "Power Loss",
+    "primary_fear": "The control you have built over your life is being stripped away and you cannot stop it.",
+    "audience_resonance_M": 630,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Parasite (2019)",
+      "Succession (series, 2018)",
+      "Ozark (series, 2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fear_of_losing_control",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_012",
+    "label": "Death Reminder",
+    "primary_fear": "Your own mortality is suddenly visible, concrete, and closer than you believed.",
+    "audience_resonance_M": 820,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "Ikiru (1952)",
+      "Still Alice (2014)",
+      "Tick, Tick... Boom! (2021)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Terror_management_theory",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "RT_013",
+    "label": "Sexual Jealousy & Infidelity",
+    "primary_fear": "Mate-guarding and reproductive competition activate primal territorial aggression.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sexual_Jealousy_&_Infidelity",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_014",
+    "label": "Infant Vulnerability Exploitation",
+    "primary_fear": "Predators targeting children trigger protective rage and fears of powerlessness.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Infant_Vulnerability_Exploitation",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_015",
+    "label": "Elder Abandonment & Neglect",
+    "primary_fear": "Aging parents left to die alone evoke shame and societal dissolution fears.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Elder_Abandonment_&_Neglect",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_016",
+    "label": "Group Ostracism & Exile",
+    "primary_fear": "Expulsion from the tribe was ancient death sentence; social rejection mirrors existential threat.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Group_Ostracism_&_Exile",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_017",
+    "label": "Plague Carrier Status",
+    "primary_fear": "Contagion fear; marked as disease vector triggers disgust and violent exclusion.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Plague_Carrier_Status",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_018",
+    "label": "Food Poisoning & Toxins",
+    "primary_fear": "Stomach-level betrayal; invisible threats in sustenance trigger deep distrust.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Food_Poisoning_&_Toxins",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_019",
+    "label": "Predator Mimicry & Deception",
+    "primary_fear": "Humans wearing animal skins or masks; boundary dissolution horror.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Predator_Mimicry_&_Deception",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_020",
+    "label": "Dark Enclosed Space Panic",
+    "primary_fear": "Cave-in, burial alive, or tomb entrapment triggers asphyxiation terror.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dark_Enclosed_Space_Panic",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_021",
+    "label": "Height Vertigo & Falling",
+    "primary_fear": "Cliff edge, bridge collapse, or aerial exposure activates anti-gravity dread.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Height_Vertigo_&_Falling",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_022",
+    "label": "Drowning & Water Entrapment",
+    "primary_fear": "Submersion, tidal undertow, or ice-hole panic; lungs filling with fluid.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Drowning_&_Water_Entrapment",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_023",
+    "label": "Fire Entrapment & Burning",
+    "primary_fear": "Forest fire, building blaze, or lava flow; immobilizing heat and smoke.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fire_Entrapment_&_Burning",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_024",
+    "label": "Electrical Shock & Electrocution",
+    "primary_fear": "Lightning strike or high-voltage contact; instant incapacitation.",
+    "audience_resonance_M": 130,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Electrical_Shock_&_Electrocution",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_025",
+    "label": "Mob Violence & Crowd Crush",
+    "primary_fear": "Anonymous aggression; dilution of personal guilt in group frenzy.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mob_Violence_&_Crowd_Crush",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_026",
+    "label": "Child Abduction & Trafficking",
+    "primary_fear": "Stolen children; loss of next generation to unseen captors.",
+    "audience_resonance_M": 230,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Child_Abduction_&_Trafficking",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_027",
+    "label": "Identity Theft & Replication",
+    "primary_fear": "Someone else becomes you; duplication and erasure of self.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Identity_Theft_&_Replication",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_028",
+    "label": "Memory Loss & Dementia",
+    "primary_fear": "Self dissolving from inside; personality erasure without death.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Memory_Loss_&_Dementia",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_029",
+    "label": "Paralysis & Immobilization",
+    "primary_fear": "Locked-in syndrome; consciousness trapped in unresponsive body.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Paralysis_&_Immobilization",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_030",
+    "label": "Blindness & Sensory Deprivation",
+    "primary_fear": "Loss of external reality mapping; navigation into void.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Blindness_&_Sensory_Deprivation",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_031",
+    "label": "Mutilation Horror & Dismemberment",
+    "primary_fear": "Body integrity violation; limb loss or disfigurement.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mutilation_Horror_&_Dismemberment",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_032",
+    "label": "Cannibalism Taboo Violation",
+    "primary_fear": "Consumption of kin or sacred flesh; species boundary collapse.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cannibalism_Taboo_Violation",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_033",
+    "label": "Possession & Loss of Consciousness",
+    "primary_fear": "External entity inhabiting self; will surrender to other mind.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Possession_&_Loss_of_Consciousness",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_034",
+    "label": "Public Humiliation & Exposure",
+    "primary_fear": "Naked in the square; status collapse and sexual shame.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Public_Humiliation_&_Exposure",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_035",
+    "label": "Honor Killing & Familial Execution",
+    "primary_fear": "Family members become executioners; betrayal by blood.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Honor_Killing_&_Familial_Execution",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_036",
+    "label": "Debt Slavery & Indentured Servitude",
+    "primary_fear": "Permanent obligation; freedom mortgaged away forever.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Debt_Slavery_&_Indentured_Servitude",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_037",
+    "label": "Organ Harvesting & Vivisection",
+    "primary_fear": "Bodily theft; parts extracted while conscious.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Organ_Harvesting_&_Vivisection",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_038",
+    "label": "Human Trafficking & Enslavement",
+    "primary_fear": "Captivity; bodily autonomy permanently surrendered.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Human_Trafficking_&_Enslavement",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_039",
+    "label": "Forced Disappearance & Erasure",
+    "primary_fear": "Vanishing into state apparatus; no body, no grave, no closure.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Forced_Disappearance_&_Erasure",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "RT_040",
+    "label": "Mass Casualty & Genocide",
+    "primary_fear": "Entire population liquidated; group death and species decline.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Horror/thriller narrative reference]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mass_Casualty_&_Genocide",
+    "evidence_quality": "medium"
+  }
+]

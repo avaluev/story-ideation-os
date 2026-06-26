@@ -1,0 +1,27 @@
+# lefthook.yml — Anomaly Engine v3.0 git hooks
+# Humans can use --no-verify; agents CANNOT (banned in CLAUDE.md, enforced by pre_bash_gate.py)
+# Install: brew install lefthook && lefthook install
+# Linux: see https://lefthook.dev/install
+
+pre-commit:
+  parallel: true
+  commands:
+    ruff:
+      run: uv run ruff check {staged_files}
+      glob: "*.py"
+    ruff-format:
+      run: uv run ruff format --check {staged_files}
+      glob: "*.py"
+    pyright:
+      run: uv run pyright {staged_files}
+      glob: "*.py"
+    gitleaks:
+      run: gitleaks protect --staged --no-banner --config .gitleaks.toml
+
+pre-push:
+  commands:
+    test:
+      run: uv run pytest tests/ -x
+    eval:
+      # exit 5 = pytest "no tests collected" — allowed pre-P4 when evals/ has no bodies yet
+      run: uv run pytest evals/ -x || [ $? -eq 5 ]

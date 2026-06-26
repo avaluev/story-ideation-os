@@ -1,0 +1,31 @@
+id,name,label,prompt,active_day1,source
+1,borges,Borges,Treat the concept as a metaphysical labyrinth; the protagonist's choice loops back into itself; the antagonist is the protagonist's reflection across a small philosophical asymmetry,True,curated
+2,le_guin,Le Guin,Make the political anthropological; show the contradiction as ethnographic detail of two cultures whose moral frameworks cannot translate,True,curated
+3,vonnegut,Vonnegut,Collapse the comedy and the tragedy onto the same beat; whatever is funniest is also where the story breaks the protagonist,True,curated
+4,calvino,Calvino,Let the structure be the character; the form of the story IS the protagonist's psychology,True,curated
+5,saramago,Saramago,Bend exactly one rule of reality and let the entire story flow from how the bending re-orders the social fabric,True,curated
+6,murakami,Murakami,Place the surreal next to the ordinary; the protagonist accepts the impossible and small daily acts retain weight,True,curated
+7,mccarthy,McCarthy,Treat violence as a moral framework not a plot beat; the landscape itself is the antagonist's argument,True,curated
+8,tokarczuk,Tokarczuk,The narrative is a constellation not a line; multiple unrelated lives compose a single moral question,True,curated
+9,sebald,Sebald,Memory is the structural engine; the story is constructed of digressions and the protagonist is the absent center,True,curated
+10,ferrante,Ferrante,The closest friendship is the antagonist; loyalty and rivalry share the same instrument,True,curated
+11,pamuk,Pamuk,Two civilisations bleed into one another; East and West palimpsest in a single consciousness,False,curated
+12,han_kang,Han Kang,The body refuses; somatic resistance becomes the moral act,False,curated
+13,mahfouz,Mahfouz,The neighbourhood IS the protagonist; the alley contains the moral universe,False,curated
+14,achebe,Achebe,Colonial language is the antagonist; mother-tongue cosmology persists underneath,False,curated
+15,adichie,Adichie,Two countries one woman; love and migration as the same gesture,False,curated
+16,coetzee,Coetzee,A protagonist with no defenders confronts a system without mercy,False,curated
+17,marilynne_robinson,Robinson,Grace and habit; theology rendered in domestic light,False,curated
+18,morrison,Morrison,Trauma erupts through the floorboards; the dead claim the living through naming,False,curated
+19,bolano,Bolano,Catalogues of horror told with deadpan tenderness; literature as crime scene,False,curated
+20,enriquez,Enriquez,Argentine gothic; the haunted is also the political,False,curated
+21,yiyun_li,Yiyun Li,Restraint is the form; what is unsaid is the architecture,False,curated
+22,salter,Salter,Sentence-as-still-life; sensual minimalism; sex and weather,False,curated
+23,munro,Munro,Small-town moral economy; lifelong reverberations of one decision,False,curated
+24,gass,Gass,Language as colour and texture; meaning subordinate to sentence-music,False,curated
+25,dillard,Dillard,The natural world burns through; mystic attention to the surface of things,False,curated
+26,cusk,Cusk,The protagonist is a listener; voices of others compose the self,False,curated
+27,saunders,Saunders,Demotic American voices; satire that breaks into tenderness,False,curated
+28,erdrich,Erdrich,Indigenous communal time; ancestors as continuing presence,False,curated
+29,bernhard,Bernhard,A single furious monologue; the rant as moral instrument,False,curated
+30,knausgaard,Knausgaard,Radical specificity; the texture of a single afternoon dilated to story,False,curated

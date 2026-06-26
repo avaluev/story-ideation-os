@@ -1,0 +1,73 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "P"
+category_name: "Animation — Cinema-Grade / Festival / Anime"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Animation endpoints;
+# Jikan (MyAnimeList), AniDB, Annecy festival, Wikidata animated films.
+
+sources:
+
+  - source_id: "animation-jikan-anime"
+    category: "P"
+    name: "Jikan — MyAnimeList Unofficial REST API"
+    homepage_url: "https://jikan.moe"
+    api_base: "https://api.jikan.moe/v4/anime"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Jikan v4 (REST API for MyAnimeList.net); 30K+ anime with synopsis, studios, genres, ratings, broadcast schedule. No auth; 60 reqs/minute soft cap. Per-anime deep-path /anime/{id}."
+
+  - source_id: "animation-anidb-httpapi"
+    category: "P"
+    name: "AniDB HTTP API — Anime Lookup"
+    homepage_url: "https://anidb.net"
+    api_base: "https://api.anidb.net:9001/httpapi"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 200
+    auth_method: "key"
+    auth_required: true
+    license: "CC BY 4.0"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "AniDB metadata; 17K+ anime with creators, characters, episode-level metadata. Free client registration required. Strict rate limit; bot-block allow-listed."
+
+  - source_id: "animation-wikidata-animated-films"
+    category: "P"
+    name: "Wikidata SPARQL — Animated Feature Films"
+    homepage_url: "https://query.wikidata.org"
+    api_base: "https://query.wikidata.org/sparql"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Wikidata SPARQL `instance of: animated film` (Q202866) yields 15K+ animated features with country, technique (Q24862, Q4407246, etc.), director, awards. Distinct source_id from books/documentary."
+
+  - source_id: "animation-annecy-films-program"
+    category: "P"
+    name: "Annecy International Animation Festival — Films Program"
+    homepage_url: "https://www.annecyfestival.com"
+    api_base: "https://www.annecyfestival.com/films/the-films-on-the-program/"
+    quota:
+      requests_per_minute: 5
+      requests_per_day: 100
+    auth_method: "none"
+    auth_required: false
+    license: "proprietary"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "World's leading animation festival (since 1960); annual selections include features, shorts, TV, commissioned. Browse-only HTML (no JSON API); bot-block allow-listed; per-year deep-path /films/the-films-on-the-program/{year}/."

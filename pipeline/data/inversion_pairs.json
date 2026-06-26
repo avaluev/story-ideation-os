@@ -1,0 +1,46 @@
+{
+  "_meta": {
+    "schema_version": "v5.0.0",
+    "description": "Semantic-opposite pairings for structural_inversions (SI_NN). Used by pipeline.operators.mental_models.invert() to flip a candidate's structural_inversion to its inverse. Pairs are symmetric: when (A,B) is listed, invert(A) -> B AND invert(B) -> A. Unlisted SIs produce no mutant on the structural_inversion axis.",
+    "source_table": "pipeline/data/compound_seed_variables.json :: structural_inversions",
+    "policy": "Partial coverage is a feature: only pairings with a clearly defensible semantic opposite are listed. Adding speculative pairs would dilute the operator's signal.",
+    "adr": "ADR-0012"
+  },
+  "pairs": {
+    "SI_01": "SI_22",
+    "SI_22": "SI_01",
+    "SI_02": "SI_12",
+    "SI_12": "SI_02",
+    "SI_03": "SI_13",
+    "SI_13": "SI_03",
+    "SI_04": "SI_11",
+    "SI_11": "SI_04",
+    "SI_05": "SI_18",
+    "SI_18": "SI_05",
+    "SI_06": "SI_15",
+    "SI_15": "SI_06",
+    "SI_07": "SI_09",
+    "SI_09": "SI_07",
+    "SI_08": "SI_17",
+    "SI_17": "SI_08",
+    "SI_14": "SI_19",
+    "SI_19": "SI_14",
+    "SI_16": "SI_21",
+    "SI_21": "SI_16",
+    "SI_20": "SI_23",
+    "SI_23": "SI_20"
+  },
+  "rationale": {
+    "SI_01<->SI_22": "Protagonist IS the institution (defends system) <-> villain's cause is righteous (system is the wrong target).",
+    "SI_02<->SI_12": "No villain, harm from policy <-> most dangerous person is the one trying hardest to help.",
+    "SI_03<->SI_13": "Hero caused the harm before story begins <-> hero answered the call and the call was wrong.",
+    "SI_04<->SI_11": "Antagonist + protagonist share identical goal <-> two stories that appear separate are the same story.",
+    "SI_05<->SI_18": "Investigation becomes confession (turn inward) <-> journey to save the world becomes finding one person.",
+    "SI_06<->SI_15": "Competence is the problem (the big act fails) <-> the small act is what changes everything.",
+    "SI_07<->SI_09": "Ending is neither victory nor defeat (no closure) <-> success reveals failure (closure inverts).",
+    "SI_08<->SI_17": "Hero changes world by refusing to change self <-> power comes from letting go (changing self).",
+    "SI_14<->SI_19": "World has no villain or solution (entropy) <-> love is the irrational choice that creates meaning.",
+    "SI_16<->SI_21": "Monster was protecting them (threat is care) <-> unknown world is familiar (alien is home).",
+    "SI_20<->SI_23": "Child teaches the adult (wisdom from below) <-> ordinary person in extraordinary world (extraordinariness from within)."
+  }
+}

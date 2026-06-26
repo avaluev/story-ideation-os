@@ -1,0 +1,74 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "M"
+category_name: "Medicine — Clinical / Rare Disease / Public Health"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Medicine endpoints
+# distinct from Category B (PubMed/SemanticScholar/ClinicalTrials).
+# Focus: rare-disease, drug-naming, global-health, mesh-vocabulary APIs.
+
+sources:
+
+  - source_id: "medicine-who-gho-indicator"
+    category: "M"
+    name: "WHO GHO — Global Health Observatory Indicator API"
+    homepage_url: "https://www.who.int/data/gho"
+    api_base: "https://ghoapi.azureedge.net/api/Indicator"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "World Health Organization indicator catalog (mortality, immunization, nutrition, NCDs); OData feed. Per-indicator data at /api/{IndicatorCode}. Used for audience-validation cross-check."
+
+  - source_id: "medicine-rxnorm-drugs"
+    category: "M"
+    name: "RxNorm — NIH Normalized Drug Names API"
+    homepage_url: "https://rxnav.nlm.nih.gov"
+    api_base: "https://rxnav.nlm.nih.gov/REST/drugs.json"
+    quota:
+      requests_per_minute: 20
+      requests_per_day: 50000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "US NLM normalized clinical drug names + relationships (brand→generic, dose form, strength). 230K+ RxCUIs. Used for medical-asset deep-link verification."
+
+  - source_id: "medicine-mesh-sparql"
+    category: "M"
+    name: "NIH MeSH RDF SPARQL Endpoint"
+    homepage_url: "https://id.nlm.nih.gov/mesh"
+    api_base: "https://id.nlm.nih.gov/mesh/sparql"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 5000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Medical Subject Headings RDF/SPARQL; 30K+ descriptors hierarchically organized. Anchors PubMed cross-references. Web UI at id.nlm.nih.gov/mesh/sparql.html."
+
+  - source_id: "medicine-orphanet-clinical-entity"
+    category: "M"
+    name: "Orphanet — Rare-Disease Clinical Entity API"
+    homepage_url: "https://www.orphadata.com"
+    api_base: "https://api.orphacode.org/EN/ClinicalEntity"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "key"
+    auth_required: true
+    license: "CC BY 4.0"
+    bot_block_allow_listed: true
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "European Orphanet rare-disease registry; 6,000+ rare diseases with prevalence, gene associations, ICD/OMIM cross-codes. Free key registration. Bot-block on HEAD; 200 on GET with key."

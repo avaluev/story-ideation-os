@@ -1,0 +1,12 @@
+{
+  "asset_id": "golden-asset-003",
+  "target_countries": ["US", "RU", "DE"],
+  "cited_audience": 120000000,
+  "sources_per_claim": 2,
+  "trend_direction": "rising",
+  "primary_jtbd_strength": 0.80,
+  "source_quote": "Audiences seek authentic historical voices worldwide",
+  "produced_at": "2026-05-07T12:00:00+00:00",
+  "session_id": "golden-fixture-session",
+  "total_score": null
+}

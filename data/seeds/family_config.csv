@@ -1,0 +1,11 @@
+id,name,label,gloss,source
+1,orphan,Orphan,No surviving parents; raised in institution or by relatives,curated
+2,nuclear_intact,Nuclear-intact,Both biological parents and siblings present,curated
+3,nuclear_fractured,Nuclear-fractured,Living together but in cold war; loveless household,curated
+4,extended_multigen,Extended multi-generational,Three generations under one roof; matriarch or patriarch,curated
+5,chosen_family,Chosen family,Non-biological tie functions as primary kin; queer found-family,curated
+6,single_parent,Single-parent,One parent raises children; widowed or divorced,curated
+7,foster,Foster / Adopted,State-placed or adopted; trauma of original separation,curated
+8,divorced_bicoastal,Divorced bicoastal,Joint custody across distance; weekend parent,curated
+9,migrant_split,Migrant-split,Parent overseas sending remittance; child raised elsewhere,curated
+10,ancestral_haunted,Ancestral-haunted,Ghost of an ancestor or trauma still active in the household,curated

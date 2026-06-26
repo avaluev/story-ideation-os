@@ -1,0 +1,74 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "N"
+category_name: "Arts — Painting / Sculpture / Architecture / Decorative"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Arts endpoints span
+# major museum open-access programs. Each is a deep-link JSON API; no
+# generic search engines.
+
+sources:
+
+  - source_id: "arts-met-museum-objects"
+    category: "N"
+    name: "Metropolitan Museum of Art — Object API"
+    homepage_url: "https://www.metmuseum.org"
+    api_base: "https://collectionapi.metmuseum.org/public/collection/v1/objects"
+    quota:
+      requests_per_minute: 80
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "The Met's 470K+ object catalog; CC0 metadata; ~200K+ public-domain images. Deep-path /objects/{id} returns artist, period, medium, geography, classification."
+
+  - source_id: "arts-smithsonian-openaccess-search"
+    category: "N"
+    name: "Smithsonian Open Access Search API"
+    homepage_url: "https://www.si.edu/openaccess"
+    api_base: "https://api.si.edu/openaccess/api/v1.0/search"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 5000
+    auth_method: "key"
+    auth_required: true
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Smithsonian's 4.5M+ open-access digital records (art, anthropology, natural history, design). Free key via api.data.gov. Distinct from arts/painting due to broader museum scope."
+
+  - source_id: "arts-rijksmuseum-collection"
+    category: "N"
+    name: "Rijksmuseum Collection API"
+    homepage_url: "https://www.rijksmuseum.nl"
+    api_base: "https://www.rijksmuseum.nl/api/en/collection"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "key"
+    auth_required: true
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Amsterdam's national art museum; 700K+ artworks (Rembrandt, Vermeer, etc.); 300K+ open-access images. Free key registration. Per-object deep-path /api/en/collection/{object-number}."
+
+  - source_id: "arts-harvard-art-museums-object"
+    category: "N"
+    name: "Harvard Art Museums — Object API"
+    homepage_url: "https://harvardartmuseums.org"
+    api_base: "https://api.harvardartmuseums.org/object"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 2500
+    auth_method: "key"
+    auth_required: true
+    license: "open"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Harvard's 270K+ objects across Fogg/Busch-Reisinger/Sackler. Free key via harvardartmuseums.org/collections/api. Deep-path /object/{id}."

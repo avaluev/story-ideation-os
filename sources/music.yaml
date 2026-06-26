@@ -1,0 +1,75 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "R"
+category_name: "Music & Performance — Recordings / Performances / Composition"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). Music endpoints;
+# MusicBrainz canonical metadata, LoC National Jukebox historical
+# recordings, Setlist.fm live-performance data, AcousticBrainz audio
+# features. No Spotify (deep-link policy: requires OAuth + per-user state).
+
+sources:
+
+  - source_id: "music-musicbrainz-artist"
+    category: "R"
+    name: "MusicBrainz Web Service v2 — Artist Lookup"
+    homepage_url: "https://musicbrainz.org"
+    api_base: "https://musicbrainz.org/ws/2/artist"
+    quota:
+      requests_per_minute: 50
+      requests_per_day: 100000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "MusicBrainz canonical music-metadata DB; 2M+ artists, 3M+ releases, 30M+ recordings. CC0 metadata; 1 req/sec polite. Per-artist deep-path /artist/{mbid}."
+
+  - source_id: "music-loc-national-jukebox"
+    category: "R"
+    name: "Library of Congress — National Jukebox JSON"
+    homepage_url: "https://www.loc.gov"
+    api_base: "https://www.loc.gov/collections/national-jukebox/?fo=json"
+    quota:
+      requests_per_minute: 20
+      requests_per_day: 5000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "LoC National Jukebox; 50K+ pre-1925 commercial recordings (Edison cylinders, Victor 78s, opera, jazz, vaudeville). All public-domain post-2022 (Music Modernization Act). Same loc.gov host as history catalog; distinct source_id."
+
+  - source_id: "music-setlistfm-search"
+    category: "R"
+    name: "Setlist.fm — Live Performance Setlist API"
+    homepage_url: "https://www.setlist.fm"
+    api_base: "https://api.setlist.fm/rest/1.0/search/setlists"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "key"
+    auth_required: true
+    license: "CC BY-SA 4.0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Setlist.fm crowd-sourced live-concert setlists; 5M+ shows back to 1959. Free key registration. Filterable by artist, venue, date, country. Deep-path /setlist/{setlist-id}.html."
+
+  - source_id: "music-acousticbrainz-low-level"
+    category: "R"
+    name: "AcousticBrainz — Audio Feature API (Archived)"
+    homepage_url: "https://acousticbrainz.org"
+    api_base: "https://acousticbrainz.org/api/v1/low-level"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 5000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "AcousticBrainz audio-feature DB (tempo, key, mood, instrument detection); 8M+ MusicBrainz-keyed entries. Project archived 2022 but data still served. CC0; per-recording deep-path /api/v1/{mbid}/low-level."

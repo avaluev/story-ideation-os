@@ -1,0 +1,134 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "Bash(uv run:*)",
+      "Bash(make:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git tag:*)",
+      "Bash(node $HOME/.claude/get-shit-done/bin/gsd-tools.cjs:*)",
+      "Write(./pipeline/**)",
+      "Write(./tests/**)",
+      "Write(./evals/**)",
+      "Write(./scripts/**)",
+      "Write(./prompts/**)",
+      "Write(./frameworks/**)",
+      "Write(./sources/**)",
+      "Write(./seeds/**)",
+      "Write(./docs/**)",
+      "Write(./examples/**)",
+      "Write(./.planning/**)",
+      "Write(./.claude/agents/**)",
+      "Write(./.claude/hooks/**)",
+      "Write(./CLAUDE.md)",
+      "Write(./AGENTS.md)",
+      "Write(./README.md)",
+      "Write(./Makefile)",
+      "Write(./.env.example)",
+      "Write(./.gitignore)"
+    ],
+    "deny": [
+      "Bash(curl:*)",
+      "Bash(wget:*)",
+      "Bash(sudo:*)",
+      "Bash(rm -rf /:*)",
+      "Bash(rm -rf ~:*)",
+      "Bash(rm -rf $:*)",
+      "Bash(chmod 777:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Write(./.env)",
+      "Write(./.env.*)",
+      "Write(./pyproject.toml)",
+      "Write(./.ruff.toml)",
+      "Write(./ruff.toml)",
+      "Write(./lefthook.yml)",
+      "Write(./pyrightconfig.json)",
+      "Write(./uv.lock)",
+      "Write(./.claude/settings.json)",
+      "Write(./.claude/settings.local.json)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/pre_protect.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/pre_anti_slop_gate.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/pre_bash_gate.py"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/post_lint.py"
+          }
+        ]
+      },
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/post_task_capture.py"
+          },
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/post_task_persist.py"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/stop_verify.py"
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run python .claude/hooks/pre_compact_checkpoint.py"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "CM_001",
+    "label": "AI Job Displacement",
+    "primary_fear": "The skills you spent decades building are becoming obsolete faster than you can learn replacements.",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.9,
+    "thematic_cluster": "technology",
+    "domain_tags": ["technology", "automation", "labor", "obsolescence"],
+    "recent_film_proof": [
+      "Sorry to Bother You (2018)",
+      "Margin Call (2011)",
+      "Downsizing (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Technological_unemployment",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_002",
+    "label": "Truth Collapse",
+    "primary_fear": "Shared factual reality has fractured — different communities now inhabit incompatible versions of what happened.",
+    "audience_resonance_M": 520,
+    "organic_marketing_multiplier": 2.2,
+    "urgency_score_2026": 1.8,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["truth", "epistemology", "institution", "evidence"],
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "The Parallax View (1974)",
+      "Rashomon (1950)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Post-truth_politics",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_003",
+    "label": "Longevity Inequality",
+    "primary_fear": "Life extension will be available only to the wealthy, creating a biological two-tier civilization.",
+    "audience_resonance_M": 360,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.2,
+    "thematic_cluster": "economic",
+    "domain_tags": ["economics", "biology", "class", "health"],
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "In Time (2011)",
+      "Never Let Me Go (2010)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Life_extension",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_004",
+    "label": "Climate Grief",
+    "primary_fear": "The world your children will inherit is fundamentally damaged in ways that cannot be undone.",
+    "audience_resonance_M": 450,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 1.6,
+    "thematic_cluster": "nature",
+    "domain_tags": ["climate", "ecology", "grief", "loss"],
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "First Reformed (2017)",
+      "Beasts of the Southern Wild (2012)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Climate_grief",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_005",
+    "label": "Institutional Distrust",
+    "primary_fear": "Every major institution — government, media, medicine, religion — has been revealed as compromised or self-serving.",
+    "audience_resonance_M": 550,
+    "organic_marketing_multiplier": 2.2,
+    "urgency_score_2026": 1.7,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["institution", "authority", "government", "betrayal"],
+    "recent_film_proof": [
+      "Spotlight (2015)",
+      "The Post (2017)",
+      "Dark Waters (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Political_distrust",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_006",
+    "label": "Algorithmic Intimacy",
+    "primary_fear": "Your deepest emotional needs are now understood better by algorithms than by the people who love you.",
+    "audience_resonance_M": 400,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.5,
+    "thematic_cluster": "technology",
+    "domain_tags": ["AI", "intimacy", "digital", "isolation"],
+    "recent_film_proof": [
+      "Her (2013)",
+      "Black Mirror: Be Right Back (2013)",
+      "Ex Machina (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_interaction",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_007",
+    "label": "Digital Identity Fragmentation",
+    "primary_fear": "You maintain parallel selves across platforms, and none of them is the real you — including offline.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 1.4,
+    "thematic_cluster": "identity",
+    "domain_tags": ["identity", "digital", "culture", "belonging"],
+    "recent_film_proof": [
+      "Ingrid Goes West (2017)",
+      "Eighth Grade (2018)",
+      "Catfish (2010)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Digital_identity",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_008",
+    "label": "Surveillance Normalization",
+    "primary_fear": "Total monitoring of behavior, location, and thought has become so ordinary that opposition feels paranoid.",
+    "audience_resonance_M": 430,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.6,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["algorithm", "government", "digital", "authority"],
+    "recent_film_proof": [
+      "Snowden (2016)",
+      "The Circle (2017)",
+      "1984 (1984)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mass_surveillance",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_009",
+    "label": "Post-Truth Exhaustion",
+    "primary_fear": "The constant effort to determine what is real has become so exhausting that people have stopped trying.",
+    "audience_resonance_M": 490,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.7,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["truth", "epistemology", "institution", "complexity"],
+    "recent_film_proof": [
+      "The Social Dilemma (2020)",
+      "Wag the Dog (1997)",
+      "Network (1976)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Post-truth",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_010",
+    "label": "Biosecurity Paranoia",
+    "primary_fear": "Every new pathogen carries the potential to reset civilization, and no government has an adequate plan.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.4,
+    "thematic_cluster": "nature",
+    "domain_tags": ["biology", "government", "civilization", "fear"],
+    "recent_film_proof": [
+      "Contagion (2011)",
+      "28 Days Later (2002)",
+      "Outbreak (1995)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biosecurity",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_011",
+    "label": "Attention Economy Collapse",
+    "primary_fear": "The capacity for sustained focus has been industrially harvested to the point of permanent impairment.",
+    "audience_resonance_M": 460,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.5,
+    "thematic_cluster": "technology",
+    "domain_tags": ["algorithm", "digital", "health", "identity"],
+    "recent_film_proof": [
+      "The Social Dilemma (2020)",
+      "Idiocracy (2006)",
+      "Black Mirror: Fifteen Million Merits (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Attention_economy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_012",
+    "label": "Geopolitical Realignment",
+    "primary_fear": "The international order that prevented major-power war for eighty years is visibly fracturing.",
+    "audience_resonance_M": 370,
+    "organic_marketing_multiplier": 1.7,
+    "urgency_score_2026": 1.5,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["civilization", "government", "scale", "war"],
+    "recent_film_proof": [
+      "Oppenheimer (2023)",
+      "Vice (2018)",
+      "Munich (2005)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Multipolar_world",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_013",
+    "label": "Economic Precarity Generation",
+    "primary_fear": "An entire generation has accepted that homeownership, retirement security, and stable employment are not for them.",
+    "audience_resonance_M": 510,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.8,
+    "thematic_cluster": "economic",
+    "domain_tags": ["economics", "labor", "class", "precarity"],
+    "recent_film_proof": [
+      "Nomadland (2020)",
+      "Sorry to Bother You (2018)",
+      "American Honey (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Precariat",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_014",
+    "label": "Religious Revival vs Secular Drift",
+    "primary_fear": "A society that abandoned shared sacred meaning is discovering that secular substitutes do not hold under pressure.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 1.2,
+    "thematic_cluster": "identity",
+    "domain_tags": ["religion", "culture", "tradition", "identity"],
+    "recent_film_proof": [
+      "First Reformed (2017)",
+      "Silence (2016)",
+      "The Witch (2015)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Post-secular",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_015",
+    "label": "Body Autonomy Conflict",
+    "primary_fear": "The state's claim over individual bodies — in health, reproduction, and identity — is being expanded and contested simultaneously.",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 2.1,
+    "urgency_score_2026": 1.7,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["authority", "identity", "institution", "health"],
+    "recent_film_proof": [
+      "Never Rarely Sometimes Always (2020)",
+      "4 Months, 3 Weeks and 2 Days (2007)",
+      "The Handmaid's Tale (series, 2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bodily_autonomy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_016",
+    "label": "Post-Election Realignment",
+    "primary_fear": "After the election, political divisions are not healing but calcifying into separate realities.",
+    "audience_resonance_M": 520,
+    "organic_marketing_multiplier": 2.2,
+    "urgency_score_2026": 1.8,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["government", "authority", "institution", "truth"],
+    "recent_film_proof": [
+      "The Post (2017)",
+      "Vice (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Political_realignment",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_017",
+    "label": "AI-Generated Art Copyright Collapse",
+    "primary_fear": "Millions of artists' livelihoods are erased without legal recourse or compensation.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.6,
+    "thematic_cluster": "technology",
+    "domain_tags": ["AI", "labor", "law", "innovation"],
+    "recent_film_proof": [
+      "Blade Runner 2049 (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Copyright_infringement",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_018",
+    "label": "Gig Economy Precarity Permanence",
+    "primary_fear": "The gig economy is not a transition — it's the permanent future, with no benefits or stability.",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.6,
+    "thematic_cluster": "economic",
+    "domain_tags": ["labor", "economics", "class", "precarity"],
+    "recent_film_proof": [
+      "Sorry to Bother You (2018)",
+      "Nomadland (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gig_economy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_019",
+    "label": "Longevity Wealth Gap Permanence",
+    "primary_fear": "The rich will live 50+ years longer than the poor, creating a biological caste system.",
+    "audience_resonance_M": 430,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.1,
+    "thematic_cluster": "economic",
+    "domain_tags": ["economics", "biology", "class", "health"],
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "In Time (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Health_equity",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_020",
+    "label": "Lab-Grown Meat Disgust",
+    "primary_fear": "Meat grown in vats triggers primal revulsion, even if it's nutritionally identical.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 0.8,
+    "thematic_cluster": "nature",
+    "domain_tags": ["biology", "technology", "culture", "science"],
+    "recent_film_proof": [
+      "Soylent Green (1973)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cultured_meat",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_021",
+    "label": "Quantum Computing Job Disruption",
+    "primary_fear": "Quantum computers will obsolete encryption, cybersecurity, and finance jobs in a single leap.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 0.9,
+    "thematic_cluster": "technology",
+    "domain_tags": ["technology", "labor", "future", "obsolescence"],
+    "recent_film_proof": [
+      "Her (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_022",
+    "label": "Autonomous Weapons Proliferation",
+    "primary_fear": "Once lethal autonomous weapons exist, every conflict becomes automated and total.",
+    "audience_resonance_M": 440,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.4,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["technology", "civilization", "government", "war"],
+    "recent_film_proof": [
+      "Terminator 2: Judgment Day (1991)",
+      "WarGames (1983)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lethal_autonomous_weapon",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_023",
+    "label": "Digital Afterlife Commerce",
+    "primary_fear": "The dead will be commercially recreated as interactive holograms controlled by corporations.",
+    "audience_resonance_M": 360,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.0,
+    "thematic_cluster": "technology",
+    "domain_tags": ["digital", "grief", "AI", "institution"],
+    "recent_film_proof": [
+      "Her (2013)",
+      "Black Mirror: Be Right Back (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Digital_afterlife",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "CM_024",
+    "label": "Designer Babies Inequality",
+    "primary_fear": "Genetic selection for intelligence, athleticism, and appearance will create biological classes.",
+    "audience_resonance_M": 470,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.2,
+    "thematic_cluster": "economic",
+    "domain_tags": ["biology", "class", "technology", "economics"],
+    "recent_film_proof": [
+      "Gattaca (1997)",
+      "The Handmaid's Tale (series, 2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Genetic_enhancement",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_025",
+    "label": "Neuralink Cognitive Divide",
+    "primary_fear": "Implanted neural interfaces will create a biological divide between enhanced and unenhanced humans.",
+    "audience_resonance_M": 390,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.1,
+    "thematic_cluster": "technology",
+    "domain_tags": ["technology", "identity", "class", "biology"],
+    "recent_film_proof": [
+      "Johnny Mnemonic (1995)",
+      "Strange Days (1995)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "CM_026",
+    "label": "Social Media Mental Health Crisis",
+    "primary_fear": "An entire generation has grown up with chemically addictive platforms engineered for engagement, not wellbeing.",
+    "audience_resonance_M": 520,
+    "organic_marketing_multiplier": 2.1,
+    "urgency_score_2026": 1.9,
+    "thematic_cluster": "technology",
+    "domain_tags": ["digital", "health", "identity", "algorithm"],
+    "recent_film_proof": [
+      "The Social Dilemma (2020)",
+      "Eighth Grade (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Social_media_and_mental_health",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_027",
+    "label": "Hiring Discrimination via Algorithm",
+    "primary_fear": "AI hiring systems encode historical discrimination into code, making bias invisible and algorithmic.",
+    "audience_resonance_M": 400,
+    "organic_marketing_multiplier": 1.9,
+    "urgency_score_2026": 1.5,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["algorithm", "institution", "labor", "race"],
+    "recent_film_proof": [
+      "Coded Bias (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_028",
+    "label": "Synthetic Media Trust Collapse",
+    "primary_fear": "With deepfakes indistinguishable from reality, shared evidence and documentation become impossible.",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.8,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["truth", "digital", "AI", "epistemology"],
+    "recent_film_proof": [
+      "Ingrid Goes West (2017)",
+      "Black Mirror: The National Anthem (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Deepfake",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "CM_029",
+    "label": "Post-AGI Meaning Crisis",
+    "primary_fear": "If AI can do everything humans can, what makes human existence purposeful or valuable?",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.8,
+    "urgency_score_2026": 1.3,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["AI", "epistemology", "civilization", "identity"],
+    "recent_film_proof": [
+      "Her (2013)",
+      "2001: A Space Odyssey (1968)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "CM_030",
+    "label": "Mass Automation Grief",
+    "primary_fear": "When billions are displaced by automation, society has no precedent for managing collective meaning-loss.",
+    "audience_resonance_M": 460,
+    "organic_marketing_multiplier": 2.0,
+    "urgency_score_2026": 1.7,
+    "thematic_cluster": "economic",
+    "domain_tags": ["automation", "labor", "grief", "economics"],
+    "recent_film_proof": [
+      "Sorry to Bother You (2018)",
+      "Parasite (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Technological_unemployment",
+    "evidence_quality": "high"
+  }
+]

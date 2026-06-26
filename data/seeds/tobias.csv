@@ -1,0 +1,21 @@
+id,name,label,gloss,source
+1,quest,Quest,A protagonist searches for a transformative goal or object,tobias-1993
+2,adventure,Adventure,A protagonist travels into the unfamiliar to test themselves,tobias-1993
+3,pursuit,Pursuit,A pursuer chases a quarry through escalating danger,tobias-1993
+4,rescue,Rescue,A protagonist saves a victim from an antagonist's grip,tobias-1993
+5,escape,Escape,A protagonist flees a confinement and recovers freedom,tobias-1993
+6,revenge,Revenge,A protagonist exacts retribution for a wrong they have suffered,tobias-1993
+7,riddle,The Riddle,A protagonist solves a mystery whose answer was hidden in plain sight,tobias-1993
+8,rivalry,Rivalry,Two equals compete for an indivisible prize,tobias-1993
+9,underdog,Underdog,An ill-equipped protagonist defeats a superior opponent,tobias-1993
+10,temptation,Temptation,A protagonist confronts a moral seduction with high stakes,tobias-1993
+11,metamorphosis,Metamorphosis,A protagonist undergoes physical or supernatural transformation,tobias-1993
+12,transformation,Transformation,A protagonist changes inwardly through trial and choice,tobias-1993
+13,maturation,Maturation,A young protagonist crosses into adulthood through a rite of passage,tobias-1993
+14,love,Love,Two protagonists overcome obstacles to be together,tobias-1993
+15,forbidden_love,Forbidden Love,Two lovers transgress social or moral boundaries to be together,tobias-1993
+16,sacrifice,Sacrifice,A protagonist surrenders something precious for a higher purpose,tobias-1993
+17,discovery,Discovery,A protagonist's unexpected revelation reorders their world,tobias-1993
+18,wretched_excess,Wretched Excess,A protagonist's appetite or obsession destroys them,tobias-1993
+19,ascension,Ascension,A protagonist rises through rank fortune or moral stature,tobias-1993
+20,descension,Descension,A protagonist falls through rank fortune or moral collapse,tobias-1993

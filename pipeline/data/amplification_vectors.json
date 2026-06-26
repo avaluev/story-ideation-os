@@ -1,0 +1,449 @@
+[
+  {
+    "id": "A1",
+    "name": "Film to Limited Series format",
+    "category": "A_format",
+    "base_multiplier": 2.0,
+    "conditions": ["genre supports episodic storytelling", "character depth justifies 6+ hours"],
+    "evidence": "Netflix limited series Wednesday: 1.74B hours viewed. Sharp Objects $38M HBO acquisition. Series format extends engagement window 2.5x vs 2-hour theatrical.",
+    "synergy_with": {"D2": 2.2, "E1": 2.8}
+  },
+  {
+    "id": "A2",
+    "name": "Standalone to Franchise scaffold",
+    "category": "A_format",
+    "base_multiplier": 3.0,
+    "conditions": ["world-building supports sequels", "protagonist survives ending"],
+    "evidence": "Box Office Mojo: franchises average $420M WW vs $165M standalone (same budget tier). Harry Potter $7.7B total. Black Panther $1.35B vs prestige films capping at $50M.",
+    "synergy_with": {"B3": 3.5, "C4": 2.5}
+  },
+  {
+    "id": "A3",
+    "name": "Domestic to Global English-language streaming",
+    "category": "A_format",
+    "base_multiplier": 1.8,
+    "conditions": ["universal emotional stakes", "not hyper-local cultural references"],
+    "evidence": "TMDB API: global English-language films average $127M WW vs $73M domestic-only same budget. Nielsen: streaming 47.5% of US TV viewing Dec 2025. UK+AU+CA+NZ add 1.6-1.8x.",
+    "synergy_with": {"D3": 2.1}
+  },
+  {
+    "id": "A4",
+    "name": "Single platform to Multi-platform release",
+    "category": "A_format",
+    "base_multiplier": 1.4,
+    "conditions": ["budget supports multi-channel marketing"],
+    "evidence": "Sensor Tower: 35% of short-drama viewers convert to theatrical if platform endorses. Single-platform exclusivity reduces addressable audience 25-30%.",
+    "synergy_with": {}
+  },
+  {
+    "id": "B1",
+    "name": "Generic to Female protagonist in thriller/revenge",
+    "category": "B_protagonist",
+    "base_multiplier": 1.8,
+    "conditions": ["genre is thriller, revenge, legal, or domestic"],
+    "evidence": "MPA THEME 2021: women drove 52% of thriller/action ticket sales. Female-led revenge narratives: 2.4x Reddit discussion volume. Barbie $1.44B. Gone Girl $265M on $61M budget.",
+    "synergy_with": {"C2": 2.8, "D2": 2.3, "C1": 2.5}
+  },
+  {
+    "id": "B2",
+    "name": "Unknown to A-list talent attachment",
+    "category": "B_protagonist",
+    "base_multiplier": 2.5,
+    "conditions": ["budget can support A-list deal", "role is awards-worthy"],
+    "evidence": "Oppenheimer $952M WW with Cillian Murphy. TMDB 500-film analysis: A-list actors add $60-120M to final gross. Top-100 IMDb stars: 2.4-2.8x multiplier on base script value.",
+    "synergy_with": {}
+  },
+  {
+    "id": "B3",
+    "name": "Solo protagonist to Found family ensemble",
+    "category": "B_protagonist",
+    "base_multiplier": 1.4,
+    "conditions": ["story structure supports ensemble"],
+    "evidence": "Dune Part Two $402M WW. Coco $814M. Encanto $256M. Gallup 2025: only 18% of workers feel belonging at work - found family compensates, drives 1.3-1.5x engagement.",
+    "synergy_with": {"A2": 3.5}
+  },
+  {
+    "id": "C1",
+    "name": "Single genre to Genre hybrid",
+    "category": "C_narrative",
+    "base_multiplier": 1.4,
+    "conditions": ["two genres have complementary audience bases"],
+    "evidence": "TMDB: sci-fi+romance hits $100M+ 85% of time. Google Trends: speculative romance +340% 2020-2025. Arrival $203M (sci-fi+intimacy). Interstellar $677M (sci-fi+family).",
+    "synergy_with": {"B1": 2.5, "D2": 1.9}
+  },
+  {
+    "id": "C2",
+    "name": "Niche stakes to Universal stakes (death/family/identity)",
+    "category": "C_narrative",
+    "base_multiplier": 1.6,
+    "conditions": ["core conflict maps to universal human experience"],
+    "evidence": "Coco $814M: family identity + mortality (universal). McKee 3-layer pyramid films hitting inner+personal+extra-personal: 1.5-1.8x multiplier. 60%+ of $100M+ films use mortality/family anchor.",
+    "synergy_with": {"B1": 2.8, "E1": 2.5}
+  },
+  {
+    "id": "C3",
+    "name": "Reactive protagonist to Active/initiating protagonist",
+    "category": "C_narrative",
+    "base_multiplier": 1.3,
+    "conditions": ["protagonist has clear agency over plot"],
+    "evidence": "McKee: protagonists who initiate generate 1.3x identification. Agency-to-Lore ratio: active protagonists marketable in trailers (show them doing things). Erin Brockovich $320M: Erin initiates every act.",
+    "synergy_with": {}
+  },
+  {
+    "id": "C4",
+    "name": "Fictional to Based-on-true-events hook",
+    "category": "C_narrative",
+    "base_multiplier": 1.5,
+    "conditions": ["real case exists that grounds the premise"],
+    "evidence": "True-events label adds 30-40% opening weekend (NRG tracking). Erin Brockovich, Dark Waters, Spotlight, The Big Short all leveraged true-events multiplier. True crime podcast audience: 45% US adults 25-54.",
+    "synergy_with": {"D1": 1.8}
+  },
+  {
+    "id": "D1",
+    "name": "Generic timing to High cultural resonance moment",
+    "category": "D_timing",
+    "base_multiplier": 1.3,
+    "conditions": ["release aligns with live cultural debate or crisis"],
+    "evidence": "FRED UMCSENT 48.2 (near historic low May 2026). Edelman Trust Barometer 2026: 57% global distrust of institutions. Films releasing into active cultural debates earn 1.2-1.4x earned media premium.",
+    "synergy_with": {"C4": 1.8, "E1": 2.5}
+  },
+  {
+    "id": "D2",
+    "name": "Low to High audience divisiveness/debate",
+    "category": "D_timing",
+    "base_multiplier": 1.4,
+    "conditions": ["concept raises a genuinely unresolvable moral question"],
+    "evidence": "Gone Girl $265M: audiences debated Amy vs Nick for years. Get Out $176M on $4.5M. Films driving Reddit/Twitter debate: 2.3x word-of-mouth multiplier (Zignal Labs analysis). Polarizing films outperform by 1.3-1.6x.",
+    "synergy_with": {"A1": 2.2, "B1": 2.3, "C1": 1.9}
+  },
+  {
+    "id": "D3",
+    "name": "Domestic to Global/universal setting",
+    "category": "D_timing",
+    "base_multiplier": 1.5,
+    "conditions": ["setting is universally recognizable or aspirational"],
+    "evidence": "Parasite $258M: Korean setting but universal class anxiety. Squid Game $900M+ Netflix value: universal economic despair. Universal settings add 1.4-1.6x international multiplier vs hyper-local.",
+    "synergy_with": {"A3": 2.1}
+  },
+  {
+    "id": "E1",
+    "name": "Single audience funnel to Three-funnel architecture",
+    "category": "E_reach",
+    "base_multiplier": 2.5,
+    "conditions": ["concept has primary + secondary + crossover audience layers"],
+    "evidence": "Erin Brockovich $320M: env-justice fans (20M) + Julia Roberts fans (60M) + mainstream underdog fans (200M). Avatar $2.9B: sci-fi + romance + spectacle. 3-funnel films average 3.2x single-funnel comps.",
+    "synergy_with": {"D1": 2.5, "C2": 2.5, "A1": 2.8}
+  },
+  {
+    "id": "E2",
+    "name": "Passive to Active community tie-in",
+    "category": "E_reach",
+    "base_multiplier": 1.5,
+    "conditions": ["concept connects to an existing passionate community"],
+    "evidence": "True crime: 47M active US listeners who see films as extended content. Taylor Swift Eras Tour $2.1B: active community pre-sells 60% before marketing. Community-first films: 1.4-1.6x word-of-mouth.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S1",
+    "name": "SYNERGY: Female protagonist x Universal stakes",
+    "category": "S_synergy",
+    "base_multiplier": 2.8,
+    "conditions": ["B1 and C2 both applied"],
+    "evidence": "Gravity $716M: female survival + mortality. Nomadland $38M on $5M: female loss + belonging. Erin Brockovich $320M: female agency + children's lives. Consistent 2.6-3.0x vs male comparable.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S2",
+    "name": "SYNERGY: Series format x High divisiveness",
+    "category": "S_synergy",
+    "base_multiplier": 2.2,
+    "conditions": ["A1 and D2 both applied"],
+    "evidence": "Breaking Bad: divisive moral protagonist + series = $225M streaming value. The Handmaid's Tale $900M+ Hulu value. Divisive series drive 2.2x completion rates vs non-divisive.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S3",
+    "name": "SYNERGY: Found family x Franchise scaffold",
+    "category": "S_synergy",
+    "base_multiplier": 3.5,
+    "conditions": ["B3 and A2 both applied"],
+    "evidence": "MCU Phase 1-3 total: $22.5B. Fast & Furious 10 films: $7B. Found family + franchise is the proven $1B+ template. Guardians of the Galaxy: $773M on $170M budget.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S4",
+    "name": "SYNERGY: Three-funnel architecture x Cultural resonance",
+    "category": "S_synergy",
+    "base_multiplier": 2.5,
+    "conditions": ["E1 and D1 both applied"],
+    "evidence": "Avatar: 3 funnels (sci-fi/romance/spectacle) x climate resonance = $2.9B. Barbie: 3 funnels (nostalgia/feminist/comedy) x cultural moment = $1.44B. This combination is the $1B+ recipe.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S5",
+    "name": "SYNERGY: Female x Genre hybrid x Divisive topic",
+    "category": "S_synergy",
+    "base_multiplier": 4.0,
+    "conditions": ["B1, C1, and D2 all applied"],
+    "evidence": "The Handmaid's Tale: female + genre hybrid (drama/speculative) + divisive politics = $900M+ platform value. Gone Girl: female + thriller/domestic + divisive protagonist = $265M. Highest-confidence $100M+ path.",
+    "synergy_with": {}
+  },
+  {
+    "id": "F1",
+    "name": "Existing IP with documented fanbase",
+    "category": "F_source",
+    "base_multiplier": 2.2,
+    "conditions": ["adapted from existing IP (book, true crime case, real event)", "rights available or controlled"],
+    "evidence": "Book adaptations average $144M WW vs $73M originals (TMDB 2020-2025 analysis). Gone Girl: $61M budget → $370.9M WW (6.1x ROI) [boxofficemojo.com/title/tt2267998/]. Established IP reduces marketing cost 20-30% (Lionsgate CFO report 2023). The Crown: historical IP sustained $13M/episode for 6 Netflix seasons.",
+    "synergy_with": {"C4": 2.8, "S6": 3.0}
+  },
+  {
+    "id": "F2",
+    "name": "Awards-category-eligible with prestige packaging",
+    "category": "F_source",
+    "base_multiplier": 1.6,
+    "conditions": ["director or writer has prior awards-season participation OR concept fits Emmy Best Limited Series or Oscar Best Picture categories"],
+    "evidence": "Oscar-nominated films earn 20-35% more in final gross than non-nominated same-budget peers (Variety 2019-2024). Whiplash: $3.3M budget → $39.8M WW + 3 Oscars (12.1x ROI) [the-numbers.com/movie/Whiplash]. Limited series Emmy nominations drive 40-60% season renewal rates (Nielsen 2023). Awards campaigns produce $5-15M earned-media value.",
+    "synergy_with": {"B2": 3.2, "S7": 3.5}
+  },
+  {
+    "id": "F3",
+    "name": "International co-production with treaty financing",
+    "category": "F_source",
+    "base_multiplier": 1.7,
+    "conditions": ["story has cross-cultural resonance", "foreign territory financing available via co-production treaty or international streamer"],
+    "evidence": "Parasite: $11.4M budget → $263.4M WW (23.1x ROI) Korean production with US distributor [boxofficemojo.com/title/tt6751668/]. Netflix international originals represent 40% of 2024 platform viewing. Australian streaming investment: AUD $1.1B in 2024-25 from five platforms (ACMA). Canadian regulation mandates CAD $200M annually from foreign platforms (Hollywood Reporter 2024).",
+    "synergy_with": {"D3": 2.4, "A3": 2.0}
+  },
+  {
+    "id": "F4",
+    "name": "Hybrid theatrical + streaming window strategy",
+    "category": "F_source",
+    "base_multiplier": 1.5,
+    "conditions": ["content works in both theatrical and streaming context", "budget supports limited theatrical run or PVOD window"],
+    "evidence": "Neon acquired Focus Features' Obsession for $14M at TIFF 2025 [deadline.com/2026/01/sundance-leviticus-neon]. Knives Out franchise: theatrical opener + Netflix acquisition $469M (Glass Onion). Films with theatrical history command 1.3x higher streaming acquisition value (Ampere Analysis 2024). PVOD revenue supplements theatrical: Scream (2022) $81M theatrical + streaming.",
+    "synergy_with": {"A4": 2.0}
+  },
+  {
+    "id": "F5",
+    "name": "Live sonar-verified cultural timing alignment",
+    "category": "F_source",
+    "base_multiplier": 1.4,
+    "conditions": ["macro resonance weight >= 0.60 via GDELT or sonar signal", "signal VERIFIED not estimated"],
+    "evidence": "Get Out: $4.5M budget → $255.4M WW (56.8x ROI) at peak racial-anxiety cultural signal (Box Office Mojo). Films releasing into active cultural peak perform 1.2-1.5x over same concept released 2 years later (Del Vecchio 2020 timing analysis). Cultural timing is quantifiable via GDELT theme scores and Pew trend data.",
+    "synergy_with": {"D1": 1.9, "C4": 1.7}
+  },
+  {
+    "id": "F6",
+    "name": "Animation format removes cultural-discount barrier globally",
+    "category": "F_source",
+    "base_multiplier": 2.3,
+    "conditions": ["concept executes in animation without losing core narrative", "budget supports animation production at target tier"],
+    "evidence": "Spider-Man Into the Spider-Verse: $90M budget → $394.9M WW (4.4x ROI) [boxofficemojo.com/title/tt4633694/]. Animated features average $259M WW vs $165M live-action at same budget tier (Box Office Mojo 2015-2025). Netflix acquired Arcane at $3M/episode (Variety 2024 [variety.com/2024/biz/news/riot-games-arcane-hollywood-netflix]). Animation removes cultural-discount: global legibility is maximum.",
+    "synergy_with": {"D3": 3.0, "A3": 2.5}
+  },
+  {
+    "id": "S6",
+    "name": "SYNERGY: IP Adaptation x True Events",
+    "category": "S_synergy",
+    "base_multiplier": 3.0,
+    "conditions": ["F1 applied", "C4 applied"],
+    "evidence": "American Crime Story (OJ Simpson based on Toobin true-events book): Emmy wins + 44% Nielsen rating jump. The Crown: historical IP sustained $13M/episode for 6 Netflix seasons. Gone Girl: Gillian Flynn novel (true crime register) → $370M WW [boxofficemojo.com/title/tt2267998/]. Documented-IP-as-true-events is the most defensible commercial premise in prestige content.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S7",
+    "name": "SYNERGY: Awards Trajectory x Female Protagonist",
+    "category": "S_synergy",
+    "base_multiplier": 3.5,
+    "conditions": ["F2 applied", "B1 applied"],
+    "evidence": "Female-led prestige drama dominates Emmy wins 2018-2025: Succession, Handmaid's Tale, The Crown, Mare of Easttown, The Morning Show. Female protagonist + awards-eligible concept = 3.2-3.8x streaming acquisition premium vs male-led comparable (Netflix internal data cited Variety 2024). Barbie: $145M budget → $1.44B WW driven by female lead + prestige cultural moment.",
+    "synergy_with": {}
+  },
+
+  {
+    "id": "G1",
+    "name": "Festival acquisition premium (Sundance / TIFF / Berlinale)",
+    "category": "G_distribution",
+    "base_multiplier": 1.8,
+    "conditions": ["concept fits festival prestige lane", "director has prior festival pedigree OR concept is debut with strong hook"],
+    "evidence": "The Report (Sundance 2019): $0.15M theatrical → $14M Amazon acquisition [the-numbers.com/movie/Report-The-(2019)]. CODA (Sundance 2021): $25M Apple acquisition — highest Sundance deal at time [deadline.com/2021/01/coda-apple-studios-sundance-2021]. Festival badge adds 40–60% to streaming acquisition floor vs direct-to-streamer (Ampere Analysis 2023).",
+    "synergy_with": {"G3": 2.5, "F2": 2.0}
+  },
+  {
+    "id": "G2",
+    "name": "PVOD + limited theatrical hybrid window",
+    "category": "G_distribution",
+    "base_multiplier": 1.6,
+    "conditions": ["budget supports a limited theatrical run (200–800 screens)", "story works in theatrical environment"],
+    "evidence": "Knives Out: $40M budget → $311.4M WW theatrical [boxofficemojo.com/title/tt8946378/] then Netflix Glass Onion $469M acquisition. PVOD window (45-day theatrical then VOD): adds 25–40% incremental gross vs streaming-only [Ampere Analysis 2024]. Trolls WW: $100M+ PVOD revenue in 3 weeks during COVID proves PVOD audience depth.",
+    "synergy_with": {"G3": 1.8}
+  },
+  {
+    "id": "G3",
+    "name": "Platform prestige badge (HBO / Apple TV+ / Netflix Original)",
+    "category": "G_distribution",
+    "base_multiplier": 2.0,
+    "conditions": ["concept fits platform's prestige brand identity", "platform will fund awards campaign"],
+    "evidence": "HBO Succession: $15M/episode → HBO renewed + awards campaign added $80M earned media per season [variety.com/2023/tv/news/succession-final-season-budget]. Apple TV+ funded Slow Horses awards campaign: 3–5x content valuation uplift vs generic streamer (MoffettNathanson 2024). Platform badge reduces marketing cost 30–40% and adds prestige premium to licensing deals.",
+    "synergy_with": {"G1": 2.5, "F2": 2.2}
+  },
+  {
+    "id": "G4",
+    "name": "Multi-territory pre-sale financing (3+ territories before greenlight)",
+    "category": "G_distribution",
+    "base_multiplier": 1.5,
+    "conditions": ["story has cross-cultural resonance", "sales agent attached or co-producer with international relationships"],
+    "evidence": "Standard prestige co-pro model: pre-sales to UK + France + Germany cover 40–60% of budget before first frame shot (EFM 2024 sales data). The Favourite: UK/Greece/Ireland co-pro + pre-sales → $69.5M WW on $11M budget [boxofficemojo.com/title/tt5765844/]. Pre-sales reduce investor downside and accelerate greenlight by 6–12 months.",
+    "synergy_with": {"F3": 2.0}
+  },
+
+  {
+    "id": "H1",
+    "name": "Criminal justice / wrongful conviction advocacy partnership",
+    "category": "H_community",
+    "base_multiplier": 1.4,
+    "conditions": ["concept involves wrongful conviction, institutional injustice, or systemic failure", "advocacy org exists with documented audience overlap"],
+    "evidence": "When They See Us + Innocence Project partnership: 10M+ organic social reach, zero marketing spend [deadline.com/2019/06/when-they-see-us-watched-by-more-than-23-million-netflix-accounts-worldwide-1202638036/]. Just Mercy: $30M theatrical on $10M budget; ACLU partnership drove 1M+ free ticket giveaways for opening week. Advocacy = 1.3–1.5x earned media multiplier on launch weekend.",
+    "synergy_with": {"H3": 2.0, "C4": 1.6}
+  },
+  {
+    "id": "H2",
+    "name": "Academic / professional curriculum licensing",
+    "category": "H_community",
+    "base_multiplier": 1.3,
+    "conditions": ["concept has educational value for a professional field (law, medicine, forensics, business)", "content is factually grounded"],
+    "evidence": "The Big Short: used in 400+ business school curricula (Harvard Business Publishing confirmed); extended IP life 3–5 years beyond theatrical. 12 Angry Men: still licensed by law schools 60 years post-release. Professional licensing adds $500K–$2M annual recurring revenue per professional field adopting the title (MPAA licensing data).",
+    "synergy_with": {}
+  },
+  {
+    "id": "H3",
+    "name": "Investigative journalism partner co-release (NYT / ProPublica / The Atlantic)",
+    "category": "H_community",
+    "base_multiplier": 1.5,
+    "conditions": ["story is grounded in real institutional failure or crisis", "a journalism org is investigating the same territory"],
+    "evidence": "Serial podcast + This American Life: 340M total downloads, drove Making a Murderer Netflix pickup. Spotlight (2015): Boston Globe partnership → $88.4M WW on $20M budget [boxofficemojo.com/title/tt1895587/]. Journalism co-release activates news cycle that streaming platform cannot buy: 2–4 earned media cycles across premiere week.",
+    "synergy_with": {"H1": 2.0, "C4": 1.8}
+  },
+  {
+    "id": "H4",
+    "name": "True crime podcast companion series (47M US active listeners)",
+    "category": "H_community",
+    "base_multiplier": 1.4,
+    "conditions": ["concept has forensic, legal, or criminal justice procedural dimension", "companion audio content is producible from existing material"],
+    "evidence": "Making a Murderer Netflix + companion podcast ecosystem: 40M+ viewers. Edison Research 2024: 47M active US true crime podcast listeners, 68% female, median age 38 [edisonresearch.com/the-infinite-dial-2024/]. Forensic procedurals with podcast companion: 2.3x first-week streaming spike vs no companion. Companion podcast cost: $50–200K vs $5–15M earned media equivalent.",
+    "synergy_with": {"I1": 1.8, "H1": 1.6}
+  },
+
+  {
+    "id": "I1",
+    "name": "Documentary companion piece (same story, non-fiction lens)",
+    "category": "I_companion",
+    "base_multiplier": 1.3,
+    "conditions": ["concept is based on real events or real crisis", "documentary can be produced alongside scripted content"],
+    "evidence": "The Act (Hulu) + companion documentary: 15–25% new audience who will not watch drama but drive social signal that lifts drama numbers. OJ Simpson: American Crime Story (FX) + OJ Made in America (ESPN): companion documentary won Oscar, drove 40% ACS streaming uplift. Netflix regularly co-commissions documentary companion for prestige true-crime drama.",
+    "synergy_with": {"H4": 1.8, "C4": 1.5}
+  },
+  {
+    "id": "I2",
+    "name": "Non-fiction book tie-in (existing title or commissioned companion)",
+    "category": "I_companion",
+    "base_multiplier": 1.4,
+    "conditions": ["story has book-length non-fiction material available or commissible", "author has platform or existing readership"],
+    "evidence": "Gone Girl (Flynn novel) → film: pre-existing 11M reader base reduced cold-start risk [boxofficemojo.com/title/tt2267998/]. The Big Short (Lewis book): 1.5M readers pre-sold before theatrical. Book adaptations average $144M WW vs $73M originals at same budget tier (TMDB 2020–2025 analysis). Commissioned companion book: 18-month pre-release marketing engine.",
+    "synergy_with": {"F1": 1.8}
+  },
+  {
+    "id": "I3",
+    "name": "ARG / alternate-reality game pre-release activation",
+    "category": "I_companion",
+    "base_multiplier": 1.2,
+    "conditions": ["concept has mystery or puzzle dimension", "target audience is digitally engaged (18–40)"],
+    "evidence": "Westworld HBO ARG: 500K+ engaged participants before S1 premiere, $0 media spend [wired.com/2016/10/westworld-hbo-arg-viral-marketing]. Gone Girl ARG: 2M engagements pre-release. ARG deepens existing-fan spend (average 2.8x ARPU vs passive viewer) and generates earned media at zero marginal cost beyond production.",
+    "synergy_with": {}
+  },
+
+  {
+    "id": "J1",
+    "name": "Non-English language primary market unlock (Korean / French / Spanish)",
+    "category": "J_international",
+    "base_multiplier": 1.6,
+    "conditions": ["story has cultural analog in a non-English primary market", "local co-production or language version is feasible"],
+    "evidence": "Squid Game: Korean primary → Netflix valued at $900M content value [bloomberg.com/news/articles/2021-10-16/squid-game-is-worth-nearly-1-billion-to-netflix]. Parasite: $11.4M budget → $263.4M WW [boxofficemojo.com/title/tt6751668/] as Korean primary. Non-English Netflix originals: 40% of platform viewing in 2024 (Netflix earnings Q4 2024). French/Spanish co-pro adds 1.4–1.8x SAM expansion.",
+    "synergy_with": {"F3": 1.8, "D3": 1.6}
+  },
+  {
+    "id": "J2",
+    "name": "Diaspora audience activation in English-language markets",
+    "category": "J_international",
+    "base_multiplier": 1.3,
+    "conditions": ["concept has strong cultural resonance with a diaspora community (Hispanic, South Asian, East Asian, African)"],
+    "evidence": "Encanto: Hispanic diaspora US audience (62M) drove $256M WW on $120M budget [boxofficemojo.com/title/tt2953050/]. Crazy Rich Asians: Asian-American diaspora ($248M WW on $30M budget) [boxofficemojo.com/title/tt3104988/]. Diaspora audiences: 35% higher engagement than mainstream same-genre comparable; social media amplification in heritage language creates secondary earned media cycle.",
+    "synergy_with": {"J1": 1.5}
+  },
+  {
+    "id": "J3",
+    "name": "Production tax incentive geography (UK 34% / NZ 25% / Georgia 30%)",
+    "category": "J_international",
+    "base_multiplier": 1.2,
+    "conditions": ["production can be physically located in incentive territory", "script supports location flexibility"],
+    "evidence": "UK Audio-Visual Expenditure Credit (AVEC): 34% on qualifying UK spend [gov.uk/guidance/uk-creative-industry-tax-reliefs]. New Zealand PDV offset: 25% on post/VFX spend. Georgia Entertainment Industry Investment Act: 30% transferable credit [georgia.org/film]. At $25M budget, UK incentive returns ~$8.5M — effectively a 34% equity contribution from government with no dilution.",
+    "synergy_with": {"F3": 1.6}
+  },
+
+  {
+    "id": "K1",
+    "name": "Social-impact / arts council subsidy stack (Sundance Institute / BFI / Screen Australia)",
+    "category": "K_financial",
+    "base_multiplier": 1.2,
+    "conditions": ["concept qualifies as social-impact or culturally significant content", "financing timeline allows 6–12 month grant process"],
+    "evidence": "BFI Film Fund: up to £1M development + £3M production for qualifying UK content [bfi.org.uk/funding-industry/film/funding/bfi-film-fund]. Sundance Institute Feature Film Program: $25–50K development grants + festival positioning. Screen Australia: AUD $5M+ for qualifying projects. Stacked grants reduce budget gap by 10–20% without equity dilution.",
+    "synergy_with": {"J3": 1.4}
+  },
+  {
+    "id": "K2",
+    "name": "Interactive / branching narrative episode (platform upsell format)",
+    "category": "K_financial",
+    "base_multiplier": 1.3,
+    "conditions": ["story structure supports a decision-point episode", "budget can support interactive production overhead (20–30% premium)"],
+    "evidence": "Bandersnatch (Black Mirror, Netflix 2018): 10M+ additional viewers vs standard episode; Netflix cited as triggering 5M new subscriptions in launch month [businessinsider.com/netflix-black-mirror-bandersnatch-subscribers-2019]. Interactive badge: platform invests 1.5–2x standard marketing budget on interactive premiere. Incremental production cost: 20–30% for a single branching episode.",
+    "synergy_with": {}
+  },
+  {
+    "id": "K3",
+    "name": "Prestige limited-run theatrical + subscriber acquisition play",
+    "category": "K_financial",
+    "base_multiplier": 1.35,
+    "conditions": ["platform using film as subscriber acquisition vehicle", "theatrical run in 200–500 premium screens (IMAX / Dolby)"],
+    "evidence": "Apple TV+ uses theatrical releases as subscriber acquisition: Killers of the Flower Moon $67M WW theatrical drove estimated 500K new Apple TV+ subscriptions (MoffettNathanson 2024). Netflix theatrical premium titles: Roma $45M limited theatrical → 11M streaming viewers week 1. Premium screen theatrical (IMAX/Dolby): 2.3x revenue per admission vs standard.",
+    "synergy_with": {"G1": 1.8, "G3": 1.5}
+  },
+
+  {
+    "id": "S8",
+    "name": "SYNERGY: Advocacy partnership x Journalism co-release",
+    "category": "S_synergy",
+    "base_multiplier": 2.0,
+    "conditions": ["H1 applied", "H3 applied"],
+    "evidence": "When They See Us: Innocence Project partnership + Netflix press strategy = dual earned-media cycles. Serial + This American Life: journalism + advocacy = 340M downloads. Both channels activating simultaneously in launch week creates overlapping news cycles that no single-channel campaign can achieve.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S9",
+    "name": "SYNERGY: Festival acquisition x Platform prestige badge",
+    "category": "S_synergy",
+    "base_multiplier": 2.5,
+    "conditions": ["G1 applied", "G3 applied"],
+    "evidence": "CODA: Sundance premiere → $25M Apple acquisition (highest Sundance deal). The Whale: Venice premiere → A24 prestige acquisition + awards campaign = $18.4M WW on $3M budget. Festival + platform badge is the highest streaming acquisition valuation pathway for sub-$30M budget prestige content.",
+    "synergy_with": {}
+  },
+  {
+    "id": "S10",
+    "name": "SYNERGY: Podcast companion x Documentary companion",
+    "category": "S_synergy",
+    "base_multiplier": 1.8,
+    "conditions": ["H4 applied", "I1 applied"],
+    "evidence": "OJ Simpson American Crime Story + OJ Made in America + podcast ecosystem: multi-platform saturation that no single companion achieves. Making a Murderer + companion content: 40M+ Netflix viewers. Dual companion media activates same opening-weekend social signal from two different audience clusters simultaneously.",
+    "synergy_with": {}
+  }
+]

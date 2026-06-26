@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "operator_caps": {
+    "seed": 5,
+    "audit_alert_above": 20
+  },
+  "anti_patterns": [
+    {
+      "id": "POLTI-5_x_TOBIAS-15",
+      "polti_id": 5,
+      "polti_name": "Pursuit",
+      "tobias_id": 15,
+      "tobias_name": "Forbidden Love",
+      "verdict": "incoherent",
+      "rationale": "Pursuit requires pursuer-quarry asymmetry across the runtime; Forbidden Love requires symmetric mutual desire suppressed by external taboo. Both as A-plot kills both — the engines fight for screen time.",
+      "references": [
+        "Bordwell & Thompson, Film Art (12th ed., McGraw-Hill 2019), Causality chapter",
+        "Tobias, 20 Master Plots (Writer's Digest, 1993), Ch. 15"
+      ]
+    },
+    {
+      "id": "POLTI-6_x_TOBIAS-14",
+      "polti_id": 6,
+      "polti_name": "Disaster",
+      "tobias_id": 14,
+      "tobias_name": "Love",
+      "verdict": "incoherent",
+      "rationale": "Disaster is a structural plot where protagonist agency is overwhelmed by external catastrophe; Love demands a mutual character-transformation arc. Disaster + Love at most yields a B-plot romance; both as A-plots produce a story that satisfies neither doctrine.",
+      "references": [
+        "Tobias, 20 Master Plots (1993), Ch. 14",
+        "Polti, The Thirty-Six Dramatic Situations (1916 trans. Lucille Ray), Situation 6"
+      ]
+    },
+    {
+      "id": "POLTI-30_x_TOBIAS-16",
+      "polti_id": 30,
+      "polti_name": "Ambition",
+      "tobias_id": 16,
+      "tobias_name": "Sacrifice",
+      "verdict": "incoherent",
+      "rationale": "Ambition's engine is upward acquisition (climbing toward a peak); Sacrifice's engine is downward giving-up (relinquishing the peak). The same character can do either as primary plot but not simultaneously as the same arc — direction reversal mid-story breaks the line of action.",
+      "references": [
+        "McKee, Story (HarperCollins, 1997), Inciting Incident chapter",
+        "Tobias, 20 Master Plots (1993), Ch. 16"
+      ]
+    },
+    {
+      "id": "POLTI-11_x_TOBIAS-6",
+      "polti_id": 11,
+      "polti_name": "The Enigma",
+      "tobias_id": 6,
+      "tobias_name": "Revenge",
+      "verdict": "incoherent",
+      "rationale": "Enigma demands a withheld-information mystery whose resolution IS the climax; Revenge demands the protagonist already knows the wrong, so the climax is the deed. Same protagonist can do either, but not both as the driving plot — they fight for screen-time and information-budget.",
+      "references": [
+        "Polti, Thirty-Six Dramatic Situations (1916), Situation 11",
+        "Tobias, 20 Master Plots (1993), Ch. 6"
+      ]
+    },
+    {
+      "id": "POLTI-22_x_TOBIAS-11",
+      "polti_id": 22,
+      "polti_name": "All Sacrificed for Passion",
+      "tobias_id": 11,
+      "tobias_name": "Metamorphosis",
+      "verdict": "incoherent",
+      "rationale": "All Sacrificed for Passion arcs the protagonist toward the obsession (deeper into the prior self's drive); Metamorphosis arcs through transformation out of the prior self. The two arcs run in opposite directions; combining them forces a U-turn the audience cannot follow in feature length.",
+      "references": [
+        "Polti, Thirty-Six Dramatic Situations (1916), Situation 22",
+        "Tobias, 20 Master Plots (1993), Ch. 11"
+      ]
+    }
+  ]
+}

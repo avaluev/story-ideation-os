@@ -1,0 +1,13 @@
+id,name,label,gloss,source
+1,innocent,Innocent,Seeks safety; trusts; faith in goodness; risk denial of darkness,jung-pearson
+2,orphan,Orphan,Seeks belonging; identifies with everyone; risk victim mindset,jung-pearson
+3,hero,Hero,Seeks mastery; courage in the face of adversity; risk arrogance,jung-pearson
+4,caregiver,Caregiver,Seeks to help others; compassion and generosity; risk martyrdom,jung-pearson
+5,explorer,Explorer,Seeks freedom; autonomy and authenticity; risk aimlessness,jung-pearson
+6,rebel,Rebel,Seeks revolution; outrage at injustice; risk crime or destruction,jung-pearson
+7,lover,Lover,Seeks intimacy and pleasure; commitment; risk loss of self in others,jung-pearson
+8,creator,Creator,Seeks expression and innovation; vision and craft; risk perfectionism,jung-pearson
+9,jester,Jester,Seeks joy; lives in the present; risk frivolity and waste,jung-pearson
+10,sage,Sage,Seeks truth and wisdom; analysis and understanding; risk dogma,jung-pearson
+11,magician,Magician,Seeks transformation; vision into reality; risk manipulation,jung-pearson
+12,ruler,Ruler,Seeks control and order; responsibility and stewardship; risk tyranny,jung-pearson

@@ -1,0 +1,101 @@
+id,name,gloss,source
+1,corporate_last_48hrs,The last 48 hours of a 200-person office before AI replaces every role,curated
+2,grief_group_killer_victim,A grief support group founded by a relative of a killer for the families of the killer's victims,curated
+3,maternity_currency_collapse,A night-shift maternity ward in a country whose currency collapsed yesterday,curated
+4,war_crimes_translator_booth,The translator's booth at an international war-crimes tribunal,curated
+5,space_x_mission_control_3am,Mission control at 3am during a private spaceflight that has gone silent,curated
+6,deepfake_law_office,A law office that exclusively defends people accused of crimes proved by deepfake video,curated
+7,gas_station_border,A 24-hour gas station on a deportation-busy desert border,curated
+8,cult_deprogramming_motel,A motel where a private deprogrammer holds a cult member for the family's seven days,curated
+9,small_town_pharmacy_overdose,A small-town pharmacy whose pharmacist has filled every overdose prescription on the obituary page,curated
+10,nursing_home_dementia_ward,A locked dementia ward where one resident remembers everything and the rest remember nothing,curated
+11,influencer_apartment_collapse,A lifestyle influencer's apartment the day after the brand cancellation arrived,curated
+12,refugee_iceland,A government office in Reykjavik granting asylum to climate refugees,curated
+13,cargo_ship_captain_quarters,A captain's quarters on a container ship sailing through a bleached-coral sea,curated
+14,uber_driver_overnight,The cab of an Uber driver who has worked 22 hours straight outside a hospital,curated
+15,school_active_shooter_drill,A second-grade classroom on the day of an active-shooter drill led by a substitute,curated
+16,public_defender_bunker,A public defender's office stacked with case files that exceed the lawyer's capacity by 15x,curated
+17,wedding_guest_funeral,A wedding where the bride's father died this morning,curated
+18,refugee_camp_satellite_dish,A refugee camp in Jordan where one satellite dish carries every family's ties to home,curated
+19,art_museum_after_hours,The conservation lab of an art museum at 1am with one painting on the table,curated
+20,monastery_silent_retreat,A Trappist monastery during a 30-day silent retreat with one new arrival,curated
+21,courtroom_juvenile_lifer,A juvenile court hearing for a 13-year-old facing life without parole,curated
+22,nuclear_test_witness_review,A government office reviewing files on Cold War nuclear-test downwinders,curated
+23,fertility_clinic_donor_id,A fertility clinic whose adult donor-conceived patients are arriving with DNA results,curated
+24,homeless_shelter_winter,A homeless shelter in Buffalo at -10 in February,curated
+25,small_town_election_audit,The basement of a county clerk's office during a hand-recount of a contested election,curated
+26,oil_rig_north_sea,A North Sea oil rig in the last week before decommissioning,curated
+27,immigration_detention_kosher,An ICE detention centre where the kitchen tries to serve a kosher Passover seder,curated
+28,kindergarten_food_bank,A kindergarten classroom in which 15 of 22 students rely on the school's food bank,curated
+29,hostage_negotiation_phone_room,A police hostage-negotiator's small windowless room during an active situation,curated
+30,national_park_arsonist,A national park ranger station the morning after an arson fire,curated
+31,maximum_security_chess_club,The chess club inside a maximum-security prison,curated
+32,ambulance_rural_one_truck,A rural EMS station with one ambulance covering 800 square miles,curated
+33,abortion_clinic_state_ban,An abortion clinic in a state where the procedure became illegal at midnight,curated
+34,gay_bar_purge,A gay bar in a city whose mayor has just signed an anti-gay law,curated
+35,opioid_lawsuit_warroom,A small-firm law office prepping for an opioid-manufacturer trial,curated
+36,polar_research_station_winter,An Antarctic research station mid-winter with one team member injured,curated
+37,public_library_homeless_day_centre,A small-town public library that became the de facto homeless day-centre,curated
+38,music_school_audition,The audition room of a music school where a 14-year-old's career will be decided in 12 minutes,curated
+39,mosque_after_attack,A mosque the morning after a mass shooting,curated
+40,trans_youth_clinic_protest,A pediatric gender clinic during a protest of 200 people,curated
+41,prosecutor_review_old_dna,A district attorney's cold-case desk reviewing 30-year-old DNA reopened by the family,curated
+42,stand_up_comedy_first_set,The greenroom of a comedy club where a 19-year-old is doing their first set,curated
+43,trauma_centre_mass_casualty,A level-1 trauma centre during a mass-casualty event,curated
+44,foster_care_handoff,A social worker's car parked outside a house at 2am with a child being moved,curated
+45,deepwater_horizon_coast_guard,A Coast Guard helicopter responding to a deepwater rig fire,curated
+46,nursing_home_after_death,A nursing-home room the day after a long-term resident dies,curated
+47,suburban_drug_house_raid,A SWAT raid on a four-bedroom suburban house pre-dawn,curated
+48,korean_convenience_store_overnight,A Korean-owned convenience store in a Black-and-Latinx neighbourhood at 3am,curated
+49,wildfire_evacuation_school_gym,A school gym serving as wildfire-evacuation shelter for 400 people,curated
+50,tribal_council_chamber,A tribal council chamber the day before voting on a casino agreement,curated
+51,reality_tv_confession_booth,The confession-booth interview room of a reality competition show in week 8,curated
+52,restaurant_health_inspection,A restaurant kitchen during a surprise health-department inspection,curated
+53,small_press_print_morning,A small-press print shop the morning the union's first issue goes to press,curated
+54,immigrant_grocery_late_shift,An immigrant-owned grocery store closing at 11pm in a gentrifying neighbourhood,curated
+55,navy_submarine_silent_run,A US Navy submarine on silent-running for 36 hours,curated
+56,welfare_office_third_visit,A welfare office where a single mother is making her third application,curated
+57,priest_confessional_first_day,A young priest's first day taking confession in a city he has never lived in,curated
+58,ai_ethics_board_quarterly,The quarterly meeting of a Big-Tech AI-ethics board the day after a layoff,curated
+59,deportation_bus_station,A bus station from which deportation buses depart at 6am,curated
+60,migrant_shipwreck_processing,A Greek-island processing centre the morning after a migrant boat capsized,curated
+61,domestic_violence_shelter_intake,A women's shelter at the moment of a new resident's intake,curated
+62,deaf_school_announcement,A deaf school assembly at the moment a new policy is announced through interpreters,curated
+63,labour_picket_line_dawn,A 5am picket line on day 12 of a strike,curated
+64,nursing_school_clinical_rotation,A nursing student's first day on a hospital cancer ward,curated
+65,blood_bank_after_shooting,A regional blood bank the morning after a mass shooting that consumed its supply,curated
+66,detective_squad_open_cases,A homicide squad room with 47 open cases on the wall,curated
+67,prison_visiting_room,A prison visiting room on the protagonist's last visit before parole hearing,curated
+68,abortion_doula_hotline,An abortion-doula hotline at 2am after Roe falls,curated
+69,nuclear_decommission_late_shift,A late-night shift inside a soon-to-be-decommissioned nuclear plant,curated
+70,judaism_orthodox_shabbat_kitchen,An ultra-Orthodox kitchen on Shabbat with one family member newly out as queer,curated
+71,migrant_caravan_train_station,A southern Mexican train station where a Central American caravan is waiting,curated
+72,ice_road_truck_alaska,An ice-road trucker's cab on a 14-hour Alaskan run,curated
+73,coal_mine_safety_review,A coal-mine safety meeting the morning after a methane explosion,curated
+74,native_reservation_water_office,A tribal water-rights office during a drought year,curated
+75,music_studio_dying_genre,A genre-specific recording studio whose label just dropped its last act,curated
+76,suburban_book_club_banned_book,A suburban book club reading a book that was banned from the local library that week,curated
+77,truck_stop_truckers_christmas,A 24-hour truck stop on Christmas Eve,curated
+78,immigration_lawyer_pro_bono,A pro-bono immigration lawyer's Brooklyn office at the start of intake day,curated
+79,nasa_post_failure,A NASA project office the morning after a public mission failure,curated
+80,migrant_worker_strawberry_field,A strawberry field's pre-dawn shift in California's central valley,curated
+81,public_school_lockdown,A public school during a 90-minute lockdown for a credible threat,curated
+82,union_organising_zoom_meeting,A Zoom-room union-organising meeting at a non-union Amazon warehouse,curated
+83,recovery_meeting_aa_basement,A church-basement AA meeting where a relapse just happened,curated
+84,grand_jury_chamber_indictment,A grand-jury chamber on the day of an indictment vote,curated
+85,sweat_lodge_ceremony_outsider,A sweat lodge ceremony with a non-Indigenous participant invited by a friend,curated
+86,airport_immigration_secondary,The secondary inspection room at JFK at 6pm on a Friday,curated
+87,community_college_remedial,A community-college remedial-math classroom on registration day,curated
+88,kibbutz_hot_kitchen,A kibbutz communal kitchen during a generational split over selling the land,curated
+89,convent_dwindling_community,A small convent the year the youngest sister is 67,curated
+90,tech_startup_pivot_meeting,A 12-person startup all-hands the day a Series B was rescinded,curated
+91,prosecutor_overcharge_review,A prosecutor's office reviewing the charging decision in a viral video case,curated
+92,homeless_outreach_van_overnight,A homeless-outreach van on overnight rounds in winter,curated
+93,subway_emergency_brake,A subway car stopped between stations for 47 minutes,curated
+94,public_housing_demolition,A public-housing tower the week of its demolition vote,curated
+95,asylum_interview_office,An asylum officer's office during one applicant's credible-fear interview,curated
+96,mass_grave_excavation_site,A forensic-anthropology team's mass-grave excavation in Bosnia or Argentina,curated
+97,election_observer_polling_station,An OSCE election observer at a polling station in a contested country,curated
+98,plastic_recycling_sorting_line,A plastic-recycling sorting line on a 12-hour shift,curated
+99,influencer_clinic_botched,A cosmetic-surgery clinic the morning after an influencer's botched procedure went viral,curated
+100,sober_living_house_relapse,A sober-living house at the moment a long-time resident relapses,curated

@@ -1,0 +1,1000 @@
+[
+  {
+    "id": "OP_001",
+    "label": "Consciousness: Hard Problem",
+    "primary_fear": "No one can explain why physical processes produce subjective experience — and perhaps no one ever will.",
+    "audience_resonance_M": 400,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "I Origins (2014)",
+      "Arrival (2016)",
+      "Being John Malkovich (1999)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hard_problem_of_consciousness",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_002",
+    "label": "Dark Matter Nature",
+    "primary_fear": "Most of the universe's mass is invisible matter we cannot detect, touch, or explain.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Interstellar (2014)",
+      "Ad Astra (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dark_matter",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_003",
+    "label": "Dark Energy",
+    "primary_fear": "An unknown force is accelerating the universe's expansion toward a cold, empty ending.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Melancholia (2011)",
+      "Sunshine (2007)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dark_energy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_004",
+    "label": "P versus NP",
+    "primary_fear": "If solving a problem is as easy as checking a solution, every encryption protecting civilization could collapse.",
+    "audience_resonance_M": 110,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "The Imitation Game (2014)",
+      "Travelling Salesman (2012)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/P_versus_NP_problem",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_005",
+    "label": "Riemann Hypothesis",
+    "primary_fear": "Prime numbers may follow a hidden pattern whose discovery would reshape mathematics and cryptography.",
+    "audience_resonance_M": 80,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "A Beautiful Mind (2001)",
+      "Good Will Hunting (1997)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Riemann_hypothesis",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_006",
+    "label": "Protein Folding and Cancer",
+    "primary_fear": "The misfolding of a protein chain triggers cascades of disease that medicine cannot yet predict or halt.",
+    "audience_resonance_M": 300,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Lorenzo's Oil (1992)",
+      "Brain on Fire (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Protein_folding",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_007",
+    "label": "Quantum Gravity",
+    "primary_fear": "The two best theories of reality — quantum mechanics and general relativity — fundamentally contradict each other.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Interstellar (2014)",
+      "Tenet (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_gravity",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_008",
+    "label": "Origin of Life",
+    "primary_fear": "We do not know how inert chemistry became a living, self-replicating system — and it may have been an accident.",
+    "audience_resonance_M": 360,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Prometheus (2012)",
+      "Life (2017)",
+      "Arrival (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abiogenesis",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_009",
+    "label": "Aging Mechanism",
+    "primary_fear": "The cellular machinery that kills us is still not fully understood — and reversing it may destabilize everything.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "The Curious Case of Benjamin Button (2008)",
+      "Cocoon (1985)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ageing",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_010",
+    "label": "Prime Number Distribution",
+    "primary_fear": "The primes — the atoms of mathematics — are distributed by rules no human has fully decoded.",
+    "audience_resonance_M": 70,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "Pi (1998)",
+      "Contact (1997)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prime_number",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_011",
+    "label": "Function of Sleep",
+    "primary_fear": "We spend a third of our lives unconscious and still cannot say definitively why.",
+    "audience_resonance_M": 330,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Vanilla Sky (2001)",
+      "Inception (2010)",
+      "The Science of Sleep (2006)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sleep",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_012",
+    "label": "Placebo Mechanism",
+    "primary_fear": "Belief alone can trigger measurable biological change, which means the line between real and imagined medicine is unclear.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Awakenings (1990)",
+      "The Doctor (1991)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Placebo",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_013",
+    "label": "Free Will",
+    "primary_fear": "If every choice is determined by prior causes, moral responsibility and personal identity dissolve.",
+    "audience_resonance_M": 400,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Minority Report (2002)",
+      "Coherence (2013)",
+      "Annihilation (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Free_will",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_014",
+    "label": "Arrow of Time",
+    "primary_fear": "Physics equations work the same forward and backward, yet we cannot reverse time — and no one knows why.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Tenet (2020)",
+      "Arrival (2016)",
+      "The Butterfly Effect (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arrow_of_time",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_015",
+    "label": "Black Hole Information Paradox",
+    "primary_fear": "Objects destroyed by a black hole may violate the fundamental law that information cannot be destroyed.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Interstellar (2014)",
+      "Event Horizon (1997)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Black_hole_information_paradox",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_016",
+    "label": "Turbulence",
+    "primary_fear": "Fluid turbulence — in blood, in air, in rivers — is so complex that no unified theory predicts it.",
+    "audience_resonance_M": 90,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "Sully (2016)",
+      "Flight (2012)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Turbulence",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_017",
+    "label": "Glass Physics",
+    "primary_fear": "Glass is neither liquid nor solid — its disordered atomic structure defies classification and full mathematical description.",
+    "audience_resonance_M": 50,
+    "organic_marketing_multiplier": 1.3,
+    "recent_film_proof": [
+      "Glass (2019)",
+      "Lucy (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Glass",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_018",
+    "label": "High-Temperature Superconductor",
+    "primary_fear": "A material that conducts electricity with zero loss at room temperature would remake civilization — and we cannot yet create it predictably.",
+    "audience_resonance_M": 100,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Flash of Genius (2008)",
+      "The Current War (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/High-temperature_superconductivity",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_019",
+    "label": "Navier-Stokes Existence",
+    "primary_fear": "The equations governing all fluid motion — from ocean currents to blood — may break down in ways mathematicians cannot prevent.",
+    "audience_resonance_M": 60,
+    "organic_marketing_multiplier": 1.3,
+    "recent_film_proof": [
+      "Geostorm (2017)",
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_020",
+    "label": "Mass Extinction Periodicity",
+    "primary_fear": "Mass extinctions may recur on a predictable cycle, suggesting a cosmic timer nobody has found.",
+    "audience_resonance_M": 230,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "Melancholia (2011)",
+      "2012 (2009)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Extinction_event",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_021",
+    "label": "Epigenetic Inheritance",
+    "primary_fear": "Trauma and environmental damage sustained by parents is chemically encoded into descendants' genes.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Hereditary (2018)",
+      "The Lighthouse (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Transgenerational_epigenetic_inheritance",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_022",
+    "label": "Gut-Brain Axis",
+    "primary_fear": "Your bacterial microbiome controls your mood, behavior, and mental clarity without your conscious awareness.",
+    "audience_resonance_M": 320,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Under the Skin (2013)",
+      "Annihilation (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_023",
+    "label": "Alzheimer's Amyloid Theory",
+    "primary_fear": "We may have spent fifty years fighting the wrong mechanism, and no therapy will ever work against this disease.",
+    "audience_resonance_M": 410,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Still Alice (2014)",
+      "The Notebook (2004)",
+      "Away from Her (2006)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amyloid_hypothesis",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_024",
+    "label": "Longevity Biomarkers",
+    "primary_fear": "The tests that predict lifespan accurately exist, but only the wealthy will have access to them.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "In Time (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aging",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_025",
+    "label": "Cancer Immunotherapy Resistance",
+    "primary_fear": "Tumors are learning to hide from the immune system faster than we can design new therapies.",
+    "audience_resonance_M": 390,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "What Doesn't Kill You (2008)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cancer_immunotherapy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_026",
+    "label": "Antibiotic Resistance Crisis",
+    "primary_fear": "Bacteria are evolving faster than we can produce antibiotics, returning us to a pre-penicillin era.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Contagion (2011)",
+      "Outbreak (1995)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Antimicrobial_resistance",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_027",
+    "label": "Prion Disease Unknown Reservoir",
+    "primary_fear": "A slowly transmitted protein misfolding disease could be spreading silently through food and medical procedures.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "The Power of the Dog (2021)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prion_disease",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_028",
+    "label": "Autism Etiology Unknown",
+    "primary_fear": "We still don't know what causes autism despite decades of research, suggesting a fundamental gap in neuroscience.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Temple Grandin (2010)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Autism_spectrum_disorder",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_029",
+    "label": "Chronic Fatigue Syndrome Pathophysiology",
+    "primary_fear": "Millions suffer from a disease that medicine dismisses as psychological, with no diagnostic test and no cure.",
+    "audience_resonance_M": 250,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Unrest (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Myalgic_encephalomyelitis",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_030",
+    "label": "Long COVID Mechanisms",
+    "primary_fear": "A viral infection can silently damage multiple organs in ways medicine cannot repair.",
+    "audience_resonance_M": 410,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Totally Under Control (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_COVID",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_031",
+    "label": "Quantum Biology in Photosynthesis",
+    "primary_fear": "Living organisms exploit quantum phenomena in ways that violate our understanding of biology.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Arrival (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_biology",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_032",
+    "label": "Quantum Effects in Bird Navigation",
+    "primary_fear": "Birds navigate using sensors attuned to quantum fields that should not be biologically possible.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Winged Migration (2001)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_entanglement",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_033",
+    "label": "Olfaction Quantum Tunneling",
+    "primary_fear": "Smell detection may use quantum tunneling, not lock-and-key biochemistry as taught.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Perfume (2006)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_biology",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "OP_034",
+    "label": "Anesthesia Mechanism Unknown",
+    "primary_fear": "We use anesthesia daily yet have no explanation for how it works at the cellular level.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Coma (1978)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/General_anesthesia",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_035",
+    "label": "Placebo and Nocebo Effects",
+    "primary_fear": "Belief can literally reshape the body's healing — meaning we have no clean separation between mind and physiology.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Healing (2022)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Placebo",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_036",
+    "label": "Pain Chronification Transition",
+    "primary_fear": "Acute pain transforms into chronic pain through mechanisms we do not understand, and we cannot reverse it.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Requiem for a Dream (2000)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chronic_pain",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_037",
+    "label": "Psychiatric Drug Mechanisms Unknown",
+    "primary_fear": "Antidepressants, antipsychotics, and mood stabilizers work, but we still don't understand how.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Girl, Interrupted (1999)",
+      "A Beautiful Mind (2001)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Psychotropic_drug",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_038",
+    "label": "Schizophrenia Etiology",
+    "primary_fear": "We cannot predict who will develop schizophrenia, prevent it, or cure it.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "A Beautiful Mind (2001)",
+      "Spider (2002)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Schizophrenia",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_039",
+    "label": "Addiction Relapse Neurobiology",
+    "primary_fear": "The brain remembers addiction at the cellular level, making relapse likely for life.",
+    "audience_resonance_M": 480,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Requiem for a Dream (2000)",
+      "The Basketball Diaries (1995)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Addiction",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_040",
+    "label": "Depression Neuroinflammation Link",
+    "primary_fear": "Depression may be an immune system response to infection, meaning current treatment is missing the root cause.",
+    "audience_resonance_M": 450,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Prozac Nation (2001)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Major_depressive_disorder",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_041",
+    "label": "Memory Consolidation Timescale",
+    "primary_fear": "Traumatic memories form faster and more durably than we thought, and reconsolidation windows may be closing.",
+    "audience_resonance_M": 330,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Eternal Sunshine of the Spotless Mind (2004)",
+      "Memento (2000)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Memory_consolidation",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_042",
+    "label": "Learning Transfer Mechanisms",
+    "primary_fear": "Learning in one domain does not transfer to others — meaning education may be more specific and less generalizable than believed.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Dead Poets Society (1989)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Transfer_of_learning",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_043",
+    "label": "Synesthesia Brain Basis",
+    "primary_fear": "Some brains cross-wire sensation in ways that suggest consciousness may be far stranger than ordinary experience.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Ratatouille (2007)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Synesthesia",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_044",
+    "label": "Near-Death Experience Mechanisms",
+    "primary_fear": "Brain activity at death may enable genuine perception of another reality, not hallucination.",
+    "audience_resonance_M": 360,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Flatliners (1990)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Near-death_experience",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "OP_045",
+    "label": "UFO Physics Null Explanation",
+    "primary_fear": "Documented military encounters with objects defying physics remain unexplained after declassification.",
+    "audience_resonance_M": 300,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Close Encounters of the Third Kind (1977)",
+      "Arrival (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unidentified_flying_object",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "OP_046",
+    "label": "Room-Temperature Superconductor Verification",
+    "primary_fear": "Multiple labs have reported room-temp superconductivity, and if true, it rewrites physics.",
+    "audience_resonance_M": 250,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Interstellar (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Superconductivity",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_047",
+    "label": "Fusion Reactor Timescale",
+    "primary_fear": "Fusion has been 30 years away for 50 years—the timeline problem may be fundamental.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Dr. Strangelove (1964)",
+      "Back to the Future Part II (1989)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_048",
+    "label": "Geothermal Scaling Limits",
+    "primary_fear": "Geothermal energy is clean but scaling it triggers earthquakes and requires drilling deeper than we can.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "San Andreas (2015)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geothermal_energy",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_049",
+    "label": "Hydrogen Storage Technology",
+    "primary_fear": "Hydrogen fuel requires storage technology that doesn't yet exist at scale and may never be safe enough.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrogen_storage",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_050",
+    "label": "Battery Chemistry Limits",
+    "primary_fear": "Lithium mining is approaching planetary boundaries, and replacements may not scale in time.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Mad Max: Fury Road (2015)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Battery_(electricity)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_051",
+    "label": "Carbon Capture Cost Ceiling",
+    "primary_fear": "Direct air capture costs may never fall below $100/ton, making climate reversal financially impossible.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Don't Look Up (2021)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carbon_capture",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_052",
+    "label": "Ocean Alkalinity Enhancement Scale",
+    "primary_fear": "Artificially neutralizing ocean acidification could trigger cascading ecological collapse.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Waterworld (1995)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ocean_acidification",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_053",
+    "label": "Direct Air Capture Energy Paradox",
+    "primary_fear": "Removing carbon from the air requires so much energy that the cure may be worse than the disease.",
+    "audience_resonance_M": 270,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Snowpiercer (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Direct_air_capture",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_054",
+    "label": "Methane Sink Collapse Risk",
+    "primary_fear": "Thawing permafrost releasing methane could initiate runaway feedback loop warming.",
+    "audience_resonance_M": 330,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Methane_emissions",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_055",
+    "label": "Permafrost Thaw Irreversibility",
+    "primary_fear": "Once permafrost thaws, it may never refreeze within human civilization's lifespan.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Snowman (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Permafrost",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_056",
+    "label": "AMOC Collapse Cascades",
+    "primary_fear": "The Atlantic meridional overturning circulation could shut down within decades, freezing Europe.",
+    "audience_resonance_M": 250,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thermohaline_circulation",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_057",
+    "label": "Antarctic WAIS Tipping Point",
+    "primary_fear": "West Antarctic Ice Sheet collapse is accelerating and may be unstoppable, raising sea level meters.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "An Inconvenient Truth (2006)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/West_Antarctic_Ice_Sheet",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_058",
+    "label": "Insect Biomass Collapse",
+    "primary_fear": "Insect populations have fallen 75% in decades, and ecology models predict cascading famine.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Swarm (1978)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Insect_decline",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_059",
+    "label": "Soil Carbon Depletion",
+    "primary_fear": "Agricultural soil is losing carbon and fertility faster than it can regenerate.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Nomadland (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Soil_carbon",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_060",
+    "label": "Oceanic Dead Zones Expansion",
+    "primary_fear": "Hypoxic zones in oceans are expanding rapidly, potentially collapsing fish populations.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "A Perfect Storm (2000)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hypoxia_(environmental)",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_061",
+    "label": "AMOC Collapse Trigger",
+    "primary_fear": "The Atlantic Meridional Overturning Circulation is closer to irreversible collapse than climate models predict, threatening rapid cooling across the Northern Hemisphere.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_062",
+    "label": "Antarctic WAIS Stability",
+    "primary_fear": "The West Antarctic Ice Sheet could destabilize faster than projected, raising global sea levels by meters within decades.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Interstellar (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/West_Antarctic_Ice_Sheet",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_063",
+    "label": "Permafrost Methane Tipping",
+    "primary_fear": "Thawing permafrost is releasing methane at rates that may trigger runaway warming feedback loops beyond human control.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Take Shelter (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arctic_methane_emissions",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_064",
+    "label": "Gut-Brain Axis Full Map",
+    "primary_fear": "The gut microbiome directly controls mood and psychiatric states through unknown pathways, meaning mental illness may be a digestive disorder.",
+    "audience_resonance_M": 260,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Contagion (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gut%E2%80%93brain_axis",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_065",
+    "label": "Alzheimer Cascade Cause",
+    "primary_fear": "The precise molecular trigger initiating the amyloid cascade in Alzheimer's disease remains unknown despite decades of failed billion-dollar drug trials.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Still Alice (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amyloid_beta",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_066",
+    "label": "Longevity Senolytics Limits",
+    "primary_fear": "Whether clearing senescent cells can actually extend healthy human lifespan has not been proven in humans, despite dramatic animal results.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Blade Runner 2049 (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Senolytic",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_067",
+    "label": "Long-COVID Persistence Mechanism",
+    "primary_fear": "The biological mechanism behind long-COVID's persistent neurological and chronic fatigue symptoms remains unidentified, affecting an estimated 65 million people.",
+    "audience_resonance_M": 490,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Contagion (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Long_COVID",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_068",
+    "label": "Cancer Immunotherapy Resistance",
+    "primary_fear": "Some cancers become inexplicably resistant to checkpoint inhibitor immunotherapy through mechanisms not yet understood.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Fault in Our Stars (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Immune_checkpoint",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_069",
+    "label": "Near-Death Experience Physics",
+    "primary_fear": "Near-death experiences may indicate consciousness persisting outside the brain, threatening our entire materialist model of mind and death.",
+    "audience_resonance_M": 540,
+    "organic_marketing_multiplier": 2.3,
+    "recent_film_proof": [
+      "Flatliners (1990)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Near-death_experience",
+    "evidence_quality": "low"
+  },
+  {
+    "id": "OP_070",
+    "label": "Room-Temperature Superconductor",
+    "primary_fear": "A practical room-temperature superconductor would render much of the global energy infrastructure obsolete and no one knows if it is physically possible.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Oppenheimer (2023)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Room-temperature_superconductor",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_071",
+    "label": "Fusion Energy Economics",
+    "primary_fear": "Whether commercial fusion power can be economically competitive with solar and wind before 2050 is unproven, despite the B already invested.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Spider-Man 2 (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Fusion_power",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_072",
+    "label": "Solid-State Battery Dendrite",
+    "primary_fear": "Lithium dendrite formation in solid-state batteries at scale remains unsolved, blocking the electric vehicle energy density breakthrough.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lithium_dendrite",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_073",
+    "label": "Hydrogen Storage Material",
+    "primary_fear": "A cheap, safe, high-density solid-state hydrogen storage material for transport does not exist, delaying the hydrogen economy by decades.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hydrogen_storage",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_074",
+    "label": "Carbon Capture Cost Floor",
+    "primary_fear": "The thermodynamic minimum cost of direct air carbon capture may be too high for it to ever reach climate-relevant scale affordably.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Snowpiercer (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carbon_capture_and_storage",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_075",
+    "label": "Depression Predictive Biomarker",
+    "primary_fear": "No blood biomarker reliably predicts major depressive episodes before onset, meaning psychiatric crises cannot be anticipated and prevented.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Silver Linings Playbook (2012)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biomarkers_of_depression",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_076",
+    "label": "Addiction Neural Basis",
+    "primary_fear": "The precise neural circuit changes that make addiction self-perpetuating despite motivated abstinence are not fully mapped, leaving treatment incomplete.",
+    "audience_resonance_M": 430,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Requiem for a Dream (2000)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Neuroscience_of_drug_addiction",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_077",
+    "label": "Sleep Consolidation Mechanism",
+    "primary_fear": "The exact molecular mechanism by which REM sleep consolidates episodic memory into permanent storage is not understood.",
+    "audience_resonance_M": 300,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Eternal Sunshine of the Spotless Mind (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Memory_consolidation",
+    "evidence_quality": "high"
+  },
+  {
+    "id": "OP_078",
+    "label": "Anesthesia Consciousness Mechanism",
+    "primary_fear": "General anesthesia eliminates consciousness through a mechanism no one understands, meaning we routinely induce a state we cannot scientifically explain.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Awake (2007)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/General_anaesthesia",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_079",
+    "label": "Quantum Bird Navigation",
+    "primary_fear": "Whether European robins use quantum-coherent radical pairs for magnetic navigation challenges our assumption that quantum biology is irrelevant to life.",
+    "audience_resonance_M": 120,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Magnetoreception",
+    "evidence_quality": "medium"
+  },
+  {
+    "id": "OP_080",
+    "label": "Prion Misfolding Spontaneous Trigger",
+    "primary_fear": "What causes a normal prion protein to spontaneously misfold into a lethal pathogenic form in sporadic CJD is completely unknown.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Annihilation (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prion",
+    "evidence_quality": "high"
+  }
+]

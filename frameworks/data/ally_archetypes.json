@@ -1,0 +1,206 @@
+[
+  {
+    "id": "AL_001",
+    "label": "Faithful Companion",
+    "role": "ally",
+    "dramatic_function": "Embodies the values the protagonist has forgotten or abandoned. Does not solve the problem — holds the protagonist accountable to who they said they were.",
+    "relationship_to_protagonist": "Unconditional loyalty that becomes a burden when the protagonist starts compromising their core values.",
+    "primary_fear": "Being abandoned by the one person they gave everything to protect.",
+    "worldview_logic": "Loyalty is the only currency that cannot be counterfeited. I stay when leaving would be easier — that is the entire point of me.",
+    "philosophical_anchor": "What is the difference between loyalty and complicity when the person you protect is wrong?",
+    "boden_arc_type": "combinatorial",
+    "audience_resonance_M": 900,
+    "organic_marketing_multiplier": 1.8,
+    "thematic_cluster": "emotional",
+    "domain_tags": ["loyalty", "family", "belonging", "sacrifice"],
+    "film_examples": [
+      "Sam Gamgee — The Lord of the Rings ($2.9B total)",
+      "Chewbacca — Star Wars ($2.0B+ total)",
+      "Dory — Finding Nemo ($940M)",
+      "Baymax — Big Hero 6 ($657M)"
+    ]
+  },
+  {
+    "id": "AL_002",
+    "label": "Mirror Self",
+    "role": "ally_turned_antagonist",
+    "dramatic_function": "Shows the protagonist exactly who they will become if they stay on their current path. May not know they are a warning. The audience sees the destination before the protagonist does.",
+    "relationship_to_protagonist": "Parallel version of the protagonist who made a different choice at the same fork — one step ahead on the wrong road.",
+    "primary_fear": "That the protagonist will see through them and realise the path leads nowhere.",
+    "worldview_logic": "I am the protagonist plus one more step down the wrong road. I do not see myself as a warning — I see myself as proof that the path was worth taking.",
+    "philosophical_anchor": "How much of who we are is genuine choice versus the accumulated momentum of earlier choices?",
+    "boden_arc_type": "transformational",
+    "audience_resonance_M": 520,
+    "organic_marketing_multiplier": 2.1,
+    "thematic_cluster": "identity",
+    "domain_tags": ["identity", "transformation", "mirror", "obsession"],
+    "film_examples": [
+      "Tyler Durden — Fight Club ($101M on $63M)",
+      "Gollum — The Lord of the Rings (dual protagonist/warning)",
+      "Amy Dunne — Gone Girl ($369M)"
+    ]
+  },
+  {
+    "id": "AL_003",
+    "label": "Shadow Teacher",
+    "role": "mentor",
+    "dramatic_function": "Possesses the knowledge the protagonist needs but will only pass it on at a cost the protagonist does not understand yet. The lesson always contains a trap.",
+    "relationship_to_protagonist": "Asymmetric: the teacher knows what the learning will cost; the student does not. The teaching is genuine; the concealment is self-protective.",
+    "primary_fear": "Being replaced or made irrelevant once the student surpasses them.",
+    "worldview_logic": "The teaching is real. What I conceal is the cost — because if they knew, they would refuse the lesson, and the lesson is necessary.",
+    "philosophical_anchor": "Is it ethical to teach what is true if you know the truth will damage the student?",
+    "boden_arc_type": "exploratory",
+    "audience_resonance_M": 600,
+    "organic_marketing_multiplier": 1.9,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["expertise", "authority", "legacy", "betrayal"],
+    "film_examples": [
+      "Yoda — The Empire Strikes Back ($538M on $18M)",
+      "Morpheus — The Matrix ($467M)",
+      "Fletcher — Whiplash ($49M on $3.3M)",
+      "Haymitch — The Hunger Games ($694M)"
+    ]
+  },
+  {
+    "id": "AL_004",
+    "label": "Rival Turned Ally",
+    "role": "foil_then_ally",
+    "dramatic_function": "Starts as the protagonist's greatest obstacle. The reversal — when they join forces — is the story's structural midpoint. Their cooperation is unstable; old resentment resurfaces at the worst moment.",
+    "relationship_to_protagonist": "Competitive equality. Neither can succeed without the other, and both know it, and both hate it.",
+    "primary_fear": "Having to admit they were wrong about the protagonist — which means admitting they were wrong about themselves.",
+    "worldview_logic": "Competition was the only way I knew how to measure myself. Cooperating means admitting the measure was wrong — and I built my entire identity on it.",
+    "philosophical_anchor": "Can former enemies ever truly collaborate, or does the original conflict always live inside the alliance?",
+    "boden_arc_type": "combinatorial",
+    "audience_resonance_M": 680,
+    "organic_marketing_multiplier": 2.0,
+    "thematic_cluster": "identity",
+    "domain_tags": ["identity", "competition", "pride", "transformation"],
+    "film_examples": [
+      "Zuko — Avatar: The Last Airbender ($10M+ merchandising)",
+      "Draco Malfoy (late arc) — Harry Potter ($7.7B total)",
+      "Thor/Loki alliance — Thor: Ragnarok ($854M)"
+    ]
+  },
+  {
+    "id": "AL_005",
+    "label": "Trickster Ally",
+    "role": "catalyst",
+    "dramatic_function": "Refuses to follow the rules the protagonist believes must be followed. Their irreverence exposes the arbitrariness of the system. Does not solve problems — dissolves the frameworks that made the problems seem unsolvable.",
+    "relationship_to_protagonist": "Disruptive affection. They like the protagonist precisely because the protagonist is too serious, and they know the mission needs someone who can laugh at it.",
+    "primary_fear": "Being taken seriously — which would end the freedom that makes them effective.",
+    "worldview_logic": "Every system is a story someone is telling you about reality. I just refuse to believe the story. My irreverence is not apathy — it is clarity.",
+    "philosophical_anchor": "Is irreverence a form of genuine clarity, or a sophisticated form of escape from consequence?",
+    "boden_arc_type": "exploratory",
+    "audience_resonance_M": 750,
+    "organic_marketing_multiplier": 2.2,
+    "thematic_cluster": "identity",
+    "domain_tags": ["freedom", "identity", "culture", "transformation"],
+    "film_examples": [
+      "Han Solo — Star Wars ($775M original trilogy)",
+      "Mercutio — Romeo + Juliet",
+      "Timon & Pumbaa — The Lion King ($1.08B)",
+      "Rocket Raccoon — Guardians of the Galaxy ($773M)"
+    ]
+  },
+  {
+    "id": "AL_006",
+    "label": "Wounded Healer",
+    "role": "mirror_ally",
+    "dramatic_function": "Carries a wound that is a more advanced version of the protagonist's wound. Heals others precisely because they cannot heal themselves. Their recovery arc mirrors and drives the protagonist's.",
+    "relationship_to_protagonist": "Parallel journey at a different stage. The protagonist's healing is the wounded healer's vicarious redemption.",
+    "primary_fear": "That healing the protagonist will prove they are incapable of healing themselves.",
+    "worldview_logic": "My wound is the credential. I can reach the protagonist because I have been where they are and did not look away — even when I should have.",
+    "philosophical_anchor": "Can you only heal others after being broken yourself, or does the wound eventually become an excuse?",
+    "boden_arc_type": "exploratory",
+    "audience_resonance_M": 580,
+    "organic_marketing_multiplier": 1.9,
+    "thematic_cluster": "emotional",
+    "domain_tags": ["grief", "healing", "trauma", "care"],
+    "film_examples": [
+      "Sean Maguire — Good Will Hunting ($225M on $9M)",
+      "John Coffey — The Green Mile ($286M)",
+      "Eve — WALL-E (drives $521M film)"
+    ]
+  },
+  {
+    "id": "AL_007",
+    "label": "Innocent Witness",
+    "role": "conscience",
+    "dramatic_function": "Sees the world without the protagonist's conditioning or compromise. Their naivety is not a weakness — it is a diagnostic instrument. When they are disturbed by something the protagonist has normalised, the audience sees the truth.",
+    "relationship_to_protagonist": "Protective instinct in the protagonist — which becomes a mirror when the protagonist realises they are the danger.",
+    "primary_fear": "That the world is exactly as dark as the adults around them behave — and that their innocence is already lost.",
+    "worldview_logic": "I see what I see. I do not understand why everyone else pretends not to. The emperor has no clothes — I am the only one who has not been taught the social cost of saying so.",
+    "philosophical_anchor": "Is innocence a form of truth-telling that adults trade away for comfort, and is the trade ever worth making?",
+    "boden_arc_type": "combinatorial",
+    "audience_resonance_M": 820,
+    "organic_marketing_multiplier": 1.9,
+    "thematic_cluster": "emotional",
+    "domain_tags": ["innocence", "family", "protection", "truth"],
+    "film_examples": [
+      "Newt — Interstellar ($677M)",
+      "Ellie — Up (Pixar's emotional anchor for $731M film)",
+      "Bruno — The Boy in the Striped Pyjamas",
+      "Mathilda — Leon: The Professional"
+    ]
+  },
+  {
+    "id": "AL_008",
+    "label": "Lost Soul",
+    "role": "cautionary_parallel",
+    "dramatic_function": "Identical starting conditions to the protagonist — same wound, same world, same opportunity — but made the wrong choice at the key moment. Their fate is the road not taken. Their destruction is the cost the protagonist avoids, or doesn't.",
+    "relationship_to_protagonist": "Tragic symmetry. The protagonist cannot save them because saving them would require admitting the protagonist nearly went the same way.",
+    "primary_fear": "Being forgiven — because forgiveness would mean the choices that destroyed them were not their fault.",
+    "worldview_logic": "At some point I chose the easier version of myself. I don't need the protagonist to save me — I need them to not make the same choice. That is the only dignity I have left.",
+    "philosophical_anchor": "Is a person's fate sealed by a single choice or by the pattern of all their choices — and does the answer change their culpability?",
+    "boden_arc_type": "exploratory",
+    "audience_resonance_M": 460,
+    "organic_marketing_multiplier": 2.0,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["morality", "choice", "sacrifice", "past"],
+    "film_examples": [
+      "Tommy — Goodfellas (parallel to Henry Hill)",
+      "Jaime Lannister arc — Game of Thrones",
+      "Charlie — The Perks of Being a Wallflower"
+    ]
+  },
+  {
+    "id": "AL_009",
+    "label": "Reluctant Expert",
+    "role": "resource_ally",
+    "dramatic_function": "Has exactly the knowledge or capability the protagonist needs, and wants nothing to do with the mission. Their resistance is not cowardice — it is hard-won wisdom about what this kind of mission costs. They join because the protagonist shows them something they thought was gone.",
+    "relationship_to_protagonist": "Respect earned rather than given. Their engagement is conditional and can be withdrawn — which creates perpetual tension.",
+    "primary_fear": "Being pulled back into a world they escaped at great personal cost.",
+    "worldview_logic": "I know exactly what this kind of mission costs. I am here because the protagonist showed me something I thought was gone: a reason the cost is worth paying one more time.",
+    "philosophical_anchor": "What is the relationship between expertise and wisdom — can you have one without the other, and which is more dangerous alone?",
+    "boden_arc_type": "combinatorial",
+    "audience_resonance_M": 540,
+    "organic_marketing_multiplier": 1.9,
+    "thematic_cluster": "institutional",
+    "domain_tags": ["expertise", "past", "redemption", "obligation"],
+    "film_examples": [
+      "Dr. Ian Malcolm — Jurassic Park ($1.03B)",
+      "Mr. Miyagi — The Karate Kid ($90M on $8M)",
+      "Gandalf (reluctance arc) — The Hobbit"
+    ]
+  },
+  {
+    "id": "AL_010",
+    "label": "Voice of Civilization",
+    "role": "ethical_anchor",
+    "dramatic_function": "Represents what is worth protecting — the ordinary life, the institution, the community — in contrast to the protagonist's extraordinary mission. Their presence forces the protagonist to answer: what exactly are you risking all this for?",
+    "relationship_to_protagonist": "Moral ballast. They do not go on the journey, but their existence defines the stakes of the journey.",
+    "primary_fear": "That the protagonist will succeed at the mission but lose the thing the mission was supposed to protect.",
+    "worldview_logic": "I am everything the mission is supposed to protect. My ordinariness is the point — the hero is only a hero if the ordinary world is worth returning to.",
+    "philosophical_anchor": "What makes ordinary life worth protecting, and does the act of protecting it destroy the ordinariness that made it worth protecting?",
+    "boden_arc_type": "combinatorial",
+    "audience_resonance_M": 700,
+    "organic_marketing_multiplier": 1.8,
+    "thematic_cluster": "civilizational",
+    "domain_tags": ["civilization", "belonging", "family", "values"],
+    "film_examples": [
+      "Pepper Potts — Iron Man ($585M)",
+      "Alfred — The Dark Knight ($1.0B)",
+      "Moneypenny / M — James Bond ($6.8B total franchise)"
+    ]
+  }
+]

@@ -1,0 +1,123 @@
+DOMAIN_COOLDOWN_DAYS: 7   # named constant; Python consumer reads this key
+
+domains:
+
+  - id: D01
+    name: "Public Domain History"
+    description: "Diaries, personal letters, and official records created before 1928 that have entered the public domain and are freely available for dramatic adaptation."
+    query_hints:
+      - "historical diary manuscript pre-1928"
+      - "personal letters archive 19th century"
+      - "official records public domain history"
+      - "digitized historical documents pre-1928"
+    last_used: null
+
+  - id: D02
+    name: "Court Records and Legal Proceedings"
+    description: "Transcripts, briefs, and exhibits from notable court cases across federal, state, and international jurisdictions, spanning criminal, civil, and constitutional proceedings."
+    query_hints:
+      - "court transcript federal case archive"
+      - "trial proceedings notable case records"
+      - "legal case history court documents"
+      - "supreme court case oral arguments transcript"
+    last_used: null
+
+  - id: D03
+    name: "Scientific Discoveries and Pre-Patent Papers"
+    description: "Research papers, laboratory notebooks, and discovery accounts from scientists in the window before patent filing or public-domain threshold, capturing the human drama of breakthrough moments."
+    query_hints:
+      - "scientific discovery unpublished research history"
+      - "laboratory notebooks scientist archive"
+      - "pre-patent scientific paper discovery"
+      - "research breakthrough historical account"
+    last_used: null
+
+  - id: D04
+    name: "Expired International Patents"
+    description: "Patent filings from international jurisdictions whose protection has lapsed, including the inventor's technical narratives and the contested commercial stories behind them."
+    query_hints:
+      - "expired patent international archive"
+      - "patent lapsed invention history"
+      - "international patent database expired claims"
+      - "historical patent filing inventor narrative"
+    last_used: null
+
+  - id: D05
+    name: "Archaeological Finds and Field Reports"
+    description: "Excavation field reports, site diaries, and discovery records from archaeological projects that uncovered objects or sites of cultural significance."
+    query_hints:
+      - "archaeological field report excavation diary"
+      - "excavation site discovery records"
+      - "archaeological find documentation report"
+      - "dig site journal archaeologist notes"
+    last_used: null
+
+  - id: D06
+    name: "Medical Case Archives"
+    description: "Anonymised or historically documented medical case studies, patient records, and clinical narratives from medical journals and hospital archives that reveal exceptional diagnostic or treatment stories."
+    query_hints:
+      - "medical case study historical archive"
+      - "clinical case report historical medicine"
+      - "hospital patient record historical case"
+      - "medical case history rare disease archive"
+    last_used: null
+
+  - id: D07
+    name: "Declassified Military Records"
+    description: "Formerly classified military operation reports, intelligence assessments, and personnel records released through FOIA or equivalent national declassification programs."
+    query_hints:
+      - "declassified military operation report FOIA"
+      - "intelligence assessment declassified military"
+      - "military records released national archives"
+      - "declassified Cold War military document"
+    last_used: null
+
+  - id: D08
+    name: "Religious and Scholarly Texts"
+    description: "Public-domain religious manuscripts, theological treatises, and scholarly commentaries from pre-modern traditions that contain untold human narratives and doctrinal disputes."
+    query_hints:
+      - "religious manuscript public domain medieval"
+      - "theological treatise historical commentary"
+      - "scholarly text ancient religion archive"
+      - "religious document translation historical"
+    last_used: null
+
+  - id: D09
+    name: "Government Declassified Materials"
+    description: "Policy memos, intelligence briefs, diplomatic cables, and government correspondence released through declassification programs, capturing decision-making behind major historical events."
+    query_hints:
+      - "diplomatic cable declassified government archive"
+      - "intelligence brief declassified policy memo"
+      - "government document FOIA release"
+      - "declassified state department correspondence"
+    last_used: null
+
+  - id: D10
+    name: "Industrial and Engineering History"
+    description: "Engineering notebooks, factory records, infrastructure project files, and industrial disaster reports that document the human cost and ingenuity behind industrial-age transformations."
+    query_hints:
+      - "engineering notebook industrial history archive"
+      - "factory records industrial disaster report"
+      - "infrastructure project historical engineering"
+      - "industrial revolution engineering document"
+    last_used: null
+
+  - id: D11
+    name: "Biographical Archives of Documented Individuals"
+    description: "Documented biographical records of real public figures — letters, interviews, contemporaneous news accounts, and official filings — covering individuals whose life stories remain largely unadapted."
+    query_hints:
+      - "biographical archive undocumented historical figure"
+      - "personal papers public record biography"
+      - "life story archive historical person"
+      - "documented individual biography primary source"
+    last_used: null
+
+  - id: D12
+    name: "Cultural Heritage and Oral Tradition Records"
+    description: "Documented oral histories, ethnographic field recordings, folklore transcripts, and cultural heritage assessments capturing living traditions that are endangered or underrepresented in dramatic storytelling."
+    query_hints:
+      - "oral tradition transcript ethnographic recording"
+      - "folklore documentation cultural heritage archive"
+      - "oral history endangered culture record"
+      - "indigenous oral tradition documentation"
+    last_used: null

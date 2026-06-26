@@ -1,0 +1,55 @@
+# gitleaks configuration for Anomaly Engine v3.0 (`big-ideas`)
+#
+# Compensates for the unavailable GitHub native Secret Scanning (HTTP 422 on free
+# private repo). Used by:
+#   - SEC-04: PreToolUse(`Bash` containing `git push`) → `.claude/hooks/pre_bash_gate.py`
+#   - SEC-05: Lefthook pre-commit + pre-push (lefthook.yml)
+#   - SEC-09: `tests/test_secret_leak.py` (Python grep, independent of gitleaks)
+#
+# Inherit the default ruleset; only override with allowlist for known-safe
+# placeholder strings used in documentation and templates.
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Placeholder strings in .env.example template — intentional, not real keys"
+regexes = [
+    '''sk-or-v1-REPLACE-ME[A-Z_-]*''',
+    '''sk-ant-REPLACE-ME[A-Z_-]*''',
+    '''sk-or-v1-AAAA[A-Z0-9-]*''',  # used as fake-key fixture in test_settings_sandbox.py
+    '''sk-or-v1-XXXX[A-Z0-9-]*''',
+]
+paths = [
+    '''\.env\.example$''',
+    '''\.planning/phases/.*-PLAN\.md$''',
+    '''\.planning/phases/.*-SUMMARY\.md$''',
+    '''\.planning/phases/.*-RESEARCH\.md$''',
+    '''\.planning/phases/.*-VALIDATION\.md$''',
+    '''\.planning/phases/.*-VERIFICATION\.md$''',
+    '''\.planning/research/.*\.md$''',
+    '''\.gitleaks\.toml$''',
+    '''docs/adr/.*\.md$''',
+    '''tests/.*test_secret_leak.*\.py$''',
+    '''tests/.*test_settings_sandbox.*\.py$''',
+]
+
+[[allowlists]]
+description = "Test fixture fake keys in test_openrouter_client.py — not real credentials"
+regexes = [
+    '''sk-or-v1-paidkey[0-9]+''',
+    '''sk-or-v1-free[12]key[0-9]+''',
+    '''sk-or-v1-abcdefghijk''',
+]
+paths = [
+    '''tests/test_openrouter_client\.py$''',
+]
+
+[[allowlists]]
+description = "stopwords prevent matches inside the literal word REPLACE in any context"
+stopwords = [
+    "REPLACE-ME",
+    "REPLACE_ME",
+    "PLACEHOLDER",
+    "EXAMPLE-KEY",
+]

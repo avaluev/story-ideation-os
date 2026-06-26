@@ -1,0 +1,11 @@
+{
+  "concept_id": "golden-concept-004",
+  "novelty_score": 24,
+  "jtbd_score": 20,
+  "contradiction_score": 20,
+  "specificity_score": 16,
+  "cap_at_70_triggered": false,
+  "ten_school_self_check": [true, true, true, true, true, true, true, true, false, false],
+  "stabilization_pattern_to_add_to_anti_slop": null,
+  "total_score": null
+}

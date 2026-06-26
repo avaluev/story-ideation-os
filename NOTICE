@@ -1,0 +1,37 @@
+story-ideation-os
+Copyright 2026 Alexander Valuev
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+------------------------------------------------------------------------
+Third-party data sources
+------------------------------------------------------------------------
+
+This product uses data derived from public sources. It is not endorsed or
+certified by any of them.
+
+- The Movie Database (TMDB). This product uses the TMDB API and TMDB data
+  but is not endorsed or certified by TMDB. https://www.themoviedb.org/
+- Box Office Mojo / The Numbers — worldwide box-office figures used for
+  comparable-title economics.
+- Motion Picture Association (MPA) THEME Report — global theatrical market
+  sizing.
+
+Generated film/series concepts cite primary sources inline; the engine's
+veracity layer verifies each external number against the cited page.
+
+------------------------------------------------------------------------
+Creative frameworks
+------------------------------------------------------------------------
+
+The read-only creative doctrine referenced under `frameworks/` summarizes
+methodologies whose intellectual credit belongs to their original authors
+(including, among others, story-structure, archetype, and conflict-theory
+traditions). These materials are used for analysis and are credited to their
+respective authors; they are not claimed as original work of this project.
+
+------------------------------------------------------------------------
+Tooling
+------------------------------------------------------------------------
+
+Built with Claude Code (https://claude.com/claude-code).

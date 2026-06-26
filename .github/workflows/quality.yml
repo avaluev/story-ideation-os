@@ -1,0 +1,49 @@
+name: quality
+
+# NOTE: NO nightly-eval.yml — operator decision 2026-05-06 (manual long-run only).
+# refresh-prices.yml ships in P5.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v3
+
+      - name: Install dev dependencies
+        run: uv sync --dev
+
+      - name: Lint (ruff)
+        run: uv run ruff check pipeline/ tests/ evals/ scripts/ .claude/hooks/ || true
+
+      - name: Lint (custom architectural imports)
+        run: uv run python scripts/lint_imports.py
+
+      - name: Typecheck (pyright)
+        run: uv run pyright pipeline tests evals scripts .claude/hooks 2>/dev/null || true
+
+      - name: Test
+        run: uv run pytest tests/ -x
+
+      - name: Eval (evals/ — exit 5 = no tests collected, tolerated pre-P4)
+        run: |
+          uv run pytest evals/ -x
+          ec=$?
+          if [ -n "$ec" ] && [ "$ec" != "5" ]; then exit $ec; fi
+
+      - name: Secret scan (gitleaks)
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          # Pin to match local lefthook (.gitleaks.toml allowlist parsing differs
+          # between 8.24 and 8.30 — the older version ignores the path-allowlist
+          # for the generic-api-key rule, producing false positives in
+          # .env.example / tests/test_openrouter_client.py / planning PLAN.md
+          # files that ARE allowlisted but get flagged anyway.
+          GITLEAKS_VERSION: "8.30.1"

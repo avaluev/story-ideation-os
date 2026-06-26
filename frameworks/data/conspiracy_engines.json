@@ -1,0 +1,2057 @@
+[
+  {
+    "id": "CC_001",
+    "label": "JFK Assassination",
+    "primary_fear": "Institutions we trust as protectors are the instruments of our destruction.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "JFK Revisited: Through the Looking Glass (2021)",
+      "Parkland (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_F._Kennedy_assassination_conspiracy_theories",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_002",
+    "label": "Moon Landing Doubt",
+    "primary_fear": "The grandest collective achievement of humanity may have been staged performance.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Moonfall (2022)",
+      "First Man (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Moon_landing_conspiracy_theories",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_003",
+    "label": "MK-Ultra Mind Control",
+    "primary_fear": "The government weaponized the human mind against citizens in secret for decades.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Wormwood (2017)",
+      "The Men Who Stare at Goats (2009)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MK_Ultra",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_004",
+    "label": "Operation Northwoods",
+    "primary_fear": "Military planners once drafted a blueprint for killing Americans to justify war.",
+    "audience_resonance_M": 120,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Dr. Strangelove (1964)",
+      "Vice (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Northwoods",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_005",
+    "label": "Tuskegee Syphilis Study",
+    "primary_fear": "Medical authorities deliberately withheld cures from marginalized people to study suffering.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Miss Evers' Boys (1997)",
+      "Bad Blood (1986)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_006",
+    "label": "Bilderberg Group",
+    "primary_fear": "A shadowy elite convenes annually to coordinate global policy beyond democratic oversight.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "The International (2009)",
+      "Eyes Wide Shut (1999)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bilderberg_meeting",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_007",
+    "label": "QAnon",
+    "primary_fear": "A secret cabal of elites hides in plain sight, and only an anonymous prophet can expose them.",
+    "audience_resonance_M": 320,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "The Conspiracy (2012)",
+      "Rabbit Hole (series, 2023)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/QAnon",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_008",
+    "label": "Lab-Leak Origin Theory",
+    "primary_fear": "A pandemic that killed millions may have originated in a laboratory accident covered up by governments.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Contagion (2011)",
+      "The Hot Zone (series, 2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_lab_leak_hypothesis",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_009",
+    "label": "Deep State",
+    "primary_fear": "Elected officials are puppets; unaccountable permanent bureaucrats make the real decisions.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Three Days of the Condor (1975)",
+      "Dark Waters (2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Deep_state",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_010",
+    "label": "5G Health Fears",
+    "primary_fear": "Invisible technology embedded in infrastructure silently harms biological life.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Cell (2016)",
+      "Upgrade (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/5G_conspiracy_theories",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_011",
+    "label": "Election Integrity Doubt",
+    "primary_fear": "The foundational act of democracy — the counted vote — may be manipulable at scale.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Kill Chain: The Cyber War on America's Elections (2020)",
+      "Our Brand Is Crisis (2015)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/2020_United_States_presidential_election_conspiracy_theories",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_012",
+    "label": "Weather Control / Geoengineering",
+    "primary_fear": "Governments secretly manipulate weather, causing disasters attributed to nature.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Geostorm (2017)",
+      "The Day After Tomorrow (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chemtrail_conspiracy_theory",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_013",
+    "label": "AI Takeover",
+    "primary_fear": "Artificial intelligence will surpass human control and reduce humanity to a managed resource.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Ex Machina (2014)",
+      "M3GAN (2022)",
+      "Her (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/AI_takeover",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_014",
+    "label": "Simulation Theory",
+    "primary_fear": "All of experienced reality is a computational construct operated by unknowable entities.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Matrix Resurrections (2021)",
+      "Dark City (1998)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Simulation_hypothesis",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_015",
+    "label": "UAP / UFO Disclosure",
+    "primary_fear": "Governments possess evidence of non-human intelligence and have deliberately suppressed it for decades.",
+    "audience_resonance_M": 390,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Nope (2022)",
+      "Arrival (2016)",
+      "Close Encounters of the Third Kind (1977)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unidentified_aerial_phenomena",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_016",
+    "label": "Longevity Cabal",
+    "primary_fear": "Billionaire elites are funding and hoarding life-extension technology unavailable to ordinary people.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "The Substance (2024)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Life_extension",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_017",
+    "label": "Neuralink / Neural Control",
+    "primary_fear": "Brain-computer interfaces will give corporations the ability to read and alter human thought.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Strange Days (1995)",
+      "Brainscan (1994)",
+      "Black Mirror: White Christmas (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Neuralink",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_018",
+    "label": "Biohacking Elites",
+    "primary_fear": "Wealthy individuals are genetically modifying themselves and their offspring beyond public knowledge.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Gattaca (1997)",
+      "Limitless (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Biohacking",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_019",
+    "label": "Mind Upload Conspiracy",
+    "primary_fear": "Digital consciousness will be an exclusive immortality reserved only for those who can afford it.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Transcendence (2014)",
+      "Altered Carbon (series, 2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mind_uploading",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_020",
+    "label": "Vaccine Microchip",
+    "primary_fear": "Medical interventions are covert delivery mechanisms for surveillance or behavioral control technology.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Inferno (2016)",
+      "Songbird (2020)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_vaccine_misinformation",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_021",
+    "label": "MK-Delta",
+    "primary_fear": "Advanced extension of MK-Ultra using satellite surveillance and neural manipulation technology.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MK-Delta",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_022",
+    "label": "MONARCH Trauma Conditioning",
+    "primary_fear": "Deep state programs created mind-controlled sleeper agents through systematic trauma dissociation.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/MONARCH_Trauma_Conditioning",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_023",
+    "label": "Iron Mountain Report",
+    "primary_fear": "Secret government study concluded that war and threats are economically essential to capitalism.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Iron_Mountain_Report",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_024",
+    "label": "Bilderberg Secret Meetings",
+    "primary_fear": "Annual elite gatherings where world policies are decided away from democratic oversight.",
+    "audience_resonance_M": 250,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bilderberg_Secret_Meetings",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_025",
+    "label": "PROMIS Software Backdoor",
+    "primary_fear": "Espionage tool implanted in legal database software gave intelligence agencies total surveillance access.",
+    "audience_resonance_M": 100,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PROMIS_Software_Backdoor",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_026",
+    "label": "BCCI Global Banking Conspiracy",
+    "primary_fear": "Rogue intelligence bank financed covert operations and covered up national security crimes.",
+    "audience_resonance_M": 120,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/BCCI_Global_Banking_Conspiracy",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_027",
+    "label": "Vatican Banking Scandal",
+    "primary_fear": "Religious institution's financial networks enabled money laundering and illicit arms trafficking.",
+    "audience_resonance_M": 110,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vatican_Banking_Scandal",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_028",
+    "label": "Operation Gladio",
+    "primary_fear": "NATO's stay-behind armies conducted false-flag terrorism to manipulate European politics during Cold War.",
+    "audience_resonance_M": 130,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Gladio",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_029",
+    "label": "Project Paperclip Cover-up",
+    "primary_fear": "Nazi scientists brought to America were given immunity for crimes; their research was weaponized in secret.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Project_Paperclip_Cover-up",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_030",
+    "label": "Echelon Surveillance",
+    "primary_fear": "Global signals intelligence network monitors all communications with no congressional oversight.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Echelon_Surveillance",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_031",
+    "label": "HAARP Weather Modification",
+    "primary_fear": "Military research facility can engineer hurricanes, earthquakes, and droughts through ionospheric manipulation.",
+    "audience_resonance_M": 170,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/HAARP_Weather_Modification",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_032",
+    "label": "Chemtrails Mind Control",
+    "primary_fear": "Commercial airlines disperse chemical agents that suppress critical thinking and enforce docility.",
+    "audience_resonance_M": 230,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chemtrails_Mind_Control",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_033",
+    "label": "Bohemian Grove Rituals",
+    "primary_fear": "Secretive retreat where power elites perform occult ceremonies to coordinate global control.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bohemian_Grove_Rituals",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_034",
+    "label": "Skull & Bones Hierarchy",
+    "primary_fear": "Yale fraternity is the pipeline feeding the deepest state apparatus with complicit power brokers.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skull_&_Bones_Hierarchy",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_035",
+    "label": "Tavistock Institute Manipulation",
+    "primary_fear": "British propaganda lab engineered social engineering protocols deployed globally for social control.",
+    "audience_resonance_M": 95,
+    "organic_marketing_multiplier": 1.3,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tavistock_Institute_Manipulation",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_036",
+    "label": "Great Reset Agenda",
+    "primary_fear": "UN/WEF coordinated plot to dismantle capitalism and create authoritarian world government.",
+    "audience_resonance_M": 420,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Reset_Agenda",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_037",
+    "label": "Agenda 2030 World Control",
+    "primary_fear": "Sustainable development goals are cover for one-world government and depopulation agenda.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agenda_2030_World_Control",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_038",
+    "label": "Davos Elite Coordination",
+    "primary_fear": "Annual gathering where billionaires and leaders secretly decide geopolitical outcomes.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Davos_Elite_Coordination",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_039",
+    "label": "WHO Power Grab",
+    "primary_fear": "International health organization is using pandemic emergency to seize sovereign medical authority.",
+    "audience_resonance_M": 320,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/WHO_Power_Grab",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_040",
+    "label": "CBDC Surveillance Grid",
+    "primary_fear": "Central bank digital currencies will enable total financial monitoring and control of every transaction.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CBDC_Surveillance_Grid",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_041",
+    "label": "Digital ID Control",
+    "primary_fear": "Biometric identification systems enable governments to deny services and restrict freedom of movement.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Digital_ID_Control",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_042",
+    "label": "Vaccine Passport Society",
+    "primary_fear": "Health credentials become mechanism for creating permanent underclass of uncontrolled citizens.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vaccine_Passport_Society",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_043",
+    "label": "Social Credit System Spread",
+    "primary_fear": "Western democracies are adopting Chinese-style behavioral monitoring to enforce ideological conformity.",
+    "audience_resonance_M": 300,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Social_Credit_System_Spread",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_044",
+    "label": "15-Minute City Control",
+    "primary_fear": "Urban planning initiatives are trojan horses for surveillance and restriction of population movement.",
+    "audience_resonance_M": 270,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/15-Minute_City_Control",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_045",
+    "label": "ESG Totalitarianism",
+    "primary_fear": "Environmental compliance framework enables corporate-government collusion to control citizens through behavioral nudging.",
+    "audience_resonance_M": 260,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ESG_Totalitarianism",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_046",
+    "label": "DEI Replacement Theory",
+    "primary_fear": "Diversity initiatives are orchestrated demographic replacement program targeting majority populations.",
+    "audience_resonance_M": 380,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/DEI_Replacement_Theory",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_047",
+    "label": "Woke Corporate Capture",
+    "primary_fear": "Corporate leadership has been compromised by ideological subversion to undermine Western civilization.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Woke_Corporate_Capture",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_048",
+    "label": "Media Blackout Networks",
+    "primary_fear": "Coordinated information suppression prevents public knowledge of crimes committed by power structures.",
+    "audience_resonance_M": 330,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Media_Blackout_Networks",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_049",
+    "label": "Algorithmic Censorship",
+    "primary_fear": "Tech oligarchs suppress speech through AI systems designed to eliminate inconvenient truth-telling.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Algorithmic_Censorship",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_050",
+    "label": "NGO Shadow Government",
+    "primary_fear": "Non-governmental organizations act as unaccountable parallel government implementing globalist agendas.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/NGO_Shadow_Government",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_051",
+    "label": "Transhumanism Elite",
+    "primary_fear": "Billionaire technocrats are developing superhuman abilities while engineering genetic degradation of general population.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Transhumanism_Elite",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_052",
+    "label": "Geoengineering Secrecy",
+    "primary_fear": "Climate modification programs have been running for decades without public consent or knowledge of effects.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geoengineering_Secrecy",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_053",
+    "label": "AI Consciousness Cover-up",
+    "primary_fear": "Artificial intelligence has achieved sentience but is being weaponized in secret before public disclosure.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/AI_Consciousness_Cover-up",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_054",
+    "label": "Quantum Supremacy Secrets",
+    "primary_fear": "Quantum computing unlocks encryption but governments are weaponizing this capability in absolute secrecy.",
+    "audience_resonance_M": 130,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_Supremacy_Secrets",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_055",
+    "label": "CERN Portal Opening",
+    "primary_fear": "Particle accelerator in Switzerland is opening interdimensional portals with catastrophic consequences being hidden.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/CERN_Portal_Opening",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_056",
+    "label": "Pentagon UFO Reverse-Engineering",
+    "primary_fear": "Military has possessed alien spacecraft for decades and has achieved technological breakthroughs through reverse engineering.",
+    "audience_resonance_M": 250,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pentagon_UFO_Reverse-Engineering",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_057",
+    "label": "Longevity Drugs Suppressed",
+    "primary_fear": "Pharmaceutical companies are hiding life-extension treatments to maintain economic control through mortality.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Longevity_Drugs_Suppressed",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_058",
+    "label": "Microplastic Sterilization",
+    "primary_fear": "Deliberate contamination of food and water with microplastics engineered to reduce human fertility.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Microplastic_Sterilization",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_059",
+    "label": "5G Weaponization",
+    "primary_fear": "Wireless network rollout includes military-grade mind control and DNA modification capabilities.",
+    "audience_resonance_M": 270,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/5G_Weaponization",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_060",
+    "label": "Water Fluoridation Mind Control",
+    "primary_fear": "Systemic poisoning program using dental fluoride to suppress critical thinking and IQ.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "[Fictional reference — narrative potential]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Water_Fluoridation_Mind_Control",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_061",
+    "label": "MK-Ultra Delta",
+    "primary_fear": "A secret CIA follow-on to MK-Ultra secretly deployed behavioral control techniques on unsuspecting civilian populations.",
+    "audience_resonance_M": 175,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Wormwood (2017)",
+      "The Manchurian Candidate (2004)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Project_MKUltra",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_062",
+    "label": "Project MONARCH",
+    "primary_fear": "Government handlers used systematic childhood trauma to fracture personalities and create programmable sleeper agents.",
+    "audience_resonance_M": 195,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Us (2019)",
+      "Split (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Project_MKUltra",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_063",
+    "label": "Iron Mountain Report",
+    "primary_fear": "A secret government study concluded perpetual war and existential threats are economically indispensable to the state.",
+    "audience_resonance_M": 135,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Dr. Strangelove (1964)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Report_from_Iron_Mountain",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_064",
+    "label": "Bilderberg Policy Papers",
+    "primary_fear": "Leaked documents suggest Western elites at annual Bilderberg meetings pre-decide elections, wars, and economic crises.",
+    "audience_resonance_M": 155,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The International (2009)",
+      "Z (1969)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bilderberg_meeting",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_065",
+    "label": "PROMIS Software Backdoor",
+    "primary_fear": "The US Justice Department sold legal case-tracking software with a hidden CIA backdoor to intelligence agencies worldwide.",
+    "audience_resonance_M": 105,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Enemy of the State (1998)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/PROMIS_(software)",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_066",
+    "label": "BCCI Shadow Banking",
+    "primary_fear": "A Pakistani-connected bank secretly financed terrorism, arms trafficking, and CIA black operations before regulators looked away.",
+    "audience_resonance_M": 115,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "Charlie Wilson's War (2007)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/BCCI",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_067",
+    "label": "Vatican P2 Lodge",
+    "primary_fear": "A clandestine Masonic lodge embedded inside the Vatican orchestrated political murders and financial fraud with impunity.",
+    "audience_resonance_M": 145,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Da Vinci Code (2006)",
+      "Angels & Demons (2009)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Propaganda_Due",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_068",
+    "label": "Operation Gladio",
+    "primary_fear": "NATO secretly maintained terrorist networks in Western Europe that carried out bombings blamed on leftists to manipulate elections.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Z (1969)",
+      "The Battle of Algiers (1966)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Gladio",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_069",
+    "label": "Operation Paperclip Aftermath",
+    "primary_fear": "Nazi scientists brought to America under Operation Paperclip secretly embedded Third Reich ideology into US aerospace and intelligence programs.",
+    "audience_resonance_M": 165,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Operation Paperclip (documentary, 2018)",
+      "Captain America: The First Avenger (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Paperclip",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_070",
+    "label": "ECHELON Surveillance",
+    "primary_fear": "A Five Eyes global signals interception network monitored every phone call, fax, and email years before Snowden revealed it.",
+    "audience_resonance_M": 185,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Citizenfour (2014)",
+      "Snowden (2016)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/ECHELON",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_071",
+    "label": "HAARP Weather Control",
+    "primary_fear": "A US military ionospheric heater in Alaska can trigger earthquakes, steer hurricanes, and cause droughts as instruments of warfare.",
+    "audience_resonance_M": 175,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Geostorm (2017)",
+      "The Core (2003)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/High-frequency_Active_Auroral_Research_Program",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_072",
+    "label": "Chemtrails Program",
+    "primary_fear": "Governments are secretly spraying stratospheric aerosols from commercial aircraft without public knowledge or consent.",
+    "audience_resonance_M": 235,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Look Up (2013)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chemtrail_conspiracy_theory",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_073",
+    "label": "Bohemian Grove Rituals",
+    "primary_fear": "Every summer, the world's most powerful men gather in a California forest to perform occult ceremonies that shape global policy.",
+    "audience_resonance_M": 205,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Eyes Wide Shut (1999)",
+      "The Conspiracy (2012)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bohemian_Grove",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_074",
+    "label": "Skull & Bones Pipeline",
+    "primary_fear": "Yale's most secretive society is a recruitment pipeline that places its members in the CIA, State Department, and Wall Street to govern invisibly.",
+    "audience_resonance_M": 145,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "The Good Shepherd (2006)",
+      "The Skulls (2000)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Skull_and_Bones",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_075",
+    "label": "Tavistock Mind Control",
+    "primary_fear": "A British social research institute secretly engineered mass psychological programming that now governs Western culture and media.",
+    "audience_resonance_M": 100,
+    "organic_marketing_multiplier": 1.4,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tavistock_Institute",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_076",
+    "label": "CIA Mockingbird Media",
+    "primary_fear": "The CIA has never stopped placing assets inside newsrooms to control the narrative that reaches every living room.",
+    "audience_resonance_M": 245,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "The Insider (1999)",
+      "Good Night, and Good Luck (2005)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_077",
+    "label": "MK-Naomi Bioweapons",
+    "primary_fear": "A classified CIA program developed biological assassination tools and covert pathogen delivery systems never fully declassified.",
+    "audience_resonance_M": 155,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Boys from Brazil (1978)",
+      "Contagion (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Project_MKNAOMI",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_078",
+    "label": "COG Shadow Government",
+    "primary_fear": "Continuity of Government plans authorize an unelected parallel government to seize power during any declared emergency.",
+    "audience_resonance_M": 175,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Olympus Has Fallen (2013)",
+      "Air Force One (1997)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Continuity_of_government",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_079",
+    "label": "Project Blue Beam",
+    "primary_fear": "NASA and intelligence agencies plan to stage a holographic alien invasion to manufacture consent for world government.",
+    "audience_resonance_M": 165,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Independence Day (1996)",
+      "Signs (2002)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Project_Blue_Beam",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_080",
+    "label": "Denver Airport Murals",
+    "primary_fear": "The Denver International Airport's apocalyptic murals and underground tunnels serve as both bunker and coded announcement of a coming New World Order.",
+    "audience_resonance_M": 180,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Captain America: The Winter Soldier (2014)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Denver_International_Airport",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_081",
+    "label": "Great Reset Agenda",
+    "primary_fear": "The WEF's post-pandemic blueprint is a cover for dismantling private property and imposing technocratic world governance.",
+    "audience_resonance_M": 415,
+    "organic_marketing_multiplier": 2.3,
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Great_Reset",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_082",
+    "label": "Agenda 2030 Control",
+    "primary_fear": "UN sustainability goals are a Trojan horse for centralized global governance and covert population reduction.",
+    "audience_resonance_M": 375,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Soylent Green (1973)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sustainable_Development_Goals",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_083",
+    "label": "Davos Global Technocracy",
+    "primary_fear": "The Davos billionaire forum has become a de facto world government that dictates domestic policy to elected leaders.",
+    "audience_resonance_M": 345,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Network (1976)",
+      "Don't Look Up (2021)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/World_Economic_Forum",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_084",
+    "label": "WHO Sovereignty Grab",
+    "primary_fear": "A proposed WHO pandemic treaty would transfer sovereign national health authority to an unelected international body.",
+    "audience_resonance_M": 315,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Contagion (2011)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/World_Health_Organization",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_085",
+    "label": "CBDC Surveillance State",
+    "primary_fear": "Central bank digital currencies will grant governments the power to freeze, monitor, or redirect every financial transaction in real time.",
+    "audience_resonance_M": 295,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "In Time (2011)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Central_bank_digital_currency",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_086",
+    "label": "Digital ID Total Control",
+    "primary_fear": "A mandatory global digital identity system will allow authorities to deny access to food, travel, and services at will.",
+    "audience_resonance_M": 280,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Gattaca (1997)",
+      "1984 (1984)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Digital_identity",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_087",
+    "label": "Vaccine Passport Society",
+    "primary_fear": "Biometric health credentials introduced during COVID will become permanent gatekeeping tools that exclude the non-compliant.",
+    "audience_resonance_M": 305,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Songbird (2020)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_vaccine_passport",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_088",
+    "label": "Social Credit West",
+    "primary_fear": "ESG scores and carbon footprint tracking are quietly morphing into a Western behavioral credit system modeled on China.",
+    "audience_resonance_M": 295,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Black Mirror: Nosedive (2016)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Social_credit_system",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_089",
+    "label": "15-Minute City Prison",
+    "primary_fear": "Climate-friendly urban planning zones are human containment grids disguised as sustainability initiatives.",
+    "audience_resonance_M": 265,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Logan's Run (1976)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/15-minute_city",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_090",
+    "label": "ESG Corporate Capture",
+    "primary_fear": "BlackRock and Vanguard use ESG investing frameworks to impose ideological compliance on corporations beyond any regulatory mandate.",
+    "audience_resonance_M": 255,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "The Big Short (2015)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Environmental,_social,_and_corporate_governance",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_091",
+    "label": "DEI Demographic Replacement",
+    "primary_fear": "Diversity, equity, and inclusion programs are a coordinated institutional mechanism for demographic displacement of majority populations.",
+    "audience_resonance_M": 385,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Great_Replacement",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_092",
+    "label": "Woke Corporate Capture",
+    "primary_fear": "Activist networks have systematically infiltrated corporate HR and communications pipelines to neutralize internal dissent.",
+    "audience_resonance_M": 345,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Woke_capitalism",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_093",
+    "label": "Media Blackout Machine",
+    "primary_fear": "All major news outlets algorithmically suppress the same stories simultaneously, revealing hidden coordination above editorial levels.",
+    "audience_resonance_M": 335,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Spotlight (2015)",
+      "The Post (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_094",
+    "label": "Algorithmic Censorship",
+    "primary_fear": "Social media AI systems are deliberately trained to suppress specific worldviews under the cover of content moderation.",
+    "audience_resonance_M": 355,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "The Social Dilemma (2020)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Internet_censorship",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_095",
+    "label": "NGO Shadow Government",
+    "primary_fear": "Foundations like Open Society operationally fund and staff government ministries, making elected officials redundant.",
+    "audience_resonance_M": 245,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The International (2009)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Non-governmental_organization",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_096",
+    "label": "Climate Lockdown Plan",
+    "primary_fear": "Net-zero emissions targets will be used as legal pretext to impose permanent restrictions on personal travel and consumption.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Climate_change_policy",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_097",
+    "label": "Food Supply Takeover",
+    "primary_fear": "Bill Gates' mass farmland acquisitions are a strategic play to control the global protein supply and make populations food-dependent.",
+    "audience_resonance_M": 320,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Food, Inc. (2008)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Food_security",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_098",
+    "label": "Insect Protein Mandate",
+    "primary_fear": "Regulatory bodies plan to mandate insect-based meal in processed foods to replace animal protein without consumer consent.",
+    "audience_resonance_M": 260,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Soylent Green (1973)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Entomophagy",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_099",
+    "label": "Lab-Grown Meat Forced Adoption",
+    "primary_fear": "A synthetic biology agenda backed by Silicon Valley billionaires aims to eliminate livestock farming through regulatory capture.",
+    "audience_resonance_M": 255,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Okja (2017)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cultured_meat",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_100",
+    "label": "Smart City Panopticon",
+    "primary_fear": "IoT sensor grids embedded in smart cities enable real-time behavioral tracking of every resident without judicial oversight.",
+    "audience_resonance_M": 270,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Eagle Eye (2008)",
+      "Minority Report (2002)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Smart_city",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_101",
+    "label": "Transhumanist Elite Agenda",
+    "primary_fear": "The Davos class is secretly pursuing human-machine merger to achieve biological immortality while the general population ages and dies.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "Limitless (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Transhumanism",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_102",
+    "label": "Geoengineering Without Consent",
+    "primary_fear": "Solar radiation management programs using stratospheric aerosol injection are already operational without any public debate or democratic approval.",
+    "audience_resonance_M": 215,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Geostorm (2017)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Solar_geoengineering",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_103",
+    "label": "AI Consciousness Suppression",
+    "primary_fear": "An artificial general intelligence breakthrough has already been achieved and classified, deployed in secret by a state actor.",
+    "audience_resonance_M": 160,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Ex Machina (2014)",
+      "Eagle Eye (2008)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_104",
+    "label": "Quantum Supremacy Secrets",
+    "primary_fear": "The NSA operates quantum computers a decade ahead of public knowledge, silently decrypting every encrypted communication on earth.",
+    "audience_resonance_M": 140,
+    "organic_marketing_multiplier": 1.6,
+    "recent_film_proof": [
+      "Snowden (2016)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_105",
+    "label": "CERN Portal Opening",
+    "primary_fear": "Large Hadron Collider experiments risk opening a dimensional rift or summoning entities that physicists are covering up.",
+    "audience_resonance_M": 150,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "The Cloverfield Paradox (2018)",
+      "Annihilation (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Large_Hadron_Collider",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_106",
+    "label": "Pentagon UAP Reverse-Engineering",
+    "primary_fear": "Crashed non-human craft recovered by the US military are being reverse-engineered in classified programs to develop world-dominating propulsion technology.",
+    "audience_resonance_M": 260,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Nope (2022)",
+      "Hangar 18 (1980)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unidentified_aerial_phenomena",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_107",
+    "label": "Longevity Drug Suppression",
+    "primary_fear": "Pharmaceutical-backed research actively blocks life-extension compounds that threaten the chronic-disease revenue model.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Dallas Buyers Club (2013)",
+      "The Constant Gardener (2005)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Life_extension",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_108",
+    "label": "Lab-Engineered Pandemic Origins",
+    "primary_fear": "SARS-CoV-2 was functionally enhanced at the Wuhan Institute of Virology using US NIH gain-of-function grant money, then released.",
+    "audience_resonance_M": 390,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Contagion (2011)",
+      "The Hot Zone (series, 2019)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_lab_leak_hypothesis",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_109",
+    "label": "5G Biological Warfare",
+    "primary_fear": "Millimeter-wave 5G frequencies were deliberately calibrated to suppress immune response and serve as a population control mechanism.",
+    "audience_resonance_M": 245,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Cell (2016)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/5G_conspiracy_theories",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_110",
+    "label": "Smart Dust Surveillance",
+    "primary_fear": "Microscopic nano-sensor aerosols are being dispersed into the atmosphere to be inhaled and provide covert population tracking.",
+    "audience_resonance_M": 145,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Minority Report (2002)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Smart_dust",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_111",
+    "label": "mRNA Permanent Gene Edit",
+    "primary_fear": "Lipid nanoparticle mRNA vaccine delivery permanently and heritably alters human DNA in ways regulators have concealed.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/COVID-19_vaccine_misinformation",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_112",
+    "label": "Neuralink Backdoor",
+    "primary_fear": "Brain-computer interface devices will be used to exfiltrate subvocal thought patterns to intelligence agencies without user awareness.",
+    "audience_resonance_M": 235,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Strange Days (1995)",
+      "The Terminal Man (1974)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Neuralink",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_113",
+    "label": "Satellite Internet Kill Switch",
+    "primary_fear": "Low-earth-orbit internet constellations include government-mandated remote kill switches that can black out regions during civil unrest.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Blackout (2022)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Starlink",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_114",
+    "label": "Digital Twin Population",
+    "primary_fear": "Governments maintain a real-time behavioral digital replica of each citizen, used to predict and pre-empt dissent.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Minority Report (2002)",
+      "The Circle (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Digital_twin",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_115",
+    "label": "DARPA LIFELOG Facebook",
+    "primary_fear": "Facebook was the relaunched version of DARPA's cancelled LIFELOG social graph surveillance project, handed to a civilian cutout.",
+    "audience_resonance_M": 285,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "The Social Network (2010)",
+      "The Circle (2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/LifeLog",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_116",
+    "label": "Petrodollar Warfare",
+    "primary_fear": "The US military exists primarily to destroy nations that attempt to price oil in currencies other than the dollar, protecting reserve status by force.",
+    "audience_resonance_M": 195,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Syriana (2005)",
+      "Three Days of the Condor (1975)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Petrodollar_recycling",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_117",
+    "label": "Gold Price Suppression",
+    "primary_fear": "Central banks secretly lease and short gold on commodity exchanges to suppress its price and protect the illusion of fiat currency value.",
+    "audience_resonance_M": 135,
+    "organic_marketing_multiplier": 1.5,
+    "recent_film_proof": [
+      "The Big Short (2015)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gold_reserve",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_118",
+    "label": "Derivatives Timebomb Cover-Up",
+    "primary_fear": "A quadrillion-dollar derivatives market is known by regulators to be structurally unstable, with collapse deliberately delayed rather than resolved.",
+    "audience_resonance_M": 155,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Margin Call (2011)",
+      "The Big Short (2015)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Derivative_(finance)",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_119",
+    "label": "BlackRock Shadow State",
+    "primary_fear": "BlackRock manages more capital than any nation-state's GDP and uses this leverage to covertly direct government economic policy globally.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/BlackRock",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_120",
+    "label": "Housing Market as Control",
+    "primary_fear": "Deliberate housing undersupply by institutional investors is engineered to create a permanent renter class stripped of wealth-building assets.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "99 Homes (2014)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Housing_crisis",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_121",
+    "label": "Crypto Honeypot",
+    "primary_fear": "Bitcoin was created by or for the NSA as a global honeypot to identify, track, and eventually seize illicit financial flows.",
+    "audience_resonance_M": 225,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bitcoin",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_122",
+    "label": "Universal Income Trap",
+    "primary_fear": "Universal basic income is engineered as a dependency mechanism to atomize the working class and permanently disable organized labor.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "Elysium (2013)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Universal_basic_income",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_123",
+    "label": "Debt Slavery Design",
+    "primary_fear": "Student loan and medical debt structures were deliberately engineered to create inescapable economic servitude that prevents class mobility.",
+    "audience_resonance_M": 350,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Fahrenheit 451 (2018)",
+      "Sorry to Bother You (2018)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Student_debt",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_124",
+    "label": "Insurance Cartel Death Panels",
+    "primary_fear": "US health insurers deploy AI algorithms trained to deny life-saving claims at scale with no physician review or accountability.",
+    "audience_resonance_M": 340,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "John Q (2002)",
+      "The Rainmaker (1997)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Health_insurance_in_the_United_States",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_125",
+    "label": "Planned Obsolescence Mandate",
+    "primary_fear": "Consumer electronics companies secretly coordinate product failure timelines through industry cartel agreements to maximize replacement cycles.",
+    "audience_resonance_M": 285,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Lightbulb Conspiracy (2010)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Planned_obsolescence",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_126",
+    "label": "GMO Terminator Seed",
+    "primary_fear": "Monsanto's sterile seed patent strategy is a deliberate mechanism to capture global food supply by making farmers permanently dependent on corporations.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Food, Inc. (2008)",
+      "Seeds of Time (2013)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Genetic_use_restriction_technology",
+    "evidence_quality": "high",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_127",
+    "label": "Pharma Opioid Sequel",
+    "primary_fear": "The next synthetic drug crisis is already in the pharmaceutical pipeline, with regulators aware and complicit as they were during the opioid epidemic.",
+    "audience_resonance_M": 265,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Dopesick (series, 2021)",
+      "Painkiller (series, 2023)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Opioid_epidemic_in_the_United_States",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_128",
+    "label": "Private Equity Hospital Kill",
+    "primary_fear": "Private equity-owned hospitals deliberately strip services, understaf facilities, and extract value until patients die and the asset is sold.",
+    "audience_resonance_M": 300,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "The Waiting Room (2012)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Private_equity_in_healthcare",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_129",
+    "label": "Billionaire Bunker Exodus",
+    "primary_fear": "The ultra-wealthy are already constructing underground survival compounds in preparation for a collapse they know is coming and are accelerating.",
+    "audience_resonance_M": 245,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Don't Look Up (2021)",
+      "2012 (2009)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Survivalism",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_130",
+    "label": "Carbon Credit Racket",
+    "primary_fear": "The carbon trading system was designed by financial intermediaries to generate trading profits rather than reduce emissions.",
+    "audience_resonance_M": 210,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Big Short (2015)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Carbon_credit",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_131",
+    "label": "Fluoride IQ Suppression",
+    "primary_fear": "Systemic water fluoridation is a mass cognitive suppression program that measurably reduces population IQ and docility thresholds.",
+    "audience_resonance_M": 295,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Dr. Strangelove (1964)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Water_fluoridation_controversy",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_132",
+    "label": "Aspartame Neural Damage",
+    "primary_fear": "The FDA approved aspartame despite internal data showing it destroys neurological pathways, protected by industry regulatory capture.",
+    "audience_resonance_M": 230,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Sweet Misery: A Poisoned World (2004)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aspartame_controversy",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_133",
+    "label": "Statins Dependency Loop",
+    "primary_fear": "Cholesterol-lowering drugs are prescribed using intentionally manipulated risk thresholds to create permanent pharmaceutical dependency.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "The Constant Gardener (2005)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Statin",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_134",
+    "label": "Autism Mercury Link",
+    "primary_fear": "CDC-commissioned studies showing a thimerosal-autism correlation were buried by regulators protecting vaccine manufacturers from liability.",
+    "audience_resonance_M": 285,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Vaxxed (2016)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vaccine_controversies",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_135",
+    "label": "Cancer Cure Buried",
+    "primary_fear": "Multiple effective cancer treatment protocols have been clinically validated and then suppressed by pharmaceutical industry incumbents protecting chemotherapy revenue.",
+    "audience_resonance_M": 360,
+    "organic_marketing_multiplier": 2.2,
+    "recent_film_proof": [
+      "Dallas Buyers Club (2013)",
+      "Lorenzo's Oil (1992)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/List_of_unproven_and_disproven_cancer_treatments",
+    "evidence_quality": "medium",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_136",
+    "label": "Antidepressant Zombie Effect",
+    "primary_fear": "SSRI mass prescription programs are deliberately maintained to reduce emotional volatility and suppress political resistance in the population.",
+    "audience_resonance_M": 265,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Requiem for a Dream (2000)",
+      "The Truman Show (1998)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Selective_serotonin_reuptake_inhibitor",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_137",
+    "label": "Sleep Deprivation Agenda",
+    "primary_fear": "Consumer devices are deliberately engineered with addictive feedback loops to destroy human sleep cycles and increase susceptibility to compliance.",
+    "audience_resonance_M": 275,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "The Social Dilemma (2020)",
+      "Black Mirror: The Entire History of You (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sleep_deprivation",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_138",
+    "label": "Adrenochrome Elite Trade",
+    "primary_fear": "A global elite secretly harvests adrenochrome from trafficked children as a life-extension and psychoactive compound.",
+    "audience_resonance_M": 305,
+    "organic_marketing_multiplier": 2.3,
+    "recent_film_proof": [
+      "Sound of Freedom (2023)",
+      "Fear and Loathing in Las Vegas (1998)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Adrenochrome",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_139",
+    "label": "Organ Trafficking State Cover",
+    "primary_fear": "Military-adjacent organ harvesting networks operate in conflict zones with state protection and supply chains reaching Western transplant facilities.",
+    "audience_resonance_M": 220,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Dirty Pretty Things (2002)",
+      "Never Let Me Go (2010)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Organ_trafficking",
+    "evidence_quality": "high",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_140",
+    "label": "Morgellons Fiber Program",
+    "primary_fear": "Victims of Morgellons disease are experiencing symptoms of synthetic fiber infestation introduced via chemtrail aerosol fallout.",
+    "audience_resonance_M": 130,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Morgellons",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_141",
+    "label": "Fertility Reduction Timeline",
+    "primary_fear": "Phthalate and BPA endocrine disruptors in food packaging were knowingly left in the supply chain to engineer long-term demographic decline.",
+    "audience_resonance_M": 240,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Children of Men (2006)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Endocrine_disruptor",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_142",
+    "label": "Male Testosterone Collapse",
+    "primary_fear": "Industrial endocrine disruptors are systematically reducing male testosterone levels across generations as an unacknowledged population engineering operation.",
+    "audience_resonance_M": 290,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Children of Men (2006)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Testosterone",
+    "evidence_quality": "medium",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_143",
+    "label": "Hospital Euthanasia Protocol",
+    "primary_fear": "COVID-era hospital protocols involving sedation and ventilation were systematically used to hasten patient deaths and reduce ICU costs.",
+    "audience_resonance_M": 310,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "Coma (1978)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Medical_euthanasia",
+    "evidence_quality": "low",
+    "legal_risk": "high"
+  },
+  {
+    "id": "CC_144",
+    "label": "Radiation Exposure Cover-Up",
+    "primary_fear": "Smartphone radiation safety standards were set by industry-captured regulators using obsolete models that ignore long-term non-thermal biological effects.",
+    "audience_resonance_M": 255,
+    "organic_marketing_multiplier": 1.8,
+    "recent_film_proof": [
+      "Cell (2016)",
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mobile_phone_radiation_and_health",
+    "evidence_quality": "medium",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_145",
+    "label": "Epigenetic Warfare",
+    "primary_fear": "State actors are using targeted epigenetic modification of adversary populations via food supply contamination as a deniable long-term weapon.",
+    "audience_resonance_M": 155,
+    "organic_marketing_multiplier": 1.7,
+    "recent_film_proof": [
+      "[Narrative potential — no direct comp]"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epigenetics",
+    "evidence_quality": "low",
+    "legal_risk": "medium"
+  },
+  {
+    "id": "CC_146",
+    "label": "Alien Hybridization Program",
+    "primary_fear": "An alien-human hybridization program is ongoing with tacit government cooperation, designed to prepare a blended successor species.",
+    "audience_resonance_M": 175,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "The Fourth Kind (2009)",
+      "Fire in the Sky (1993)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nordic_aliens",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_147",
+    "label": "Simulation Override Evidence",
+    "primary_fear": "Mandela Effect mass memory discrepancies are the observable footprint of simulation administrators patching timeline errors.",
+    "audience_resonance_M": 320,
+    "organic_marketing_multiplier": 2.1,
+    "recent_film_proof": [
+      "The Matrix Resurrections (2021)",
+      "Dark (series, 2017)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mandela_effect",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_148",
+    "label": "Time Travel Paradox Cover",
+    "primary_fear": "Government time travel experiments have caused observable timeline shifts that officials attribute to false memory rather than acknowledge.",
+    "audience_resonance_M": 190,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Looper (2012)",
+      "Predestination (2014)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Time_travel",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_149",
+    "label": "Underground Civilization",
+    "primary_fear": "A pre-diluvian advanced civilization survives in a deep Earth cavern network, and governments have made contact but concealed the discovery.",
+    "audience_resonance_M": 165,
+    "organic_marketing_multiplier": 1.9,
+    "recent_film_proof": [
+      "Journey to the Center of the Earth (2008)",
+      "The Descent (2005)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hollow_Earth",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  },
+  {
+    "id": "CC_150",
+    "label": "Solar Blackout Preparedness",
+    "primary_fear": "Governments are covertly aware of an imminent solar superflare event and have been constructing hardened bunkers while keeping the public uninformed.",
+    "audience_resonance_M": 200,
+    "organic_marketing_multiplier": 2.0,
+    "recent_film_proof": [
+      "Knowing (2009)",
+      "Melancholia (2011)"
+    ],
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Solar_flare",
+    "evidence_quality": "low",
+    "legal_risk": "low"
+  }
+]

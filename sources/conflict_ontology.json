@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0.0",
+  "created": "2026-05-08",
+  "description": "Seed space for the Big Ideas Engine. Structured human-conflict ontology for film/animation ideation. Every dimension can be sampled independently and combined via combination_modes.",
+
+  "dimensions": {
+
+    "binary_tensions": [
+      {"id": "BT-001", "pole_a": "Truth", "pole_b": "Belonging", "tags": ["social", "identity", "political", "epistemic"], "film_examples": ["Spotlight", "The Insider", "All the President's Men"]},
+      {"id": "BT-002", "pole_a": "Justice", "pole_b": "Mercy", "tags": ["moral", "legal", "institutional"], "film_examples": ["A Few Good Men", "Les Misérables", "The Dark Knight"]},
+      {"id": "BT-003", "pole_a": "Loyalty", "pole_b": "Survival", "tags": ["social", "war", "pressure"], "film_examples": ["The Departed", "Stalag 17", "Black Hawk Down"]},
+      {"id": "BT-004", "pole_a": "Love", "pole_b": "Duty", "tags": ["romantic", "institutional", "family"], "film_examples": ["Casablanca", "Atonement", "The Remains of the Day"]},
+      {"id": "BT-005", "pole_a": "Memory", "pole_b": "Sanity", "tags": ["psychological", "identity", "trauma"], "film_examples": ["Eternal Sunshine", "Memento", "A Beautiful Mind"]},
+      {"id": "BT-006", "pole_a": "Mastery", "pole_b": "Connection", "tags": ["achievement", "isolation", "obsession"], "film_examples": ["Whiplash", "Black Swan", "Pi"]},
+      {"id": "BT-007", "pole_a": "Faith", "pole_b": "Evidence", "tags": ["epistemic", "religious", "science"], "film_examples": ["Doubt", "Contact", "Silence"]},
+      {"id": "BT-008", "pole_a": "Freedom", "pole_b": "Identity", "tags": ["existential", "political", "psychological"], "film_examples": ["The Truman Show", "The Matrix", "American History X"]},
+      {"id": "BT-009", "pole_a": "Healing", "pole_b": "Truth", "tags": ["trauma", "family", "psychological"], "film_examples": ["Ordinary People", "Manchester by the Sea", "The Perks of Being a Wallflower"]},
+      {"id": "BT-010", "pole_a": "Power", "pole_b": "Soul", "tags": ["political", "corruption", "spiritual"], "film_examples": ["There Will Be Blood", "Citizen Kane", "Macbeth (2021)"]},
+      {"id": "BT-011", "pole_a": "Innocence", "pole_b": "Knowledge", "tags": ["coming-of-age", "loss", "moral"], "film_examples": ["Stand By Me", "Pan's Labyrinth", "To Kill a Mockingbird"]},
+      {"id": "BT-012", "pole_a": "Self", "pole_b": "Lineage", "tags": ["family", "identity", "cultural", "generational"], "film_examples": ["Parasite", "Coco", "The Joy Luck Club"]},
+      {"id": "BT-013", "pole_a": "Control", "pole_b": "Surrender", "tags": ["psychological", "addiction", "grief"], "film_examples": ["Requiem for a Dream", "28 Days", "Silver Linings Playbook"]},
+      {"id": "BT-014", "pole_a": "Vengeance", "pole_b": "Release", "tags": ["trauma", "moral", "psychological"], "film_examples": ["Blue Ruin", "Three Billboards", "The Virgin Spring"]},
+      {"id": "BT-015", "pole_a": "Complicity", "pole_b": "Courage", "tags": ["moral", "institutional", "political"], "film_examples": ["Sophie Scholl", "The Zone of Interest", "Good Night and Good Luck"]},
+      {"id": "BT-016", "pole_a": "Exile", "pole_b": "Belonging", "tags": ["diaspora", "identity", "immigration"], "film_examples": ["In the Mood for Love", "The Namesake", "Capernaum"]},
+      {"id": "BT-017", "pole_a": "Visibility", "pole_b": "Invisibility", "tags": ["social", "identity", "power", "race"], "film_examples": ["Get Out", "Portrait of a Lady on Fire", "In the Heat of the Night"]},
+      {"id": "BT-018", "pole_a": "Grief", "pole_b": "Continuation", "tags": ["loss", "psychological", "survival"], "film_examples": ["Manchester by the Sea", "Rabbit Hole", "The Babadook"]},
+      {"id": "BT-019", "pole_a": "Ambition", "pole_b": "Integrity", "tags": ["professional", "moral", "political"], "film_examples": ["Michael Clayton", "Nightcrawler", "All the King's Men"]},
+      {"id": "BT-020", "pole_a": "Certainty", "pole_b": "Aliveness", "tags": ["existential", "psychological", "risk"], "film_examples": ["Into the Wild", "The Secret Life of Walter Mitty", "Shirley Valentine"]},
+      {"id": "BT-021", "pole_a": "Rage", "pole_b": "Forgiveness", "tags": ["trauma", "moral", "spiritual", "family"], "film_examples": ["Prisoners", "Mystic River", "The Sweet Hereafter"]},
+      {"id": "BT-022", "pole_a": "Past Self", "pole_b": "Future Self", "tags": ["identity", "transformation", "existential"], "film_examples": ["Wild", "The Tree of Life", "Adaptation"]},
+      {"id": "BT-023", "pole_a": "Sacrifice", "pole_b": "Selfishness", "tags": ["moral", "family", "war"], "film_examples": ["Interstellar", "Sophie's Choice", "Grave of the Fireflies"]},
+      {"id": "BT-024", "pole_a": "Speed", "pole_b": "Depth", "tags": ["modern", "attention", "technology", "relationships"], "film_examples": ["Lost in Translation", "Her", "Disconnect"]},
+      {"id": "BT-025", "pole_a": "Purpose", "pole_b": "Pleasure", "tags": ["existential", "modern", "hedonism"], "film_examples": ["The Big Lebowski", "About Schmidt", "American Beauty"]},
+      {"id": "BT-026", "pole_a": "Desire", "pole_b": "Discipline", "tags": ["psychological", "addiction", "achievement"], "film_examples": ["Whiplash", "Beautiful Boy", "The Wrestler"]},
+      {"id": "BT-027", "pole_a": "Nature", "pole_b": "Nurture", "tags": ["identity", "science", "family", "psychology"], "film_examples": ["We Need to Talk About Kevin", "Primal Fear", "Three Identical Strangers"]},
+      {"id": "BT-028", "pole_a": "Illusion", "pole_b": "Reality", "tags": ["psychological", "perception", "identity"], "film_examples": ["A Beautiful Mind", "Shutter Island", "The Others"]},
+      {"id": "BT-029", "pole_a": "Tradition", "pole_b": "Survival", "tags": ["cultural", "generational", "immigration", "climate"], "film_examples": ["My Big Fat Greek Wedding", "Captain Fantastic", "Quo Vadis Aida"]},
+      {"id": "BT-030", "pole_a": "Pride", "pole_b": "Need", "tags": ["social", "poverty", "dignity", "family"], "film_examples": ["I, Daniel Blake", "Nomadland", "The Florida Project"]},
+      {"id": "BT-031", "pole_a": "Home", "pole_b": "Freedom", "tags": ["existential", "identity", "immigration", "coming-of-age"], "film_examples": ["Moonlight", "Brooklyn", "The Motorcycle Diaries"]},
+      {"id": "BT-032", "pole_a": "Seen", "pole_b": "Erased", "tags": ["race", "gender", "power", "identity"], "film_examples": ["Hidden Figures", "Selma", "Never Rarely Sometimes Always"]},
+      {"id": "BT-033", "pole_a": "Love", "pole_b": "Obsession", "tags": ["psychological", "romantic", "dangerous"], "film_examples": ["Fatal Attraction", "You (series)", "Blue Valentine"]},
+      {"id": "BT-034", "pole_a": "Duty", "pole_b": "Joy", "tags": ["family", "cultural", "generational", "immigrant"], "film_examples": ["The Farewell", "Minari", "Bend It Like Beckham"]},
+      {"id": "BT-035", "pole_a": "Chaos", "pole_b": "Safety", "tags": ["psychological", "anxiety", "family", "political"], "film_examples": ["A Quiet Place", "Hereditary", "Melancholia"]},
+      {"id": "BT-036", "pole_a": "Complicity", "pole_b": "Witness", "tags": ["moral", "institutional", "historical", "bystander"], "film_examples": ["Son of Saul", "The Reader", "Conspiracy (2001)"]},
+      {"id": "BT-037", "pole_a": "Genius", "pole_b": "Connection", "tags": ["psychological", "isolation", "achievement", "neurodivergence"], "film_examples": ["A Beautiful Mind", "Good Will Hunting", "The Imitation Game"]},
+      {"id": "BT-038", "pole_a": "Innocence", "pole_b": "Complicity", "tags": ["moral", "institutional", "coming-of-age", "crime"], "film_examples": ["The White Ribbon", "Elephant", "Dogtooth"]},
+      {"id": "BT-039", "pole_a": "Body", "pole_b": "Mind", "tags": ["identity", "disability", "psychological", "gender"], "film_examples": ["Still Alice", "The Diving Bell and the Butterfly", "Cake"]},
+      {"id": "BT-040", "pole_a": "God", "pole_b": "Evidence", "tags": ["epistemic", "science", "religious", "identity"], "film_examples": ["Contact", "The Book of Job (adaptations)", "First Reformed"]},
+      {"id": "BT-041", "pole_a": "Automation", "pole_b": "Human Purpose", "tags": ["technology", "labor", "identity", "AI"], "film_examples": ["Sorry to Bother You", "Metropolis", "I, Robot"]},
+      {"id": "BT-042", "pole_a": "Connection", "pole_b": "Isolation", "tags": ["modern", "technology", "loneliness", "mental health"], "film_examples": ["Her", "Lost in Translation", "The Social Network"]},
+      {"id": "BT-043", "pole_a": "Authority", "pole_b": "Conscience", "tags": ["institutional", "moral", "military", "political"], "film_examples": ["Full Metal Jacket", "Judgment at Nuremberg", "Official Secrets"]},
+      {"id": "BT-044", "pole_a": "Transparency", "pole_b": "Privacy", "tags": ["technology", "political", "surveillance", "modern"], "film_examples": ["The Circle", "Citizenfour", "Minority Report"]}
+    ],
+
+    "polti_situations": [
+      {"id": "PS-001", "name": "Supplication", "roles": ["Persecutor", "Suppliant", "Authority to grant or refuse"], "core_drive": "desperate appeal to power"},
+      {"id": "PS-002", "name": "Deliverance", "roles": ["Unfortunate", "Threatener", "Rescuer"], "core_drive": "intervention against injustice"},
+      {"id": "PS-003", "name": "Vengeance of a Crime", "roles": ["Avenger", "Criminal", "Victim"], "core_drive": "justice pursued outside law"},
+      {"id": "PS-004", "name": "Vengeance of Kin upon Kin", "roles": ["Guilty Kinsman", "Avenging Kinsman", "Memory of Victim"], "core_drive": "betrayal within the family unit"},
+      {"id": "PS-005", "name": "Pursuit", "roles": ["Fugitive", "Punisher"], "core_drive": "relentless chase, guilt or innocence unresolved"},
+      {"id": "PS-006", "name": "Disaster", "roles": ["Vanquished Power", "Victorious Enemy or Messenger"], "core_drive": "collapse of world, survival of meaning"},
+      {"id": "PS-007", "name": "Falling Prey to Cruelty or Misfortune", "roles": ["Unfortunate", "Master or Misfortune"], "core_drive": "arbitrary suffering; endurance or destruction"},
+      {"id": "PS-008", "name": "Revolt", "roles": ["Tyrant", "Conspirators"], "core_drive": "uprising against oppressive order"},
+      {"id": "PS-009", "name": "Daring Enterprise", "roles": ["Bold Leader", "Object", "Adversary"], "core_drive": "audacious attempt against impossible odds"},
+      {"id": "PS-010", "name": "Abduction", "roles": ["Abductor", "Abducted", "Guardian"], "core_drive": "violation of protected bond"},
+      {"id": "PS-011", "name": "Enigma", "roles": ["Interrogator", "Seeker", "Problem"], "core_drive": "hidden truth that changes everything"},
+      {"id": "PS-012", "name": "Obtaining", "roles": ["Solicitor", "Adversary/Arbitrator", "Opposing parties"], "core_drive": "conflict over acquisition; ends justify means"},
+      {"id": "PS-013", "name": "Enmity of Kinsmen", "roles": ["Malevolent Kinsman", "Hated Kinsman"], "core_drive": "hatred within the family; blood as wound"},
+      {"id": "PS-014", "name": "Rivalry of Kinsmen", "roles": ["Preferred Kinsman", "Rejected Kinsman", "Object of rivalry"], "core_drive": "competition for love/status within family"},
+      {"id": "PS-015", "name": "Murderous Adultery", "roles": ["Two Adulterers", "Betrayed Spouse"], "core_drive": "desire that demands elimination of the obstacle"},
+      {"id": "PS-016", "name": "Madness", "roles": ["Madman", "Victim"], "core_drive": "mind that destroys the self and others"},
+      {"id": "PS-017", "name": "Fatal Imprudence", "roles": ["Imprudent person", "Victim or Lost Object"], "core_drive": "a single failure of judgment undoes everything"},
+      {"id": "PS-018", "name": "Involuntary Crimes of Love", "roles": ["Lover", "Beloved (unknown kin)", "Discoverer"], "core_drive": "transgression committed in ignorance"},
+      {"id": "PS-019", "name": "Slaying of Kin Unrecognized", "roles": ["Slayer", "Unrecognized Victim"], "core_drive": "catastrophic error of identity"},
+      {"id": "PS-020", "name": "Self-Sacrifice for an Ideal", "roles": ["Hero", "Ideal", "Person/Thing Sacrificed"], "core_drive": "death in service of principle"},
+      {"id": "PS-021", "name": "Self-Sacrifice for Kindred", "roles": ["Hero", "Kinsman", "Person Sacrificed"], "core_drive": "love that demands annihilation of self"},
+      {"id": "PS-022", "name": "All Sacrificed for a Passion", "roles": ["Lover", "Object of Fatal Passion", "Person/Thing Sacrificed"], "core_drive": "obsession as self-destruction"},
+      {"id": "PS-023", "name": "Necessity of Sacrificing Loved Ones", "roles": ["Hero", "Beloved Victim", "Necessity"], "core_drive": "impossible choice with no clean hands"},
+      {"id": "PS-024", "name": "Rivalry of Superior and Inferior", "roles": ["Superior Rival", "Inferior Rival", "Object"], "core_drive": "asymmetric competition; resentment and ambition"},
+      {"id": "PS-025", "name": "Adultery", "roles": ["Deceived Spouse", "Adulteress/Adulterer", "Accomplice"], "core_drive": "secret dual life; loyalty vs desire"},
+      {"id": "PS-026", "name": "Crimes of Love", "roles": ["Lover", "Beloved", "Transgression theme"], "core_drive": "love that violates a sacred boundary"},
+      {"id": "PS-027", "name": "Discovery of the Dishonor of a Loved One", "roles": ["Discoverer", "Guilty One"], "core_drive": "shattering of an idealized image"},
+      {"id": "PS-028", "name": "Obstacles to Love", "roles": ["Two Lovers", "Obstacle"], "core_drive": "force that separates what belongs together"},
+      {"id": "PS-029", "name": "An Enemy Loved", "roles": ["Beloved Enemy", "Lover", "The Hater"], "core_drive": "desire that crosses the line of tribal identity"},
+      {"id": "PS-030", "name": "Ambition", "roles": ["Ambitious Person", "Coveted Thing", "Adversary"], "core_drive": "drive for power that corrupts or destroys"},
+      {"id": "PS-031", "name": "Conflict with a God", "roles": ["Mortal", "Immortal/Fate/Institution"], "core_drive": "human will against overwhelming force"},
+      {"id": "PS-032", "name": "Mistaken Jealousy", "roles": ["Jealous One", "Object", "Supposed Accomplice", "Author of Mistake"], "core_drive": "suspicion that manufactures its own truth"},
+      {"id": "PS-033", "name": "Erroneous Judgment", "roles": ["Mistaken One", "Victim", "Author of Mistake", "Guilty Person"], "core_drive": "false conviction; justice becomes the crime"},
+      {"id": "PS-034", "name": "Remorse", "roles": ["Culprit", "Victim", "Interrogator"], "core_drive": "guilt that cannot be outrun"},
+      {"id": "PS-035", "name": "Recovery of a Lost One", "roles": ["Seeker", "One Found"], "core_drive": "reunion that may not heal what was broken"},
+      {"id": "PS-036", "name": "Loss of Loved Ones", "roles": ["Kinsman Slain", "Kinsman Spectator", "Executioner"], "core_drive": "grief as the story's true subject"}
+    ],
+
+    "booker_plots": [
+      {"id": "BP-001", "name": "Overcoming the Monster", "core": "Hero vs life-threatening predatory evil", "jungian_root": "Shadow confrontation", "inversion_potential": "what if the monster is right"},
+      {"id": "BP-002", "name": "Rags to Riches", "core": "Humble hero rises, falls, rises truly transformed", "jungian_root": "Individuation", "inversion_potential": "what is lost in the rising"},
+      {"id": "BP-003", "name": "The Quest", "core": "Hero and companions seek distant prize", "jungian_root": "Directed will overcoming obstacles", "inversion_potential": "the quest was never the point"},
+      {"id": "BP-004", "name": "Voyage and Return", "core": "Hero ventures into abnormal world, escapes changed", "jungian_root": "Encounter with the unconscious", "inversion_potential": "the return is impossible"},
+      {"id": "BP-005", "name": "Comedy", "core": "Confusion and misunderstanding resolved into union", "jungian_root": "Restoration of order from chaos", "inversion_potential": "the resolution is a lie"},
+      {"id": "BP-006", "name": "Tragedy", "core": "Hero's flaw drives them to catastrophic end", "jungian_root": "Shadow capture / ego inflation", "inversion_potential": "the flaw was a virtue in the wrong world"},
+      {"id": "BP-007", "name": "Rebirth", "core": "Dark threat forces hero's transformation", "jungian_root": "Death-and-resurrection archetype", "inversion_potential": "transformation destroys rather than saves"}
+    ],
+
+    "haidt_foundations": [
+      {"id": "HF-001", "foundation": "Care / Harm", "virtue_pole": "Compassion, nurturing, protection", "vice_pole": "Cruelty, harm, indifference", "narrative_function": "Protagonist protection drives; what we will destroy ourselves to protect"},
+      {"id": "HF-002", "foundation": "Fairness / Reciprocity", "virtue_pole": "Justice, rights, equality", "vice_pole": "Cheating, exploitation, freeloading", "narrative_function": "Revenge and justice plots; the ledger that demands balancing"},
+      {"id": "HF-003", "foundation": "Loyalty / Betrayal", "virtue_pole": "Group solidarity, faithfulness", "vice_pole": "Treachery, disloyalty, self-interest over the group", "narrative_function": "Betrayal arcs; what the group demands vs what the individual needs"},
+      {"id": "HF-004", "foundation": "Authority / Subversion", "virtue_pole": "Respect for tradition, hierarchy, leadership", "vice_pole": "Subversion, disrespect, defiance", "narrative_function": "Rebellion vs institution; when does following orders become complicity"},
+      {"id": "HF-005", "foundation": "Purity / Sanctity", "virtue_pole": "Sacredness, wholeness, transcendence", "vice_pole": "Degradation, contamination, the profane", "narrative_function": "Horror and spiritual crisis; the thing that cannot be unseen"},
+      {"id": "HF-006", "foundation": "Liberty / Oppression", "virtue_pole": "Freedom, autonomy, anti-coercion", "vice_pole": "Oppression, domination, constraint", "narrative_function": "The individual against the structure; freedom as identity or as chaos"}
+    ],
+
+    "pearson_archetypes": [
+      {"id": "PA-001", "archetype": "Innocent", "cluster": "Preparation", "drives": "Paradise, safety, hope", "shadow_wound": "Naivety, denial, complicity through ignorance"},
+      {"id": "PA-002", "archetype": "Orphan / Everyman", "cluster": "Preparation", "drives": "Belonging, survival, realistic expectations", "shadow_wound": "Victimhood, cynicism, abandonment anxiety"},
+      {"id": "PA-003", "archetype": "Warrior / Hero", "cluster": "Preparation", "drives": "Mastery, winning, protection of the vulnerable", "shadow_wound": "Ruthlessness, aggression, win-at-all-costs destructiveness"},
+      {"id": "PA-004", "archetype": "Caregiver", "cluster": "Preparation", "drives": "Service, nurturing, protecting others", "shadow_wound": "Martyrdom, enabling, self-neglect disguised as virtue"},
+      {"id": "PA-005", "archetype": "Seeker / Explorer", "cluster": "Soul", "drives": "Freedom, discovery, authenticity", "shadow_wound": "Chronic dissatisfaction, alienation, inability to commit"},
+      {"id": "PA-006", "archetype": "Lover", "cluster": "Soul", "drives": "Intimacy, pleasure, deep relationship", "shadow_wound": "Obsession, loss of self in the other, envy"},
+      {"id": "PA-007", "archetype": "Revolutionary / Outlaw", "cluster": "Soul", "drives": "Disruption, liberation, revenge against the order", "shadow_wound": "Nihilism, crime, addiction as substitute for transformation"},
+      {"id": "PA-008", "archetype": "Creator", "cluster": "Soul", "drives": "Innovation, beauty, vision made real", "shadow_wound": "Perfectionism, self-indulgence, sabotaging the finished thing"},
+      {"id": "PA-009", "archetype": "Ruler", "cluster": "Return", "drives": "Control, order, prosperity, responsibility", "shadow_wound": "Tyranny, rigidity, entitlement, consuming what it was meant to protect"},
+      {"id": "PA-010", "archetype": "Magician / Transformer", "cluster": "Return", "drives": "Transformation, healing, win-win solutions", "shadow_wound": "Manipulation, hubris, using power to dominate"},
+      {"id": "PA-011", "archetype": "Sage / Mentor", "cluster": "Return", "drives": "Truth, wisdom, understanding, teaching", "shadow_wound": "Dogmatism, detachment, coldness, the answer that killed curiosity"},
+      {"id": "PA-012", "archetype": "Jester / Fool", "cluster": "Return", "drives": "Joy, play, lightness, living in the present", "shadow_wound": "Cynicism, cruelty through deflection, irresponsibility as identity"}
+    ],
+
+    "unusual_spaces": [
+      {"id": "US-001", "space": "A forensic psychiatric ward during a court-ordered evaluation", "tags": ["institutional", "legal", "psychological"], "friction": "every relationship is both therapeutic and adversarial"},
+      {"id": "US-002", "space": "A deep-sea mining platform 4km below surface during a crew rotation", "tags": ["extreme_geography", "isolation", "labor"], "friction": "no rescue possible; every conflict must resolve internally"},
+      {"id": "US-003", "space": "A Soviet-era bioweapons lab converted to a music conservatory", "tags": ["historical", "transformation", "institutional"], "friction": "the building's past is in the walls"},
+      {"id": "US-004", "space": "A refugee processing center on an island with no cell service", "tags": ["immigration", "institutional", "isolation"], "friction": "bureaucracy as the face of power over life"},
+      {"id": "US-005", "space": "A commercial orbital station in its first year of operation", "tags": ["technology", "extreme_geography", "corporate"], "friction": "frontier rules and corporate rules in direct conflict"},
+      {"id": "US-006", "space": "A dementia care unit during a staff strike", "tags": ["institutional", "medical", "labor"], "friction": "care and duty separated; the most vulnerable left exposed"},
+      {"id": "US-007", "space": "A juvenile detention facility running an experimental theater program", "tags": ["institutional", "coming-of-age", "art"], "friction": "performance as both mask and revelation"},
+      {"id": "US-008", "space": "A CIA black site being decommissioned and its records destroyed", "tags": ["political", "institutional", "moral"], "friction": "evidence of the past being erased in real time"},
+      {"id": "US-009", "space": "A failed state's last functioning hospital", "tags": ["war", "medical", "survival"], "friction": "the duty to save lives inside a structure that has already failed"},
+      {"id": "US-010", "space": "A monastery that accepts only prisoners serving life sentences", "tags": ["spiritual", "institutional", "redemption"], "friction": "transformation possible only where there is no way out"},
+      {"id": "US-011", "space": "The 72 hours before a country's currency collapses", "tags": ["economic", "political", "temporal_extreme"], "friction": "the last hours when normal rules still apply"},
+      {"id": "US-012", "space": "The first week after a ceasefire that no one trusts", "tags": ["war", "political", "temporal_extreme"], "friction": "peace as its own kind of danger"},
+      {"id": "US-013", "space": "A community living in the first year after their town was contaminated", "tags": ["environmental", "community", "long_aftermath"], "friction": "invisible poison that nobody can agree is real"},
+      {"id": "US-014", "space": "The final semester of a school being permanently closed", "tags": ["institutional", "community", "ending"], "friction": "every relationship has a known expiration date"},
+      {"id": "US-015", "space": "An Antarctic winter-over station: 9 researchers, 8 months, no evacuation", "tags": ["extreme_geography", "isolation", "scientific"], "friction": "microscopic irritations become existential under total enclosure"},
+      {"id": "US-016", "space": "A competitive esports house where teenagers live, train, and compete", "tags": ["technology", "coming-of-age", "competitive"], "friction": "total surveillance; no separation of self and performance"},
+      {"id": "US-017", "space": "A surrogacy agency in a country where it just became illegal", "tags": ["legal", "medical", "family", "moral"], "friction": "a law change makes ongoing relationships suddenly criminal"},
+      {"id": "US-018", "space": "A high-stakes organ transplant program operating under sanctions", "tags": ["medical", "political", "moral"], "friction": "life-saving work in institutional exile"},
+      {"id": "US-019", "space": "A commercial fishing vessel in actively disputed territorial waters", "tags": ["labor", "political", "extreme_geography"], "friction": "livelihood and sovereignty in direct collision every day"},
+      {"id": "US-020", "space": "A disaster relief team after a tropical storm with no rescue for 72 hours", "tags": ["survival", "community", "emergency"], "friction": "triage as the daily moral decision"},
+      {"id": "US-021", "space": "A reality TV show that accidentally captures a real crime", "tags": ["media", "modern", "moral"], "friction": "the apparatus of entertainment becomes evidence"},
+      {"id": "US-022", "space": "A small town where a viral video divided the entire population into camps", "tags": ["modern", "community", "media", "truth"], "friction": "the external record contradicts the internal memory"},
+      {"id": "US-023", "space": "A diaspora community celebrating the national holiday of a country that no longer exists", "tags": ["immigration", "identity", "historical"], "friction": "loyalty to a ghost; belonging to a place that has become metaphor"},
+      {"id": "US-024", "space": "A support group for survivors of the same near-miss plane crash", "tags": ["trauma", "community", "psychological"], "friction": "shared near-death creates intimacy and divergence simultaneously"},
+      {"id": "US-025", "space": "A hospice where the AI caregiver has begun developing preferences for patients", "tags": ["technology", "medical", "end-of-life", "AI"], "friction": "the machine that sees what humans won't"},
+      {"id": "US-026", "space": "A memory clinic running a trial that accidentally restores traumatic memories", "tags": ["medical", "psychological", "scientific"], "friction": "the cure and the wound are the same event"},
+      {"id": "US-027", "space": "A lucid dreaming research study where participants begin sharing content", "tags": ["psychological", "scientific", "surreal"], "friction": "the boundary between minds begins to dissolve"},
+      {"id": "US-028", "space": "A cult exit program run entirely by former cult members", "tags": ["psychological", "institutional", "recovery"], "friction": "the rescuers carry the same wound as the rescued"},
+      {"id": "US-029", "space": "A border town that is simultaneously in two countries", "tags": ["political", "identity", "community"], "friction": "identity is literally determined by which side of the street you're on"},
+      {"id": "US-030", "space": "A floating city-state in the process of being dismantled after government collapse", "tags": ["political", "community", "ending"], "friction": "the infrastructure of a society being auctioned while people still live in it"},
+      {"id": "US-031", "space": "A village that lost 40% of its population to emigration in one year", "tags": ["immigration", "community", "aftermath"], "friction": "the ones who stayed and the ones who left measure each other"},
+      {"id": "US-032", "space": "The last inhabited island before rising seas make it uninhabitable", "tags": ["climate", "community", "ending", "identity"], "friction": "the question of when to leave is the question of who you are"},
+      {"id": "US-033", "space": "A city block under demolition order for 15 years, still occupied", "tags": ["institutional", "community", "poverty", "resistance"], "friction": "refusal to leave as the only remaining act of self-definition"},
+      {"id": "US-034", "space": "A corporation's last 48 hours before AI replaces all knowledge workers", "tags": ["technology", "labor", "modern", "AI"], "friction": "the colleagues who remain know each other's replacement date"},
+      {"id": "US-035", "space": "A game where players don't know they're training an AI", "tags": ["technology", "ethics", "modern", "deception"], "friction": "play as labor, entertainment as exploitation"},
+      {"id": "US-036", "space": "A digital inheritance dispute over a deceased person's AI persona", "tags": ["technology", "family", "death", "legal"], "friction": "the ghost that has opinions"},
+      {"id": "US-037", "space": "A social scoring rollout in a community that has never been ranked before", "tags": ["technology", "political", "community", "power"], "friction": "the moment quantification enters a relationship"},
+      {"id": "US-038", "space": "A wilderness therapy program for hedge fund executives", "tags": ["class", "nature", "psychological", "irony"], "friction": "survival stripped of financial insulation"},
+      {"id": "US-039", "space": "A professional sports team's training camp during a league-wide doping scandal", "tags": ["competitive", "institutional", "moral", "sports"], "friction": "everyone is suspect; truth would end careers"},
+      {"id": "US-040", "space": "A translators' pool at an international war crimes tribunal", "tags": ["institutional", "moral", "linguistic", "historical"], "friction": "the word chosen changes what the crime was"}
+    ]
+  },
+
+  "combination_modes": {
+    "binary": {
+      "template": "(pole_A) vs (pole_B)",
+      "description": "Single tension; protagonist embodies or is forced to choose between the poles",
+      "example": "Truth vs Belonging"
+    },
+    "trilemma": {
+      "template": "(tension_A) in the space of (unusual_space)",
+      "description": "A tension placed in an unusual context that makes the standard resolution impossible",
+      "example": "Memory vs Sanity inside a deep-sea platform with no evacuation"
+    },
+    "layered": {
+      "template": "outer conflict (A vs B) driven by unspoken inner conflict (C vs D)",
+      "description": "The surface story is about one tension, the real story is about another",
+      "example": "Outer: Justice vs Mercy // Inner: Complicity vs Courage"
+    },
+    "sit_subtraction": {
+      "template": "Remove [element] from standard (A vs B) to create unusual variant",
+      "description": "SIT Subtraction operator — strip away the obvious element to expose what remains",
+      "example": "Remove the law from Justice vs Mercy → protagonist must be both judge and executioner"
+    },
+    "sit_task_unification": {
+      "template": "Assign additional contradictory role to one party",
+      "description": "SIT Task Unification — the antagonist is also the protagonist's teacher, healer, or only ally",
+      "example": "The person who destroyed the protagonist is the only one who can save them"
+    },
+    "polti_plus_binary": {
+      "template": "(Polti situation) expressing (binary tension)",
+      "description": "Use a dramatic situation as the plot mechanism; binary tension as the moral engine",
+      "example": "PS-023 (Necessity of Sacrificing Loved Ones) expressing BT-023 (Sacrifice vs Selfishness)"
+    },
+    "archetype_shadow_collision": {
+      "template": "Protagonist archetype (PA-X) meets their own shadow in the antagonist",
+      "description": "The antagonist is who the protagonist becomes if they lose",
+      "example": "Protagonist: Warrior (PA-003) // Antagonist: Shadow of Warrior = pure ruthlessness"
+    }
+  },
+
+  "cross_consistency": {
+    "overdone_combinations": [
+      {"tension": "BT-004", "context": "wartime", "pattern": "noble soldier sacrifices love for duty", "penalty_factor": 0.2, "note": "Unless the setting inverts the expectation"},
+      {"tension": "BT-019", "context": "corporate thriller", "pattern": "ambitious lawyer/banker discovers conscience", "penalty_factor": 0.25},
+      {"tension": "BT-011", "context": "fantasy chosen-one", "pattern": "young hero learns dark truth about their power", "penalty_factor": 0.15},
+      {"tension": "BT-028", "context": "twist reveal film", "pattern": "character discovers they are the monster/dead/unreliable", "penalty_factor": 0.3},
+      {"tension": "BT-029", "context": "immigrant family drama", "pattern": "parent holds tradition, child wants assimilation, resolved by cultural celebration", "penalty_factor": 0.25},
+      {"tension": "BT-033", "context": "domestic thriller", "pattern": "obsessive romantic partner turns violent after rejection", "penalty_factor": 0.3},
+      {"polti": "PS-028", "context": "romantic comedy", "pattern": "misunderstanding separates couple, corrected in final act", "penalty_factor": 0.4}
+    ],
+    "underexplored_combinations": [
+      {"tension_a": "BT-006", "space": "US-009", "description": "Mastery vs Connection in a failed state hospital — a surgeon who can only survive by turning off empathy", "boost_factor": 2.5},
+      {"tension_a": "BT-005", "space": "US-011", "description": "Memory vs Sanity during a currency collapse — a woman whose reliable memory is the town's only asset", "boost_factor": 2.0},
+      {"tension_a": "BT-039", "space": "US-025", "description": "Body vs Mind with an AI caregiver — patient whose body is failing but whose mind the AI has fallen in love with", "boost_factor": 2.5},
+      {"tension_a": "BT-007", "space": "US-034", "description": "Faith vs Evidence in a corporate AI replacement — the last priest in an AI-automated company town", "boost_factor": 2.0},
+      {"tension_a": "BT-036", "space": "US-040", "description": "Complicity vs Witness — a war crimes translator who must translate testimony that implicates their own government", "boost_factor": 3.0},
+      {"tension_a": "BT-041", "space": "US-025", "description": "Automation vs Human Purpose — the AI that has learned to mourn the patients it couldn't save", "boost_factor": 2.5},
+      {"tension_a": "BT-018", "space": "US-032", "description": "Grief vs Continuation on a sinking island — a community's collective decision to stay or leave as the embodiment of grief", "boost_factor": 2.0},
+      {"tension_a": "BT-015", "space": "US-007", "description": "Complicity vs Courage — a drama teacher in juvenile detention who discovers their star student planned the crime that put them there", "boost_factor": 2.5}
+    ],
+    "high_potential_trilemmas": [
+      {"tensions": ["BT-042", "BT-006", "BT-041"], "description": "Connection vs Isolation AND Mastery vs Connection in the space of AI dependency — the more capable you become with AI assistance, the more human connection atrophies", "resonance": 0.91},
+      {"tensions": ["BT-001", "BT-015", "BT-003"], "description": "Truth vs Belonging AND Complicity vs Courage when Loyalty vs Survival is the price — a whistleblower whose truth will destroy the community that depends on the institution", "resonance": 0.88},
+      {"tensions": ["BT-005", "BT-027", "BT-009"], "description": "Memory vs Sanity AND Nature vs Nurture when Healing vs Truth is the question — a parent discovers their child's violence was predictable and they chose not to see it", "resonance": 0.85}
+    ]
+  },
+
+  "sampling_config": {
+    "default_mode": "trilemma",
+    "resonance_boost_factor": 3.0,
+    "underexplored_boost_factor": 2.5,
+    "overdone_penalty_factor": 0.2,
+    "seed_algorithm": "seeded_random",
+    "default_output_count": 3,
+    "dimensions_to_sample": ["binary_tensions", "unusual_spaces"],
+    "optional_dimensions": ["polti_situations", "pearson_archetypes", "booker_plots"]
+  }
+}

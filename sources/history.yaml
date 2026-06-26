@@ -1,0 +1,74 @@
+schema_version: "1.0"
+last_verified: "2026-05-09T00:00:00Z"
+category: "Q"
+category_name: "History — Events / Biographies / Civilizations / Archaeology"
+
+# Cross-domain knowledge layer (Track B, V4A-003a). History endpoints span
+# Europeana (50M+ EU cultural heritage), LoC American Memory, Internet
+# Archive Americana, Wikidata events.
+
+sources:
+
+  - source_id: "history-europeana-search"
+    category: "Q"
+    name: "Europeana Record API — Cultural Heritage Search"
+    homepage_url: "https://www.europeana.eu"
+    api_base: "https://api.europeana.eu/record/v2/search.json"
+    quota:
+      requests_per_minute: 60
+      requests_per_day: 10000
+    auth_method: "key"
+    auth_required: true
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Europeana 50M+ cultural-heritage objects from 4K+ EU institutions (manuscripts, paintings, photographs, films, audio). Free key via api.europeana.eu. Per-record deep-path /record/{datasetId}/{recordId}."
+
+  - source_id: "history-loc-american-memory"
+    category: "Q"
+    name: "LoC American Memory — JSON Search"
+    homepage_url: "https://www.loc.gov"
+    api_base: "https://www.loc.gov/collections/american-history/?fo=json"
+    quota:
+      requests_per_minute: 20
+      requests_per_day: 5000
+    auth_method: "none"
+    auth_required: false
+    license: "public domain"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Library of Congress American Memory; 9M+ digitized historical items spanning 1500-2000 (broadsides, maps, photographs, recordings, manuscripts). JSON via ?fo=json on any collection page."
+
+  - source_id: "history-archive-americana"
+    category: "Q"
+    name: "Internet Archive — Americana Texts Collection"
+    homepage_url: "https://archive.org"
+    api_base: "https://archive.org/advancedsearch.php?q=collection%3Aamericana+AND+mediatype%3Atexts&output=json"
+    quota:
+      requests_per_minute: 15
+      requests_per_day: 10000
+    auth_method: "none"
+    auth_required: false
+    license: "mixed"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Internet Archive Americana texts; 1M+ digitized US historical documents (state papers, newspapers, biographies, regional histories). Distinct source_id from archive-foia-set (Category J)."
+
+  - source_id: "history-wikidata-events-sparql"
+    category: "Q"
+    name: "Wikidata SPARQL — Historical Events & Battles"
+    homepage_url: "https://query.wikidata.org"
+    api_base: "https://query.wikidata.org/sparql"
+    quota:
+      requests_per_minute: 30
+      requests_per_day: 1000
+    auth_method: "none"
+    auth_required: false
+    license: "CC0"
+    bot_block_allow_listed: false
+    untapped_check_strategy: "cross-search"
+    last_verified: "2026-05-09T00:00:00Z"
+    notes: "Wikidata SPARQL `instance of: historical event` (Q13418847) or `instance of: battle` (Q178561) — 100K+ documented events with date, location, participants, casualties, period."

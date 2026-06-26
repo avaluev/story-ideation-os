@@ -1,0 +1,17 @@
+{
+  "concept_id": "golden-concept-004",
+  "title": "The Iron Atlas",
+  "logline": "A historian discovers a suppressed manuscript connecting two empires separated by five centuries.",
+  "polti_id": 3,
+  "tobias_id": 7,
+  "seed_used": 42,
+  "seed_increments": 0,
+  "forge_meta": {
+    "model": "anthropic/claude-sonnet-4.6",
+    "k": 3,
+    "seed_used": 42
+  },
+  "produced_at": "2026-05-07T12:00:00+00:00",
+  "session_id": "golden-fixture-session",
+  "total_score": null
+}
