@@ -1,16 +1,24 @@
 # Aurelia
 
-#### Logline
-In a prison where confessions are extracted by walking through the inside of a prisoner's memory, the state's most flawless young interrogator is ordered to break the one prisoner whose mind she cannot enter without dismantling her own — the sister who hid her, trained her, and surrendered her — and the only way to stop a purge that scales to forty more children like her is to do to her sister the exact harm that was done to her.
+[↩ Back to the slate](../../README.md) · `🔵 Grade B` · `Year-1 SOM $528M` · `Animated psychological prison-thriller (crime`
 
-#### Tagline
-She was made to be perfect. Perfection is the cell.
+`~110 minutes, theatrical feature` · `Mid-market premium animation`
+
+> **Logline** — In a prison where confessions are extracted by walking through the inside of a prisoner's memory, the state's most flawless young interrogator is ordered to break the one prisoner whose mind she cannot enter without dismantling her own — the sister who hid her, trained her, and surrendered her — and the only way to stop a purge that scales to forty more children like her is to do to her sister the exact harm that was done to her.
+>
+> **Tagline** — *She was made to be perfect. Perfection is the cell.*
+
+| Market line | Value | Basis |
+|:--|--:|:--|
+| **TAM** — total content market | $328.20B | [MPA THEME Report](https://www.motionpictures.org/wp-content/uploads/2022/03/MPA-2021-THEME-Report-FINAL.pdf) |
+| **SAM** — serviceable slice | $39.38B | 12% of $328.20B TAM · `python_executed` |
+| **SOM** — Year-1 obtainable | **$528M** | comp-anchored · `python_executed` |
 
 ---
 
-# 1. Market & Audience
+## 📊 Market & Audience
 
-## Audience Sizing
+### Audience Sizing
 
 The total addressable market is the global theatrical box office, valued at $328.2B in the most recent industry accounting of worldwide cinema revenue. Animated features designed for the crossover audience — adult in stakes, legible to teens — have repeatedly demonstrated that the medium is a delivery system for serious drama, not a children's ghetto, and the ceiling for that delivery system is the full theatrical market.
 
@@ -20,11 +28,12 @@ The serviceable obtainable market — the realistic Year-One capture for a singl
 
 **SOM (Year 1):** $528M
 
+> [!NOTE]
 > **How the Year-1 SOM is computed.** The figure is `python_executed` — produced by the engine's comparable-anchored revenue model, never written or rounded by a language model (ADR-0011). It is the weighted-median worldwide gross of the matched comparable titles below, derated for an English-language-first release and the modeled overlap of the film's audiences.
 >
 > Confidence band (80%): $293M-$950M. Projected lifetime value across all windows: $1.56B. Serviceable market SAM = $39.38B = 12% of $328.20B TAM ([MPA THEME Report](https://www.motionpictures.org/wp-content/uploads/2022/03/MPA-2021-THEME-Report-FINAL.pdf)). The order SOM < SAM < TAM holds by construction.
 
-## Revenue Thesis
+### Revenue Thesis
 
 The budget tier is mid-market premium animation — high enough to fund per-character architectural rendering (each memory-house built in its own visual grammar), low enough that a single strong theatrical run clears the bar. The economic case rests on a hard truth the comparables make plain: in this neighborhood, concept and execution beat spend.
 
@@ -32,21 +41,21 @@ The budget tier is mid-market premium animation — high enough to fund per-char
 
 Modeled against the central comparable, the base case returns roughly 3.8x on negative cost before the library tail — the breakeven crossing arrives inside the theatrical-plus-early-home window, with the long financial upside living in a series whose every future installment reuses the same world at declining marginal cost.
 
-## Why Now
+### Why Now
 
 Animation has finished its migration from the children's table to the center of serious filmmaking — the medium is now the chosen instrument for stories about interiority, memory, and trauma that live-action cannot literally render. At the same time, the cultural conversation has turned sharply toward the machinery that manufactures gifted children — the cost of excellence extracted from someone too young to consent — and toward the surveillance question of who owns the inside of a mind. A painterly prison-thriller whose central act is literally walking through another person's memory sits exactly where those two currents meet.
 
 ---
 
-# 2. The Concept
+## 🎬 The Concept
 
-## Mass-Appeal Theme
+### Mass-Appeal Theme
 
 The human truth underneath is family and the right to one's own mind: the ache of being loved for what you do instead of who you are, and the homecoming of being chosen rather than used. Everyone who was ever praised for a talent they never asked for — the prodigy, the responsible eldest child, the one whose worth got fused to their usefulness — recognizes the wound on contact.
 
 The convention it breaks is the gifted-youth-versus-dystopia template. Here the protagonist is not the rebel outside the institution; she *is* the institution's most precise instrument, and the buried secret the regime hunts is not hidden in the prisoner but implanted in the interrogator herself. The hunter and the hunted are one case file. The story does not ask whether the system can be beaten from outside — it asks what happens when the system's perfect tool turns the gift inward and aims it, for the first time, herself.
 
-## Format & Genre
+### Format & Genre
 
 This is a story that can only be told in animation, because its central mechanic — entering a person's remembered architecture and walking their memory like rooms in a decaying house — has no live-action equivalent that does not collapse into special-effects gimmick. Animation is load-bearing, not decoration: only a drawn world can render the inside of a mind as a walkable building that grows, erodes, and folds in real time, and only animation can shift architectural style per character so the camera literally moves through emotion as physical space.
 
@@ -54,15 +63,15 @@ This is a story that can only be told in animation, because its central mechanic
 - **Runtime:** ~110 minutes, theatrical feature
 - **Budget Tier:** Mid-market premium animation
 
-## Tonal Contract
+### Tonal Contract
 
 A handcrafted, painterly animated psychological thriller in the register of a prison-break heist crossed with a haunted house — gravity and dread, never whimsy. The memory-houses are rendered in shifting architectural styles per character: the sister's is warm decaying wood; the prison's harvested wing is cold accreting concrete, so the audience reads each mind's truth in its building materials. Violence is psychological and architectural, not gory — rooms collapse, faces erode, corridors grow. The prison itself responds to deceit: every time the protagonist lies, conceals, or lies to herself, a wall folds a fraction inward and a new corridor begins to grow, so her flaw is visible in the building before it is visible in her face. Adult in stakes and patient in pace, legible to teens, closer to a Pan's-Labyrinth-of-the-mind than to family comedy. Earned warmth arrives only at the very end, and never cheaply.
 
 ---
 
-# 3. Story
+## 📖 Story
 
-## Synopsis
+### Synopsis
 
 In the Vault — a vertical prison whose corridors are grown from harvested memories — Aurelia Vane is the youngest certified Walker the institution has ever produced. A Walker is an interrogator who steps physically inside a prisoner's remembered world to find the single load-bearing lie that, once pulled, collapses the prisoner into confession. The film opens wordlessly: Aurelia walks a stranger's memory in full view of the audience, moving through the rooms of a life until she finds the cracked beam holding it up and sets two fingers against it — a silent demonstration that teaches the entire visual grammar of the world before a single line explains it. She is flawless, celebrated, and miserable in a way she cannot name. She was found as a feral child during the purges and trained to do this before she could refuse, so her excellence is the only self she owns. Her want is the title of Master Walker — to win the cage so totally it stops feeling like one.
 
@@ -72,13 +81,13 @@ Aurelia acts, by choice, again and again, and the building betrays each choice a
 
 Then the floor drops out. When Aurelia finally forces the sealed room, she is not standing in Iris's memory — she is standing in her own. What Mott wants extracted was implanted in Aurelia as a child and walled off behind her childhood face; Iris let herself be captured for one reason only, to reach Aurelia and help her open the room from the inside before Mott can finish the job. The interrogator and the prisoner are one case file. Aurelia is not breaking a mind. She is the locked door — and her want curdles, because Master certification would mean standing still while Mott completes the cage. She spends the back half fighting outward against the clock and the Choir's purge, and inward through a memory-house that resists her because she built its walls as a child to survive. She recruits a disgraced Walker, sabotages a harvest, and trades her certification leverage for one hour alone in the room — every step shadowed by the forty children whose fate her victory would seal.
 
-## Emotional Arc
+### Emotional Arc
 
 The arc rises from a child's pride in being the best at the only thing she was allowed to be, through the vertigo of recognizing her own face on a door she cannot open, into the grief of learning she was robbed before she could remember being whole — and lands on a hard, earned belonging. In the final walk Aurelia stops choosing between present mercy and future safety and changes the operation itself. She remembers that the first trick Iris ever taught her was not how to break a mind but how to walk *with* one — to share a memory rather than harvest it, the survival method two hidden children used to hold each other up during the purges. The climax is not a new superpower invented at the last minute; it is the recovery of the gift her sister gave her before the state stole its name.
 
 To open the sealed room from the inside, Aurelia walks the two memory-houses together until the warm wood and the cold concrete fuse into a single corridor — and the cost is permanent. The merging erases a slice of her own recovered childhood she will never get back, and to reach Iris in time she must let Mott complete part of the extraction on herself, surrendering a piece of the very mind she fought to own. She pays present harm, in her own body, to make the synthesis real. Then, in a public reckoning staged before every prisoner and Walker in the Vault at once, she broadcasts the shared-mind method aloud and open — turning the one secret that could be tortured out of a single person into a thing everyone already holds and no one can be broken for. The counter-purge dissolves because its purpose was to deny the state the harvest, and the harvest is now obsolete. Mott's arithmetic breaks because it assumed harm was the only lever. The harm Aurelia does lands on the machine — the harvesting Vault, grown from extracted minds, begins to come apart — while the lasting harm she has already absorbed lands on herself, not on Iris. She does not save her sister by sparing her or doom thousands by failing. She ends the system that made the choice binary, and the final image is the sealed childhood door opening from the inside as two memory-houses become one corridor and two sisters, no longer guard and prisoner, walk it back together.
 
-## Comparables
+### Comparables
 
 | Title | Year | WW Revenue | Budget | ROI | Notes |
 |---|---|---|---|---|---|
@@ -89,25 +98,25 @@ To open the sealed room from the inside, Aurelia walks the two memory-houses tog
 
 ---
 
-# 4. Characters
+## 👥 Characters
 
-## Protagonist
+### Protagonist
 
 **Aurelia Vane**, sixteen, the youngest Walker the Vault has ever certified — a girl who can step inside a prisoner's memory and move through it like rooms in a house, reading the load-bearing lie that holds a person up and pulling it. Her inner contradiction is the engine of the film: she is praised as a prodigy and treated as a precision instrument, and the very excellence everyone admires is the thing that has imprisoned her, because she was never asked whether she wanted the gift that defines her. She only ever learned she was extraordinary at the one thing she had no say in being.
 
 Her **want** is to be declared the youngest Master Walker in the Vault's history — to make the cage so perfectly hers that it stops feeling like a cage, to win so completely at the only game she was given that the question of whether she chose it disappears. Her **need** is to stop confusing being needed with being chosen — to discover that her gift is hers to aim, not the Vault's to point, and that the first mind she truly owns is her own.
 
-## Antagonist
+### Antagonist
 
 **Warden Castellan Mott and the Vault itself** — a prison whose architecture is generated from the confessions it extracts, so that every memory a Walker harvests becomes a new corridor and the building literally grows by consuming the minds it breaks. Mott is not a sadist; he is a humane utilitarian arithmetician. He believes a single broken mind today, surgically harvested, can map the next uprising and save thousands from a far worse purge, and he bred Aurelia young precisely because children walk memory without the scar tissue adults carry — her innocence is the sharpest blade he owns, and he genuinely grieves having to use it.
 
 What he optimizes for is prevention at any present cost — the smallest harm now to forestall the largest harm later. He optimizes for the spreadsheet of saved lives, and he is, infuriatingly, sometimes right, which is what makes him impossible to simply defeat. The forty children already in preparation are not a threat he makes; they are the next line item in an equation he believes is merciful.
 
-## Key Characters
+### Key Characters
 
 **Iris**, the older sister — the woman who hid Aurelia as a baby during the purges, taught her the first trick of walking memory to survive, then surrendered herself to the Vault so she could be delivered to the one interrogator capable of opening the sealed room. She is the prisoner Aurelia is ordered to break and the only person who knows the gift the state renamed. Her surrender is not defeat; it is the last move of someone who understood the only way to free her sister was to be captured by her.
 
-## Verified Proof of Demand
+### Verified Proof of Demand
 
 _Every figure below was fetched live; the quoted text appears verbatim on the linked page._
 
@@ -115,7 +124,7 @@ _Every figure below was fetched live; the quoted text appears verbatim on the li
 - **Spider-Verse: $90M budget animation grossed $394.9M worldwide** — “Worldwide: $394,884,133. Domestic (48.2%): $190,241,310. International (51.8%): $204,642,823.” ([source](https://www.boxofficemojo.com/title/tt4633694/), 2019)
 - **US adult-animation demand surged 151.6%, triple its supply growth** — “The demand for this subgenre...surged by 151.6% in the United States from January 2020 to October 2023.” ([source](https://www.parrotanalytics.com/insights/growing-demand-for-adult-animation/), 2023-12-19)
 
-## Economics — Methodology & Provenance
+### Economics — Methodology & Provenance
 
 Every figure below is frozen and machine-checked; none was written or rounded by a language model.
 
